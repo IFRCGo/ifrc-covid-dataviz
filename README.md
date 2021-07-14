@@ -13,7 +13,7 @@ This dashboard was developed using React, d3.js v6, Mapbox, and Sketch to design
 Use the following sample code to embed the dashboard using an iFrame. 
 
 ```html
-<iframe src="https://matthewsmawfield.github.io/ifrc-covid-dataviz/" title="ifrc-covid-dataviz" sandbox="allow-scripts allow-same-origin allow-downloads" style="width: 100%; width: 100%; flex-grow: 1; border: 0; height: 100%"></iframe>
+<iframe src="https://ifrcgo.github.io/ifrc-covid-dataviz/build" title="ifrc-covid-dataviz" sandbox="allow-scripts allow-same-origin allow-downloads" style="width: 100%; width: 100%; flex-grow: 1; border: 0; height: 100%"></iframe>
 ```
 
 
@@ -25,7 +25,7 @@ Use the following sample code to embed the dashboard using an iFrame.
 1. Clone the repository to your computer. Using the command line: `git clone {repository url}`
 2. Change into the newly cloned directory folder: `cd ifrc-covid-dataviz`
 3. Install the NPM packages: `npm install`
-4. Remove the remove the 'homepage' attribute in package.json (used for GitHub Pages deployment)
+4. Remove the 'homepage' attribute in package.json (used for GitHub Pages deployment)
 5. Set the data sources to use local versions pointing to public/data folder, or alternatively, use the Chrome browser - Allow CORS Extension, which enables the connection between the localhost development environment and the WHO/OWID API data sources. 
 6. Start the local development server: `npm start`
 7. A browser window should open automatically to http://localhost:3000/ifrc-covid-dataviz
@@ -42,7 +42,7 @@ Use the following sample code to embed the dashboard using an iFrame.
 1. Run `npm build` to package and minify the project into the build folder.
 2. Add the following 'homepage' attribute to package.json. "homepage": "http://ifrcgo.github.io/ifrc-covid-dataviz/build",
 3. Push/commit to GitHub
-4. Point GitHub Pages to branch main
+4. Ensure GitHub Pages points to brances main
 5. Navigate to http://ifrcgo.github.io/ifrc-covid-dataviz/build
 
 OR 
