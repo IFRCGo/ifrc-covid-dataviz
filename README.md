@@ -25,10 +25,12 @@ Use the following sample code to embed the dashboard using an iFrame.
 1. Clone the repository to your computer. Using the command line: `git clone {repository url}`
 2. Change into the newly cloned directory folder: `cd ifrc-covid-dataviz`
 3. Install the NPM packages: `npm install`
-4. Start the local development server: `npm start`
-5. A browser window should open automatically to http://localhost:3000/ifrc-covid-dataviz
+4. Remove the remove the 'homepage' attribute in package.json (used for GitHub Pages deployment)
+5. Set the data sources to use local versions pointing to public/data folder, or alternatively, use the Chrome browser - Allow CORS Extension, which enables the connection between the localhost development environment and the WHO/OWID API data sources. 
+6. Start the local development server: `npm start`
+7. A browser window should open automatically to http://localhost:3000/ifrc-covid-dataviz
 
-* IMPORTANT Before running a local development environment, remove the 'homepage' attribute in package.json, otherwise you will receive a GetAttribute error. Then if deploying to GitHub Pages, ensure that the homepage attribute is added.  
+
 
 
 ------------
@@ -40,7 +42,16 @@ Use the following sample code to embed the dashboard using an iFrame.
 1. Run `npm build` to package and minify the project into the build folder.
 2. Copy or SCP the build folder to the server, or if running the build command on the server, ensure the server network settings point correctly to the build folder website via http (e.g apache sites enabled, nginx).
 
-* If deploying to GitHub Pages - add the following 'homepage' attribute to package.json. "homepage": "http://ifrcgo.org/ifrc-covid-dataviz", 
+
+
+------------
+
+
+
+### Deploying to GitHub Pages
+
+1. Add the following 'homepage' attribute to package.json. "homepage": "http://ifrcgo.org/ifrc-covid-dataviz",
+2. Run npm `npm deploy`
 
 
 ------------
