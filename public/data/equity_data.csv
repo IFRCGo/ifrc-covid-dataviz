@@ -1,0 +1,241 @@
+﻿country_name,country_iso2,country_iso3,ifrc_region,population,hdi_rank,hdi_category,inequality_adjusted_hdi,gni_2017,gni_rank,population_in_severe_poverty,inform_severity,inform_category,contract_tracing,avg_tests_per_1000
+Afghanistan,AF,AFG,AP,38042000,169,Low Human Development,0,2229.362021,169,24.86195117,Very High,Complex crisis,None,
+Albania,AL,ALB,EU,2881000,69,High Human Development,50,13998.29989,87,0.06706204,No Score,None,All,200.658
+Algeria,DZ,DZA,ME,43053000,91,High Human Development,77,11173.95681,104,,No score,Multiple crises,All,
+American Samoa,AS,ASM,AM,55312,,,,,,,,,,
+Andorra,AD,AND,EU,77000,36,Very High Human Development,0,56000.30336,16,,No Score,None,All,2249.259
+Angola,AO,AGO,AF,31825000,148,Medium Human Development,119,6104.05464,131,32.45755136,No Score,None,None,
+Anguilla,AI,AIA,EU,-,,,,,,,,,,
+Antigua and Barbuda,AG,ATG,AM,97000,78,High Human Development,0,20895.35881,63,,No Score,None,NA,
+Argentina,AR,ARG,AM,44781000,46,Very High Human Development,44,21190.17661,62,,No Score,None,All,179.952
+Armenia,AM,ARM,EU,2958000,81,High Human Development,53,13894.01302,90,0,Low,Conflict,No data,315.678
+Aruba,AW,ABW,AM,106314,,,,,,,,,,
+Australia,AU,AUS,AP,25203000,8,Very High Human Development,8,48084.84207,23,,No score,None,All,642.595
+Austria,AT,AUT,EU,8955000,18,Very High Human Development,15,56196.89869,15,,No Score,None,All,3221.548
+Azerbaijan,AZ,AZE,EU,10048000,88,High Human Development,80,13783.67995,91,,No score,Conflict,All,
+Bahamas,BS,BHS,AM,389000,58,Very High Human Development,0,33747.21264,41,,No score,None,All,
+Bahrain,BH,BHR,ME,1641000,42,Very High Human Development,0,42521.70451,30,,No Score,None,All,2302.784
+Bangladesh,BD,BGD,AP,163046000,133,Medium Human Development,102,4976.209148,140,6.479894,High,International displacement,Some,31.537
+Barbados,BB,BRB,AM,287000,58,Very High Human Development,59,14935.90942,78,,No score,None,All,
+Belarus,BY,BLR,EU,9452000,53,Very High Human Development,38,18546.48713,67,,No score,None,All,600.741
+Belgium,BE,BEL,EU,11539000,14,Very High Human Development,13,52084.59209,20,,No Score,None,All,1035.813
+Belize,BZ,BLZ,AM,390000,110,High Human Development,91,6381.597682,128,0.63023954,No score,None,All,
+Benin,BJ,BEN,AF,11801000,158,Low Human Development,134,3254.245627,158,40.93714356,No score,None,All,
+Bermuda,BM,BMU,AM,,,,,,,,,,,
+Bhutan,BT,BTN,AP,763000,129,Medium Human Development,103,10745.84396,108,,No score,None,All,861.46
+Bolivia (Plurinational State of),BO,BOL,AM,11513000,107,High Human Development,84,8553.783786,116,,No score,None,Some,89.334
+Bonaire,XA,XAA,EU,-,,,,,,,,,,
+Bosnia and Herzegovina,BA,BIH,EU,3301000,73,High Human Development,63,14871.81114,80,,No score,None,None,265.904
+Botswana,BW,BWA,AF,2304000,100,High Human Development,0,16437.14142,73,3.50451,No score,None,All,
+Brazil,BR,BRA,AM,211050000,84,High Human Development,88,14262.93459,85,0.93878359,Medium,International displacement,None,30.21
+British Virgin Islands,VG,VGB,EU,30030,,,,,,,,,,
+Brunei Darussalam,BN,BRN,AP,433000,47,Very High Human Development,0,63965.09279,9,,No score,None,All,
+Bulgaria,BG,BGR,EU,7000000,56,Very High Human Development,46,23324.6574,58,,No Score,None,All,342.238
+Burkina Faso,BF,BFA,AF,20321000,182,Low Human Development,141,2132.95557,173,,High,Multiple crises,All,
+Burundi,BI,BDI,AF,11531000,185,Low Human Development,150,753.9087475,189,45.30774951,High,Complex crisis,Some,
+Cabo Verde,CV,CPV,AF,550000,126,Medium Human Development,0,7019.168144,125,,No Score,None,None,
+Cambodia,KH,KHM,AP,16487000,144,Medium Human Development,105,4246.178107,147,13.20670396,No Score,None,All,
+Cameroon,CM,CMR,AF,25876000,153,Medium Human Development,126,3580.902737,154,25.55921972,High,Multiple crises,None,
+Canada,CA,CAN,AM,37411000,16,Very High Human Development,17,48527.03573,21,,No Score,None,Some,795.956
+Cayman Islands,KY,CYM,AM,,,,,,,,,,,
+Central African Republic,CF,CAF,AF,4745000,188,Low Human Development,152,993.0088419,188,,High,Complex crisis,None,
+Chad,TD,TCD,AF,15947000,187,Low Human Development,151,1555.373575,182,66.10411406,Very High,Multiple crises,None,
+Chile,CL,CHL,AM,18952000,43,Very High Human Development,37,23261.29726,59,,No score,None,None,650.059
+China,CN,CHN,AP,1433784064,85,High Human Development,67,16057.39642,74,0.3207792,No Score,None,Some,111.163
+Colombia,CO,COL,AM,50339000,83,High Human Development,79,14256.67085,86,0.82613146,High,Complex crisis,None,272.556
+Comoros,KM,COM,AF,851000,156,Medium Human Development,143,3099.445776,161,,No Score,None,No data,
+Congo,CG,COG,AF,5381000,149,Medium Human Development,115,2879.190985,162,9.37909558,No Score,None,None,
+Congo (Democratic Republic of the),CD,COD,AF,86791000,175,Low Human Development,138,1062.543004,186,36.77546,Very High,Complex crisis,None,
+Cook Islands,CK,COK,AP,18000,,,,,,,,,,
+Costa Rica,CR,CRI,AM,5048000,62,Very High Human Development,0,18486.37141,68,,Low,International displacement,None,147.549
+Côte d'Ivoire,CI,CIV,AF,25717000,162,Low Human Development,132,5068.606313,137,24.465473,No Score,None,None,21.084
+Croatia,HR,HRV,EU,4130000,43,Very High Human Development,49,28069.84837,49,,No Score,None,None,417.311
+Cuba,CU,CUB,AM,11333000,70,High Human Development,55,8620.716216,115,0.0125102,No Score,None,None,298.895
+Curaçao,CW,CUW,EU,157538,,,,,,,,,,
+Cyprus,CY,CYP,EU,1199000,33,Very High Human Development,30,38206.84049,35,,No Score,None,None,5253.296
+Czechia,CZ,CZE,EU,10689000,27,Very High Human Development,12,38108.56662,36,,No Score,None,None,
+Denmark,DK,DNK,EU,5772000,10,Very High Human Development,6,58661.87084,12,,No Score,None,None,4199.17
+Djibouti,DJ,DJI,AF,974000,166,Low Human Development,0,5689.348966,132,,Medium,Multiple crises,None,
+Dominica,DM,DMA,AM,72000,94,High Human Development,0,11883.95528,101,,No Score,None,None,
+Dominican Republic,DO,DOM,AM,10739000,88,High Human Development,56,17591.06522,70,0.45304867,No Score,None,None,126.028
+Ecuador,EC,ECU,AM,17374000,86,High Human Development,70,11043.98255,105,0.7979223,Medium,International displacement,None,66.188
+Egypt,EG,EGY,ME,100388000,116,High Human Development,100,11466.14512,102,0.57906071,High,International displacement,None,
+El Salvador,SV,SLV,AM,6454000,124,Medium Human Development,96,8359.115144,118,1.66463926,Medium,Complex crisis,None,133.977
+Equatorial Guinea,GQ,GNQ,AF,1356000,145,Medium Human Development,0,13944.13223,88,,No Score,None,No data,
+Eritrea,ER,ERI,AF,3497000,180,Low Human Development,0,2793.482718,163,,High,Complex crisis,None,
+Estonia,EE,EST,EU,1326000,29,Very High Human Development,35,36019.26692,38,,No score,None,None,934.678
+Eswatini (Kingdom of),SZ,SWZ,AF,1148000,138,Medium Human Development,114,7919.058294,119,4.35683988,Medium,Food Security,None,
+Ethiopia,ET,ETH,AF,112079000,173,Low Human Development,131,2206.534378,170,61.48112416,Very High,Complex crisis,None,21.81
+Falkland Islands (Malvinas),FK,FLK,EU,-,,,,,,,,,,
+Faroe Islands,FO,FRO,EU,48678,,,,,,,,,,
+Fiji,FJ,FJI,AP,890000,93,High Human Development,0,13009.07311,94,,Low,Tropical Cyclone,None,45.955
+Finland,FI,FIN,EU,5532000,11,Very High Human Development,26,48511.3978,22,,No score,None,None,776.093
+France,FR,FRA,EU,65130000,26,Very High Human Development,23,47172.53748,25,,No Score,None,None,
+French Guiana,GF,GUF,EU,-,,,,,,,,,,
+French Polynesia,PF,PYF,EU,279287,,,,,,,,,,
+Gabon,GA,GAB,AF,2173000,119,High Human Development,93,13929.80613,89,,No score,None,None,
+Gambia,GM,GMB,AF,2348000,172,Low Human Development,135,2167.883472,171,18.81065,No score,None,None,24.616
+Georgia,GE,GEO,EU,3997000,61,Very High Human Development,47,14428.79984,83,0.012687,No score,None,None,
+Germany,DE,DEU,EU,83517000,6,Very High Human Development,10,55314.35355,17,,No score,None,None,628.617
+Ghana,GH,GHA,AF,30418000,138,Medium Human Development,112,5268.919684,135,10.4261823,No score,None,None,33.59
+Gibraltar,GI,GIB,EU,33701,,,,,,,,,,
+Greece,GR,GRC,EU,10473000,32,Very High Human Development,31,30154.63438,46,,Low,International displacement,None,714.151
+Greenland,GL,GRL,EU,56225,,,,,,,,,,
+Grenada,GD,GRD,AM,112000,74,High Human Development,0,15640.88574,77,,No score,None,None,
+Guadeloupe,GP,GLP,EU,-,,,,,,,,,,
+Guam,GU,GUM,AP,167000,,,,,,,,,,
+Guatemala,GT,GTM,AM,17581000,127,Medium Human Development,101,8494.085111,117,11.21537909,High,Complex crisis,None,65.121
+Guernsey,GG,GGY,EU,-,,,,,,,,,,
+Guinea,GN,GIN,AF,12771000,178,Low Human Development,142,2405.181497,166,43.51494,No Score,None,None,
+Guinea-Bissau,GW,GNB,AF,1921000,175,Low Human Development,136,1996.042927,176,40.38236737,No Score,None,No data,
+Guyana,GY,GUY,AM,783000,122,Medium Human Development,90,9455.014358,112,0.67653009,No Score,None,None,
+Haiti,HT,HTI,AM,11263000,170,Low Human Development,137,1708.809043,177,18.52696836,High,Complex crisis,None,
+Holy See (Vatican City State),VA,VAT,EU,-,,,,,,,,,,
+Honduras,HN,HND,AM,9746000,132,Medium Human Development,106,5308.452598,133,,High,Complex crisis,None,
+"Hong Kong, China (SAR)",HK,HKG,AP,7436000,4,Very High Human Development,21,62984.76553,11,,No Score,None,None,1493.089
+Hungary,HU,HUN,EU,9685000,40,Very High Human Development,0,31328.80599,44,,No score,None,None,487.171
+Iceland,IS,ISL,EU,339000,4,Very High Human Development,2,54682.38057,18,,No Score,None,None,969.541
+India,IN,IND,AP,1366418048,131,Medium Human Development,104,6681.346904,126,8.77306014,No score,Conflict,None,194.126
+Indonesia,ID,IDN,AP,270625984,107,High Human Development,92,11459.09692,103,0.4439265,Medium,Multiple crises,None,34.064
+Iran (Islamic Republic of),IR,IRN,ME,82914000,70,High Human Development,0,12446.66645,96,,High,International displacement,None,173.979
+Iraq,IQ,IRQ,ME,39310000,123,Medium Human Development,94,10800.83898,107,1.31252659,High,Multiple crises,None,218.919
+Ireland,IE,IRL,EU,4882000,2,Very High Human Development,3,68370.58737,6,,No Score,None,None,870.573
+Isle of Man,IM,IMN,EU,84584,,,,,,,,,,
+Israel,IL,ISR,EU,8519000,19,Very High Human Development,0,40186.84583,33,,No Score,None,None,1818.773
+Italy,IT,ITA,EU,60550000,29,Very High Human Development,19,42776.35692,29,,No score,International displacement,None,913.654
+Jamaica,JM,JAM,AM,2948000,101,High Human Development,76,9319.131127,114,0.8117212,No score,None,None,106.311
+Japan,JP,JPN,AP,126860000,19,Very High Human Development,18,42931.69575,28,,No Score,None,None,82.094
+Jersey,JE,JEY,EU,-,,,,,,,,,,
+Jordan,JO,JOR,ME,10102000,102,High Human Development,72,9858.487276,110,0.00140414,High,International displacement,None,633.111
+Kazakhstan,KZ,KAZ,EU,18551000,51,Very High Human Development,39,22857.46082,60,0,No score,None,None,512.581
+Kenya,KE,KEN,AF,52574000,143,Medium Human Development,110,4243.62556,148,13.33028674,Medium,Multiple crises,None,29.864
+Kiribati,KI,KIR,AP,118000,134,Medium Human Development,98,4259.732067,146,3.532659,No score,None,None,
+Korea (Democratic People's Rep. of),KP,PRK,AP,25666000,0,Other countries or territories,0,0,0,0,High,Complex Crisis,No data,
+Korea (Republic of),KR,KOR,AP,51225000,23,Very High Human Development,20,43043.71057,27,,No Score,None,None,163.685
+Kosovo,XK,XKX,EU,1794248,,,,,,,,,,
+Kuwait,KW,KWT,ME,4207000,64,Very High Human Development,0,58590.08219,13,,No Score,None,None,518.345
+Kyrgyzstan,KG,KGZ,EU,6416000,120,Medium Human Development,69,4864.390351,143,0,No score,None,None,
+Lao People's Democratic Republic,LA,LAO,AP,7169000,137,Medium Human Development,108,7413.33163,121,9.56048444,No score,None,None,
+Latvia,LV,LVA,EU,1907000,37,Very High Human Development,36,30282.39353,45,,No Score,None,None,1111.906
+Lebanon,LB,LBN,ME,6856000,92,High Human Development,0,14654.53395,81,,High,Political and economic crisis,None,
+Lesotho,LS,LSO,AF,2125000,165,Low Human Development,125,3150.620131,159,4.99678,Medium,Drought,None,
+Liberia,LR,LBR,AF,4937000,175,Low Human Development,146,1258.410853,183,,No score,None,None,
+Libya,LY,LBY,ME,6777000,105,High Human Development,0,15687.71357,76,0.092901266,Very High,Multiple crises,None,
+Liechtenstein,LI,LIE,EU,38000,19,Very High Human Development,25,131031.5898,1,,No score,None,No data,991.635
+Lithuania,LT,LTU,EU,2760000,34,Very High Human Development,32,35798.67041,39,,No Score,None,None,957.39
+Luxembourg,LU,LUX,EU,616000,23,Very High Human Development,24,72711.67412,4,,No Score,None,None,4103.983
+Madagascar,MG,MDG,AF,26969000,164,Low Human Development,122,1596.28108,180,45.50549,Medium,Drought,None,6.02
+Malawi,MW,MWI,AF,18629000,174,Low Human Development,133,1034.677638,187,18.47657263,Medium,Complex crisis,None,11.792
+Malaysia,MY,MYS,AP,31950000,62,Very High Human Development,64,27534.09856,51,,No Score,None,None,265.764
+Maldives,MV,MDV,AP,531000,95,High Human Development,86,17416.77777,71,0,No Score,None,No data,1291.916
+Mali,ML,MLI,AF,19658000,184,Low Human Development,148,2268.77278,167,44.70446,High,Complex crisis,None,
+Malta,MT,MLT,EU,440000,28,Very High Human Development,22,39554.52078,34,,No Score,None,None,1916.028
+Marshall Islands,MH,MHL,AP,59000,117,High Human Development,83,5039.043833,138,,No Score,None,No data,
+Martinique,MQ,MTQ,EU,-,,,,,,,,,,
+Mauritania,MR,MRT,AF,4526000,157,Low Human Development,127,5134.570124,136,26.28568709,Medium,Drought,None,54.688
+Mauritius,MU,MUS,AF,1270000,66,Very High Human Development,54,25266.21195,56,,No Score,None,None,
+Mayotte,YT,MYT,EU,-,,,,,,,,,,
+Mexico,MX,MEX,AM,127576000,74,High Human Development,74,19159.83967,66,1.025701594,No score,Multiple crises,None,46.369
+Micronesia (Federated States of),FM,FSM,AP,114000,136,Medium Human Development,0,3982.736516,149,,No Score,None,No data,
+Moldova (Republic of),MD,MDA,EU,4043000,90,High Human Development,61,13663.60669,92,,No Score,None,None,
+Monaco,MC,MCO,EU,39000,0,Other countries or territories,0,0,0,0,No score,None,No data,
+Mongolia,MN,MNG,AP,3225000,99,High Human Development,68,10838.6743,106,0.7762919,No Score,None,None,756.44
+Montenegro,ME,MNE,EU,628000,48,Very High Human Development,41,21399.24713,61,0.0594573,No Score,None,No data,
+Montserrat,MS,MSR,AM,-,,,,,,,,,,
+Morocco,MA,MAR,ME,36472000,121,Medium Human Development,0,7368.360268,122,,No score,International displacement,None,153.277
+Mozambique,MZ,MOZ,AF,30366000,181,Low Human Development,140,1250.405688,184,,High,Complex crisis,None,16.021
+Myanmar,MM,MMR,AP,54045000,147,Medium Human Development,0,4960.528169,141,13.84482235,High,Multiple crises,None,45.622
+Namibia,NA,NAM,AF,2495000,130,Medium Human Development,116,9356.673607,113,,Medium,Food Security,None,146.036
+Nauru,NR,NRU,AP,11000,0,Other countries or territories,0,16237,0,0,No score,None,No data,
+Nepal,NP,NPL,AP,28609000,142,Medium Human Development,109,3456.706213,155,11.58681959,No score,None,None,80.5
+Netherlands,NL,NLD,EU,17097000,8,Very High Human Development,11,57707.06867,14,,No Score,None,None,481.819
+New Caledonia,NC,NCL,EU,287800,,,,,,,,,,
+New Zealand,NZ,NZL,AP,4783000,14,Very High Human Development,14,40798.7196,32,,No Score,None,None,410.186
+Nicaragua,NI,NIC,AM,6546000,128,Medium Human Development,99,5283.658869,134,,No score,Political and economic crisis,None,
+Niger,NE,NER,AF,23311000,189,Low Human Development,149,1200.898463,185,,High,Multiple crises,None,
+Nigeria,NG,NGA,AF,200964000,161,Low Human Development,129,4910.208257,142,26.84773,High,Complex crisis,None,9.076
+Niue,NU,NIU,AP,-,,,,,,,,,,
+North Macedonia,MK,MKD,EU,2083000,82,High Human Development,58,15864.63074,75,,No Score,None,No data,331.502
+Northern Mariana Islands,MP,MNP,AM,57216,,,,,,,,,,
+Norway,NO,NOR,EU,5379000,1,Very High Human Development,1,66494.25217,8,,No Score,None,None,907.86
+Oman,OM,OMN,ME,4975000,60,Very High Human Development,51,25944.07218,55,,No Score,None,None,
+Other, ,,#N/A,-,,,,,,,,,,
+Pakistan,PK,PAK,AP,216564992,154,Medium Human Development,124,5005.034893,139,21.46765143,High,Complex crisis,None,51.032
+Palau,PW,PLW,AP,18000,50,Very High Human Development,0,19316.97453,65,,No Score,None,No data,No data
+Palestine,PS,PSE,ME,-,,,,,,,,,,
+"Palestine, State of",,,ME,4981000,115,High Human Development,75,6417.389121,127,0.07071582,High,Conflict,None,
+Panama,PA,PAN,AM,4246000,57,Very High Human Development,66,29557.66834,47,,No Score,None,None,530.594
+Papua New Guinea,PG,PNG,AP,8776000,155,Medium Human Development,121,4301.098542,145,25.78711,No Score,None,None,
+Paraguay,PY,PRY,AM,7045000,103,High Human Development,89,12223.94045,99,0.97389529,No Score,None,None,141.268
+Peru,PE,PER,AM,32510000,79,High Human Development,65,12252.30018,98,1.082683,Medium,International displacement,None,96.913
+Philippines,PH,PHL,AP,108117000,107,High Human Development,81,9777.798117,111,1.27472384,Medium,Multiple crises,None,96.413
+Pitcairn,PN,PCN,EU,-,,,,,,,,,,
+Poland,PL,POL,EU,37888000,35,Very High Human Development,27,31622.55302,43,,No score,None,None,349.766
+Portugal,PT,PRT,EU,10226000,38,Very High Human Development,40,33966.82756,40,,No score,None,None,958.258
+Puerto Rico,PR,PRI,AM,3193694,,,,,,,,,,
+Qatar,QA,QAT,ME,2832000,45,Very High Human Development,0,92418.23036,2,,No Score,None,None,640.25
+Réunion,RE,REU,EU,-,,,,,,,,,,
+Romania,RO,ROU,EU,19365000,49,Very High Human Development,43,29497.23164,48,,No Score,None,All,371.894
+Russian Federation,RU,RUS,EU,145872000,52,Very High Human Development,42,26157.04711,54,,No Score,None,None,865.268
+Rwanda,RW,RWA,AF,12627000,160,Low Human Development,123,2155.334054,172,22.20513225,Low,International displacement,All,97.321
+Saba,XC,,#N/A,-,,,,,,,,,,
+Saint Barthélemy,BL,BLM,EU,-,,,,,,,,,,
+Saint Helena,SH,SHN,EU,-,,,,,,,,,,
+Saint Kitts and Nevis,KN,KNA,AM,53000,74,High Human Development,0,25037.50727,57,,No Score,None,No data,
+Saint Lucia,LC,LCA,AM,183000,86,High Human Development,73,14615.56978,82,,No Score,None,No data,
+Saint Martin,MF,MAF,EU,38002,,,,,,,,,,
+Saint Pierre and Miquelon,PM,SPM,EU,-,,,,,,,,,,
+Saint Vincent and the Grenadines,VC,VCT,AM,111000,97,High Human Development,95,12377.65413,97,,No Score,None,No data,
+Samoa,WS,WSM,AP,197000,111,High Human Development,85,6308.652491,130,,No Score,None,No data,
+San Marino,SM,SMR,EU,34000,0,Other countries or territories,0,0,0,0,No score,None,No data,
+Sao Tome and Principe,ST,STP,AF,215000,135,Medium Human Development,97,3952.072482,151,4.37491462,No Score,None,No data,
+Saudi Arabia,SA,SAU,ME,34269000,40,Very High Human Development,33,47495.42697,24,,No Score,None,All,468.021
+Senegal,SN,SEN,AF,16296000,168,Low Human Development,130,3309.385734,157,32.77355134,Medium,Drought,All,28.545
+Serbia,RS,SRB,EU,8772000,64,Very High Human Development,52,17191.66873,72,0.10490778,No Score,None,All,541.327
+Seychelles,SC,SYC,AF,98000,67,High Human Development,62,26903.24617,52,0.0277425,No Score,None,All,
+Sierra Leone,SL,SLE,AF,7813000,182,Low Human Development,147,1667.844447,178,30.42069376,No Score,None,All,
+Singapore,SG,SGP,AP,5804000,11,Very High Human Development,4,88155.21431,3,,No Score,None,All,1586.025
+Sint Eustatius,XB,,EU,-,,,,,,,,,,
+Sint Maarten,SX,SXM,EU,40733,,,,,,,,,,
+Slovakia,SK,SVK,EU,5457000,39,Very High Human Development,29,32113.04569,42,,No Score,None,All,5750.593
+Slovenia,SI,SVN,EU,2079000,22,Very High Human Development,9,38079.53399,37,,No Score,None,Some,546.09
+Solomon Islands,SB,SLB,AP,670000,151,Medium Human Development,0,2253.346153,168,,No Score,None,None,
+Somalia,SO,SOM,AF,15443000,0,Other countries or territories,0,0,0,0,High,Complex Crisis,No data,
+South Africa,ZA,ZAF,AF,58558000,114,High Human Development,107,12129.23006,100,0.9449943,No Score,None,All,174.293
+South Sudan,SS,SSD,AF,11062000,185,Low Human Development,145,2003.318894,175,,Very High,Complex crisis,None,12.902
+Spain,ES,ESP,EU,46737000,25,Very High Human Development,34,40974.52408,31,,Low,International displacement,None,807.528
+Sri Lanka,LK,LKA,AP,21324000,72,High Human Development,60,12707.36624,95,0.2612648,No Score,None,None,115.633
+Sudan,SD,SDN,AF,42813000,170,Low Human Development,144,3828.660219,152,30.87827861,Very High,Complex crisis,Some,
+Suriname,SR,SUR,AM,581000,97,High Human Development,0,14324.37746,84,0.3972592,No Score,None,Some,
+Sweden,SE,SWE,EU,10036000,7,Very High Human Development,7,54507.80504,19,,No Score,None,Some,
+Switzerland,CH,CHE,EU,8591000,2,Very High Human Development,5,69393.52076,5,,No Score,None,None,719.571
+Syrian Arab Republic,SY,SYR,ME,17070000,151,Medium Human Development,0,3613.05256,153,,Very High,Complex crisis,Some,
+Taiwan,,,AP,,,,,,,,,,,8.385
+Tajikistan,TJ,TJK,EU,9321000,125,Medium Human Development,87,3953.598166,150,0.73162257,No Score,None,None,
+Tanzania (United Republic of),TZ,TZA,AF,58005000,163,Low Human Development,120,2599.847211,165,25.91842,No Score,None,None,
+Thailand,TH,THA,AP,69626000,79,High Human Development,71,17781.19093,69,0.13173465,Low,Multiple crises,Some,47.9
+Timor-Leste,TL,TLS,AP,1293000,141,Medium Human Development,113,4440.457586,144,16.33136421,No Score,None,All,
+Togo,TG,TGO,AF,8082000,167,Low Human Development,128,1602.34934,179,15.22555,No Score,None,All,36.212
+Tokelau,TK,TKL,AP,-,,,,,,,,,,
+Tonga,TO,TON,AP,104000,104,High Human Development,0,6364.577962,129,,No Score,None,Some,
+Trinidad and Tobago,TT,TTO,AM,1395000,67,High Human Development,0,26230.71569,53,,Low,International displacement,All,85.712
+Tunisia,TN,TUN,ME,11695000,95,High Human Development,78,10414.06361,109,0.0588878,No Score,None,All,104.365
+Turkey,TR,TUR,EU,83430000,54,Very High Human Development,57,27700.89481,50,,No Score,None,All,522.743
+Turkmenistan,TM,TKM,EU,5942000,111,High Human Development,0,14908.6706,79,0,No Score,None,None,No data
+Turks and Caicos Islands,TC,TCA,EU,38191,,,,,,,,,,
+Tuvalu,TV,TUV,AP,12000,0,Other countries or territories,0,6132,0,0,No score,None,No data,No data
+Uganda,UG,UGA,AF,44270000,159,Low Human Development,118,2123.26935,174,24.14215058,No Score,None,Some,21.574
+Ukraine,UA,UKR,EU,43994000,74,High Human Development,45,13215.9357,93,,No Score,None,All,205.7
+United Arab Emirates,AE,ARE,ME,9771000,31,Very High Human Development,0,67462.0953,7,,No Score,None,None,4137.942
+United Kingdom,GB,GBR,EU,67530000,13,Very High Human Development,16,46070.64481,26,,No Score,None,None,2008.715
+United States,US,USA,AM,329064992,17,Very High Human Development,28,63825.65748,10,,No Score,None,Some,1207.136
+United States Virgin Islands,VI,VIR,AM,106631,,,,,,,,,,
+Uruguay,UY,URY,AM,3462000,55,Very High Human Development,48,20063.64222,64,,No Score,None,Some,472.649
+Uzbekistan,UZ,UZB,EU,32982000,106,High Human Development,0,7141.953943,123,,No Score,None,None,
+Vanuatu,VU,VUT,AP,300000,140,Medium Human Development,0,3104.799016,160,,No Score,None,All,
+Venezuela (Bolivarian Republic of),VE,VEN,AM,28516000,113,High Human Development,82,7044.638972,124,,No Score,None,None,
+Viet Nam,VN,VNM,AP,96462000,117,High Human Development,0,7432.706806,120,0.72519132,No Score,None,Some,25.502
+Wallis and Futuna,WF,WLF,EU,-,,,,,,,,,,
+Yemen,YE,YEM,ME,29162000,179,Low Human Development,139,1593.704031,181,,No Score,None,Some,
+Zambia,ZM,ZMB,AF,17861000,146,Medium Human Development,117,3325.518591,156,21.02875,No Score,None,Some,73.727
+Zimbabwe,ZW,ZWE,AF,14645000,150,Medium Human Development,111,2665.612042,164,6.770158,No Score,None,Some,31.583

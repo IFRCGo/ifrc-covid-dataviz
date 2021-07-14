@@ -1,0 +1,40 @@
+{
+  "name": "d3-textwrap",
+  "version": "3.0.0",
+  "author": "Vijith Assar",
+  "description": "wrap long lines of text using foreignObject tags or tspans as appropriate, depending on browser support",
+  "keywords": [
+    "d3",
+    "d3-module",
+    "text"
+  ],
+  "license": "MIT",
+  "main": "build/d3-textwrap.js",
+  "jsnext:main": "index",
+  "homepage": "https://github.com/vijithassar/d3-textwrap",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vijithassar/d3-textwrap.git"
+  },
+  "scripts": {
+    "lint": "eslint --config eslintrc.json src/*.js && eslint --config eslintrc.json test/*.js",
+    "cleanup": "rm -rf build",
+    "build": "npm run cleanup && mkdir build && rollup -g d3-selection:d3,d3-textwrap:d3 -f umd -n d3 -o build/d3-textwrap.js -- index.js",
+    "pretest": "npm run build",
+    "test": "tape 'test/**/*-test.js'",
+    "minify": "uglifyjs build/d3-textwrap.js -c -m -o build/d3-textwrap.min.js",
+    "archive": "zip -j build/d3-textwrap.zip -- LICENSE README.md build/d3-textwrap.js build/d3-textwrap.min.js",
+    "prepare": "npm run test && npm run build && npm run minify",
+    "postpublish": "npm run archive"
+  },
+  "dependencies": {
+    "d3-selection": "^1.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "jsdom": "^9.5.0",
+    "rollup": "0.27",
+    "tape": "4",
+    "uglify-js": "^2.6"
+  }
+}
