@@ -37,9 +37,16 @@ Use the following sample code to embed the dashboard using an iFrame.
 
 
 
-### Deploying to a server using build
+### Deploying to GitHub Pages or a server 
 
 1. Run `npm build` to package and minify the project into the build folder.
+2. Add the following 'homepage' attribute to package.json. "homepage": "http://ifrcgo.github.io/ifrc-covid-dataviz/build",
+3. Push/commit to GitHub
+4. Point GitHub Pages to branch main
+5. Navigate to http://ifrcgo.github.io/ifrc-covid-dataviz/build
+
+OR 
+
 2. Copy or SCP the build folder to the server, or if running the build command on the server, ensure the server network settings point correctly to the build folder website via http (e.g apache sites enabled, nginx).
 
 
@@ -50,7 +57,7 @@ Use the following sample code to embed the dashboard using an iFrame.
 
 ### Deploying to GitHub Pages
 
-1. Add the following 'homepage' attribute to package.json. "homepage": "http://ifrcgo.org/ifrc-covid-dataviz",
+
 2. Run npm `npm deploy`
 
 

@@ -16,7 +16,7 @@ import moment from 'moment';
 
   /* 
   add this attribute to package.json when deploying to github pages.
-  "homepage": "http://ifrcgo.org/ifrc-covid-dataviz", 
+ "homepage": "https://ifrcgo.github.io/ifrc-covid-dataviz/build", 
   */
 
 const equityDataUrl = './data/equity_data.csv';
