@@ -29,7 +29,7 @@ const whoDataUrl = "https://api.allorigins.win/raw?url=http%3A%2F%2Fcovid19.who.
 const vaccinesDataUrl = "https://api.allorigins.win/raw?url=http%3A%2F%2Fraw.githubusercontent.com%2Fowid%2Fcovid-19-data%2Fmaster%2Fpublic%2Fdata%2Fvaccinations%2Fvaccinations.csv";
 // const vaccinesWhoDataUrl = "./data/who_vaccination_data.csv";
 // const vaccinesWhoDataUrl = "http://covid19.who.int/who-data/vaccination-data.csv";
-const vaccinesWhoDataUrl = "https://thingproxy.freeboard.io/fetch/http://covid19.who.int/who-data/vaccination-data.csv";
+const vaccinesWhoDataUrl = "https://api.allorigins.win/get?charset=UTF-8&url=http%3A%2F%2Fcovid19.who.int%2Fwho-data%2Fvaccination-data.csv";
 const timelineDataUrl = "./data/timeline.csv";
 const selfAssessmentDataUrl = "./data/self_assessment.csv";
 const vaccineAcceptanceDataUrl = "./data/vaccine_acceptance.csv";
@@ -82,7 +82,6 @@ function App() {
              // data source 2: vaccinesWhoData.csv
              const vaccinesWhoData = d3.csv(vaccinesWhoDataUrl);
              vaccinesWhoData.then(function(d){
-               console.log(d);
                data.vaccines_who_data = d;
                setProgress(0.15);
                setLoaderText('Loading OWID vaccines data...');
