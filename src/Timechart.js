@@ -634,6 +634,10 @@ export function drawTimechart(data, options) {
                 if(vgroupedDataFiltered[0]) vaccines = nFormatter(vgroupedDataFiltered[0].total_new_vaccines, 2);
             }
 
+            if(deaths==0) deaths = '-';
+            if(cases==0) cases = '-';
+            if(vaccines==0) vaccines = '-';
+
             d3.select('#tooltip_cases tspan').text((cases)).attr("text-anchor", "end").attr('dx', 32)
             d3.select('#tooltip_deaths tspan').text((deaths)).attr("text-anchor", "end").attr('dx', 32)
             d3.select('#tooltip_vaccines tspan').text((vaccines)).attr("text-anchor", "end").attr('dx', 32)

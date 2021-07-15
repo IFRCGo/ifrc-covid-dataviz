@@ -187,10 +187,10 @@ export function updateMap(data, options) {
         // })
 
         var colorScale = d3.scaleLinear()
-        // .domain([-1, 0, 1])
-        .domain([maxDecrease, 0, maxIncrease])
+        .domain([-1, 0, 1])
+        // .domain([maxDecrease, 0, maxIncrease])
         .range([colors.blue, colors.lightgrey, colors.red])
-        // .clamp(true);
+        .clamp(true);
 
         var fillColorArray = ['case']
         data.country.forEach(function(d,i){
