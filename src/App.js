@@ -21,15 +21,12 @@ import moment from 'moment';
 
 const equityDataUrl = './data/equity_data.csv';
 const layoutUrl = "./images/layout.svg";
-// const whoDataUrl = "./data/who_global_cases.csv";
+const whoDataUrl = "./data/who_global_cases.csv";
 // const whoDataUrl = "http://covid19.who.int/WHO-COVID-19-global-data.csv";
-const whoDataUrl = "https://api.allorigins.win/raw?url=http%3A%2F%2Fcovid19.who.int%2FWHO-COVID-19-global-data.csv";
-// const vaccinesDataUrl = "./data/owid_vaccinations.csv";
+const vaccinesDataUrl = "./data/owid_vaccinations.csv";
 // const vaccinesDataUrl = "http://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv";
-const vaccinesDataUrl = "https://api.allorigins.win/raw?url=http%3A%2F%2Fraw.githubusercontent.com%2Fowid%2Fcovid-19-data%2Fmaster%2Fpublic%2Fdata%2Fvaccinations%2Fvaccinations.csv";
-// const vaccinesWhoDataUrl = "./data/who_vaccination_data.csv";
+const vaccinesWhoDataUrl = "./data/who_vaccination_data.csv";
 // const vaccinesWhoDataUrl = "http://covid19.who.int/who-data/vaccination-data.csv";
-const vaccinesWhoDataUrl = "https://api.allorigins.win/get?charset=UTF-8&url=http%3A%2F%2Fcovid19.who.int%2Fwho-data%2Fvaccination-data.csv";
 const timelineDataUrl = "./data/timeline.csv";
 const selfAssessmentDataUrl = "./data/self_assessment.csv";
 const vaccineAcceptanceDataUrl = "./data/vaccine_acceptance.csv";
