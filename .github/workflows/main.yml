@@ -1,0 +1,29 @@
+name: Get latest data
+on:
+  schedule:
+    - cron:  '*/5 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Download data from WHO/OWID
+      run: |-
+        curl https://covid19.who.int/WHO-COVID-19-global-data.csv -o public/data/who_global_cases.csv
+        curl https://covid19.who.int/WHO-COVID-19-global-data.csv -o build/data/who_global_cases.csv
+        curl --compressed https://covid19.who.int/who-data/vaccination-data.csv -o public/data/who_vaccination_data.csv
+        curl --compressed https://covid19.who.int/who-data/vaccination-data.csv -o build/data/who_vaccination_data.csv
+        curl https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv -o public/data/owid_vaccinations.csv
+        curl https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/vaccinations.csv -o build/data/owid_vaccinations.csv
+    - name: Commit and push changes
+      run: |-
+        git config user.name "Automated"
+        git config user.email "matthewsmawfield@gmail.com"
+        git status
+        git add .
+        git commit -m "Get latest data"
+        git push
