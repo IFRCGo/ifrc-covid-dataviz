@@ -494,7 +494,7 @@ export function updateMap(data, options) {
                 var country = data.country.filter(d=>d.country_code == id);
                 if((!country)||(country.length==0)) return false;
                 var val = parseFloat(country[0].people_fully_vaccinated_per_hundred).toFixed(1)
-                if(isNaN(val)){ val = '-' } else { val = val + '% fully vaccinated'}
+                if(isNaN(val)||(val==0)){ val = '-' } else { val = val + '% fully vaccinated'}
                 mapTooltip.select('#map_tooltip_val tspan').text(val);
             }
     
@@ -502,7 +502,7 @@ export function updateMap(data, options) {
                 var country = data.country.filter(d=>d.country_code == id);
                 if((!country)||(country.length==0)) return false;
                 var val = parseFloat(country[0].vaccine_acceptance_percent).toFixed(1)
-                if(isNaN(val)){ val = '-' } else { val = val + '% vaccine acceptance'}
+                if(isNaN(val)||(val==0)){ val = '-' } else { val = val + '% vaccine acceptance'}
                 mapTooltip.select('#map_tooltip_val tspan').text(val);
             }
     
