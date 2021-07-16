@@ -1,6 +1,5 @@
 name: Get latest data
 on:
-  workflow_dispatch:
   schedule:
     - cron:  '*/5 * * * *'
 
