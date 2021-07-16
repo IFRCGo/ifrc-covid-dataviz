@@ -125,7 +125,7 @@ The MapBox style layer IDs used and token are defined in the src/Map.js lines 9:
 
 ### Update local data files
 
-Edit or replace data files are located in public/data folder. Ensure CSV files are saved in UTF-8 format. Best recommendation would be to use a CRON script to automatically pull the live CSV data from OWID and WHO into a local folder. A simple script linux shell called get_data.sh includes some sample wget commands which can be used to pull the data into a local folder.
+Edit or replace data files are located in public/data folder. Ensure CSV files are saved in UTF-8 format. Best recommendation would be to use a CRON script to automatically pull the live CSV data from OWID and WHO into a local folder. A simple script linux shell called get_data.sh includes some sample curl commands which can be used to pull the data into a local folder. Currently the project is setup using GitHub Actions workflow to pull the data from the WHO/OWID websites every 5 minutes and commits the files to the public/data and build/data folders. 
 
 ------------
 
