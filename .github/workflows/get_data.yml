@@ -26,5 +26,5 @@ jobs:
         git config user.email "matthewsmawfield@gmail.com"
         git status
         git add .
-        git commit -m "Updated with latest data"
+        git diff-index --quiet HEAD || git commit -m 'Updated with latest data'
         git push
