@@ -22,6 +22,10 @@ let maxDate;
 let minDate;
 let md; 
 let vgroupedData;
+let hoverBar; 
+let timelineTooltip;
+let eventTooltip;
+let tData; 
 
 const regions = ['AF', 'AP', 'ME', 'EU', 'AM', 'OTH'];
 
@@ -523,7 +527,7 @@ export function drawTimechart(data, options) {
         // tooltips
 
         // events calendar timeline
-        var tData = data.timeline_data;
+        tData = data.timeline_data;
 
         xScaleEvents = d3.scaleTime()
         .range([25,619])
@@ -532,11 +536,11 @@ export function drawTimechart(data, options) {
         // bring to front
        document.getElementById("svg").appendChild(d3.select('#timeline_tooltip').node());
        document.getElementById("svg").appendChild(d3.select('#event_tooltip').node());
-       var timelineTooltip = d3.select('#timeline_tooltip').attr('opacity', 0);
-       var eventTooltip = d3.select('#event_tooltip').attr('opacity', 0);
+       timelineTooltip = d3.select('#timeline_tooltip').attr('opacity', 0);
+       eventTooltip = d3.select('#event_tooltip').attr('opacity', 0);
 
         // hover bar
-        var hoverBar = svg.append('rect')
+        hoverBar = svg.append('rect')
         .attr('id','timechart_hover')
         .attr('width', barWidth)
         .attr('x', 0)
@@ -1263,6 +1267,223 @@ export function updateTimechart(data, options) {
     //         return (xScale(next)- xScale(date))*(barSpacing/2);
     //       })
     //     }
+
+    d3.select('#timechart_svg').on('mouseover',  (event) => {
+
+        var coords = d3.pointer( event );
+        hoverBar.attr('opacity', 1)
+
+        var xDate = xScale.invert(coords[0]);
+
+        if(options.timeline_frequency=='week') {
+            xDate = moment(xDate).startOf('isoWeek');
+        }
+        if(options.timeline_frequency=='day') {
+            xDate = moment(xDate).startOf('day');
+        }
+        if(options.timeline_frequency=='month') {
+            xDate = moment(xDate).startOf('month');
+        }
+
+        if(coords[1]<470){
+            timelineTooltip.attr('opacity', 1).attr('display', 'inline');
+            hoverBar.attr('height', '100%');
+        } else if(coords[1]>510){
+            eventTooltip.attr('opacity', 1);
+            hoverBar.attr('height', '90%');
+        } else {
+            eventTooltip.attr('opacity', 0);
+            timelineTooltip.attr('opacity', 0);
+            hoverBar.attr('height', '100%');
+        }
+
+        if((xDate.toDate().getTime()<minDate.getTime())){
+            hoverBar.attr('opacity', 0);
+            timelineTooltip.attr('opacity', 0);
+        }
+
+        d3.select('#svg_container').style('z-index', 10);
+
+    }).on('mouseout',  (event) => {
+        hoverBar.attr('opacity', 0)
+        timelineTooltip.attr('opacity', 0).attr('display', 'none');
+        // timelineTooltip.attr('opacity', 0).attr('transform', 'translate(0,0)');
+        d3.select('#svg_container').style('z-index', 1);
+        eventTooltip.attr('opacity', 0).attr('transform', 'translate(0,0)');
+        d3.selectAll('.event_marker circle').style('stroke', colors.black);
+    })
+    .on('mousemove', (event) => {
+        var coords = d3.pointer( event );
+
+        var xDate = xScale.invert(coords[0]);
+
+        var tooltipStr = '';
+        if(options.timeline_frequency=='week') {
+            xDate = moment(xDate).startOf('isoWeek');
+            tooltipStr = xDate.format('ll');
+            d3.select('#timeline_tooltip_date tspan').text(tooltipStr);
+        }
+        if(options.timeline_frequency=='day') {
+            xDate = moment(xDate).startOf('day');
+            tooltipStr = xDate.format('ll');
+            d3.select('#timeline_tooltip_date tspan').text(tooltipStr);
+        }
+        if(options.timeline_frequency=='month') {
+            xDate = moment(xDate).startOf('month');
+            tooltipStr = xDate.format('MMMM YYYY');
+            d3.select('#timeline_tooltip_date tspan').text(tooltipStr);
+        }
+        hoverBar.attr('x', xScale(xDate.toDate()));
+
+        var groupedDataFiltered = groupedData.filter(function(d,i){
+            return moment(d.date).startOf('day').unix() == xDate.startOf('day').unix();
+        });
+        var vgroupedDataFiltered = vgroupedData.filter(function(d,i){
+            return moment(d.date).startOf('day').unix() == xDate.startOf('day').unix();
+        });
+
+        var deaths = '-';
+        var cases = '-';
+        var vaccines = '-';
+        if(options.timeline_type=='cumulative'){ 
+            // cumulative
+            if(groupedDataFiltered[0]) cases = nFormatter(groupedDataFiltered[0].total_cumulative_cases, 2);
+            if(groupedDataFiltered[0]) deaths = nFormatter(groupedDataFiltered[0].total_cumulative_deaths, 2);
+            if(vgroupedDataFiltered[0]) vaccines = nFormatter(vgroupedDataFiltered[0].total_cumulative_vaccines, 2);
+        } else {
+            // non-cumulative/stacked
+            if(groupedDataFiltered[0]) cases = nFormatter(groupedDataFiltered[0].total_new_cases, 2);
+            if(groupedDataFiltered[0]) deaths = nFormatter(groupedDataFiltered[0].total_new_deaths, 2);
+            if(vgroupedDataFiltered[0]) vaccines = nFormatter(vgroupedDataFiltered[0].total_new_vaccines, 2);
+        }
+
+        if(deaths==0) deaths = '-';
+        if(cases==0) cases = '-';
+        if(vaccines==0) vaccines = '-';
+
+        d3.select('#tooltip_cases tspan').text((cases)).attr("text-anchor", "end").attr('dx', 32)
+        d3.select('#tooltip_deaths tspan').text((deaths)).attr("text-anchor", "end").attr('dx', 32)
+        d3.select('#tooltip_vaccines tspan').text((vaccines)).attr("text-anchor", "end").attr('dx', 32)
+
+        // if((xDate.toDate().getTime()>options.maxDate.getTime())){
+        //     hoverBar.attr('opacity', 0);
+        // // } else 
+        if(((xDate.toDate().getTime()<minDate.getTime()))&&(options.timeline_frequency=='day')){
+            hoverBar.attr('opacity', 0);
+            timelineTooltip.attr('opacity', 0);
+        }
+
+        if(options.timeline_frequency=='month'){
+            hoverBar.attr('width', function(){
+               return xScale(moment(xDate).endOf('month')) - xScale(moment(xDate).startOf('month'));
+            })
+        }
+        timelineTooltip.attr('transform', function(){
+            var bw = barWidth;
+            var ratio = (options.brushR - options.brushL)/600;
+            var offset = 0;
+            if(ratio<0.5) offset = 3;
+            if(ratio<0.3) offset = 12;
+            if(ratio<0.2) offset = 20;
+            if(ratio<0.15) offset = 21;
+            if(options.timeline_frequency=='month') { 
+                if(ratio<0.6) offset = 20;
+                if(ratio<0.5) offset = 30;
+                if(ratio<0.3) offset = 50;
+                if(ratio<0.2) offset = 60;
+                if(ratio<0.1) offset = 70;
+                return 'translate('+(((xScaleEvents(xDate.toDate()))+(barWidth/3))+offset)+','+(coords[1]+353)+')';
+            }
+            return 'translate('+((xScaleEvents(xDate.toDate())+(18))+offset)+','+(coords[1]+353)+')';
+        })
+
+        if(coords[1]<470){
+            timelineTooltip.attr('opacity', 1);
+            hoverBar.attr('opacity', 1);
+            hoverBar.attr('height', '100%');
+        } else if(coords[1]>510){
+            eventTooltip.attr('opacity', 1);
+            hoverBar.attr('height', '90%');
+            var x = moment(xScale.invert(coords[0])).startOf('day');
+            var xx = (xScale.invert(coords[0]))
+            eventTooltip.attr('transform', function(){
+                return 'translate('+(xScaleEvents(x.toDate())+(-3))+','+(817)+')';
+            });
+
+            var events = tData.filter(function(d,i){
+                return moment(d.date).startOf('day').unix() == x.unix()
+            });
+
+            // select nearest neighbor for ux purposes 
+            if(events.length==0){
+                events = tData.filter(function(d,i){
+                    return ((moment(d.date).startOf('day').unix() <= moment(x).add(1, 'days').unix())&&(moment(d.date).startOf('day').unix() >= moment(x).subtract(1, 'days').unix()))
+                });
+            }
+            
+            if(events.length>0){
+
+                d3.select('#event-'+moment(events[0].date).startOf('day').unix()).select('path').style('stroke', '#000').attr('opacity', 1);
+                tooltipStr = moment(events[0].date).startOf('day').format('ll');
+                d3.select('#event_tooltip_date tspan').text(tooltipStr);
+
+                var wrap = textwrap().bounds({height: 200, width: 230}).method('tspans');
+                var event = d3.select('#event_tooltip_text').text(events[0].description)
+                .attr('y', 18)
+                .attr('x', 6)
+                d3.select('#event_tooltip_text').call(wrap);
+
+                d3.selectAll('#event_tooltip_text tspan').attr('dy', '1.3em');
+                var bbox = d3.select('#event_tooltip_text').node().getBBox();
+                d3.select('#event_tooltip_rect').attr('width', bbox.width+17)
+                .attr('height', bbox.height +26 );
+
+                var h = d3.select('#event_tooltip_rect').attr('height');
+                var ys = 0;
+
+                if(bbox.height<20){
+                    ys = 19;
+                } else if(bbox.height<30){
+                    ys = 9;
+                } else if(bbox.height<40){
+                    ys = 0;
+                } else if(bbox.height<50){
+                    ys = -20;
+                } else if(bbox.height<60){
+                    ys = -20;
+                }
+
+                var y = d3.select('#event_tooltip_rect').attr('y');
+
+                d3.select('#event_tooltip_rect').attr('y', ys);
+                
+                d3.selectAll('#event_tooltip_text').attr('y', function(d,i){
+                    return parseInt(d3.select(this).attr('y')) + ys;
+                });
+
+                d3.selectAll('#event_tooltip_date tspan').attr('dy', function(d,i){
+                    return ys;
+                });
+
+                eventTooltip.attr('opacity', 1);
+
+            } else {
+                d3.selectAll('.event_marker circle').style('stroke', colors.black)
+                eventTooltip.attr('opacity', 0);
+            }
+        } else {
+            eventTooltip.attr('opacity', 0);
+            timelineTooltip.attr('opacity', 0);
+            hoverBar.attr('opacity', 0);
+            hoverBar.attr('height', '100%');
+        }
+
+        if((options.timeline_frequency=='day')&&((xDate.toDate().getTime()<minDate.getTime()))){
+            hoverBar.attr('opacity', 0);
+            timelineTooltip.attr('opacity', 0);
+            return false;
+        }
+    });
 
 }
 
