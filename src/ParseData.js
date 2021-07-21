@@ -24,6 +24,8 @@ export function ParseData(data, options) {
     //*********************
     // clean up country data
     //*********************
+    var count = 0;
+
     data.country = data.equity_data;
     data.country.forEach(function(d,i){
 
@@ -65,10 +67,13 @@ export function ParseData(data, options) {
         // get ns involvement in activities
         d.ns_involvement = 0;
         data.self_assessment.forEach(function(dd,ii){
-            if(d.country_iso3==dd.ISO3){
-                if(dd['Final involvement']=='Yes') d.ns_involvement = 1;
+            if((d.country_iso3==dd.ISO3)&&(d.country_iso3!='')){
+                if(dd['Final involvement']=='Yes') {
+                    d.ns_involvement = 1;
+                    count++;
+                }
             }
-        })
+        });
 
         d.vaccine_acceptance_percent = 0;
         // get vaccine acceptance
