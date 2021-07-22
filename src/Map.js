@@ -246,7 +246,7 @@ export function updateMap(data, options) {
 
         var colorScale = d3.scaleLinear()
         .domain([0, maxValue])
-        .range([colors.lightgrey, colors.red]);
+        .range([colors.lightred, colors.red]);
 
         var fillColorArray = ['case']
         data.country.forEach(function(d,i){
@@ -300,7 +300,7 @@ export function updateMap(data, options) {
 
         var colorScale = d3.scaleLinear()
         .domain([0, maxValue])
-        .range([colors.lightgrey, colors.red]);
+        .range([colors.lightred, colors.red]);
 
         var fillColorArray = ['case']
 
@@ -347,7 +347,7 @@ export function updateMap(data, options) {
 
         var colorScale = d3.scaleLinear()
         .domain([0, 1])
-        .range([colors.lightgrey, colors.blue])
+        .range([colors.lightblue, colors.blue])
         .clamp(true);
 
         var fillColorArray = ['case']
@@ -407,7 +407,7 @@ export function updateMap(data, options) {
 
         var colorScale = d3.scaleLinear()
         .domain([0, 1])
-        .range([colors.lightgrey, colors.blue])
+        .range([colors.lightblue, colors.blue])
         .clamp(true);
 
         var fillColorArray = ['case']
@@ -493,7 +493,7 @@ export function updateMap(data, options) {
             if(options.map_toggle=='percent-fully-vaccinated'){
                 var country = data.country.filter(d=>d.country_code == id);
                 if((!country)||(country.length==0)) return false;
-                var val = parseFloat(country[0].people_fully_vaccinated_per_hundred).toFixed(1)
+                var val = parseFloat(country[0].people_fully_vaccinated_per_hundred).toFixed(2)
                 if(isNaN(val)||(val==0)){ val = '-' } else { val = val + '% fully vaccinated'}
                 mapTooltip.select('#map_tooltip_val tspan').text(val);
             }
@@ -501,7 +501,7 @@ export function updateMap(data, options) {
             if(options.map_toggle=='percent-vaccine-acceptance'){
                 var country = data.country.filter(d=>d.country_code == id);
                 if((!country)||(country.length==0)) return false;
-                var val = parseFloat(country[0].vaccine_acceptance_percent).toFixed(1)
+                var val = parseFloat(country[0].vaccine_acceptance_percent).toFixed(2)
                 if(isNaN(val)||(val==0)){ val = '-' } else { val = val + '% vaccine acceptance'}
                 mapTooltip.select('#map_tooltip_val tspan').text(val);
             }

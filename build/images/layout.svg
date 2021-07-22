@@ -23,11 +23,11 @@
         </filter>
         <polygon id="path-5" points="0 0 21 0 21 21 0 21"></polygon>
         <linearGradient x1="-2.22044605e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-7">
-            <stop stop-color="#E8E8E8" offset="0%"></stop>
+            <stop stop-color="#FDEAE9" offset="0%"></stop>
             <stop stop-color="#EE3224" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="-2.22044605e-14%" y1="50%" x2="98.7009329%" y2="50%" id="linearGradient-8">
-            <stop stop-color="#E8E8E8" offset="0%"></stop>
+            <stop stop-color="#E8EEF3" offset="0%"></stop>
             <stop stop-color="#1F558C" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="-2.22044605e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-9">

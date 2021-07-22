@@ -24,8 +24,7 @@ export function ParseData(data, options) {
     //*********************
     // clean up country data
     //*********************
-    var count = 0;
-
+    data.ns_involvement = [];
     data.country = data.equity_data;
     data.country.forEach(function(d,i){
 
@@ -70,7 +69,7 @@ export function ParseData(data, options) {
             if((d.country_iso3==dd.ISO3)&&(d.country_iso3!='')){
                 if(dd['Final involvement']=='Yes') {
                     d.ns_involvement = 1;
-                    count++;
+                    data.ns_involvement.push(d.country_iso3);
                 }
             }
         });

@@ -371,9 +371,14 @@ function App() {
         if((!data.vaccine_types.includes(ddd))&&(ddd.length>1)&&(!ddd.includes('nactiv'))) data.vaccine_types.push(ddd);
       })
       // ns involved countries
-      if(dd.ns_involvement>0){
-        numNsInvolvedCountres++;
-      }
+      // if(dd.ns_involvement>0){
+      //   numNsInvolvedCountres++;
+      // }
+      data.ns_involvement.forEach(function(ddd,iii){
+        if(ddd==dd.country_iso3){
+            numNsInvolvedCountres++;
+        }
+      })
     });
 
     // update total doses per 100 total
