@@ -452,8 +452,29 @@ function Layout(svg, options, data, filter, updateTable, updateMap) {
 
   for(let i = 0; i < 10; i++){
 
+    // row bg
+    var row = d3.select('#vac-tab').append('g').attr('class', 'row').attr('id', 'row'+i);
+
+    row.on('mouseover', function(d,i){
+      d3.selectAll('.rowbg').attr('fill', '#fff');
+      var textNodes = d3.select(this).selectAll('text').nodes();
+      if(textNodes.length>0) d3.select(this).select('.rowbg').attr('fill', '#FAFAFA');
+    }).on('mouseout', function(d,i){
+      d3.selectAll('.rowbg').attr('fill', '#fff');
+    });
+
+    row.append('rect')
+    .attr('class','rowbg')
+    .attr('x', 0)
+    .attr('y', function(){
+      return tableBarYOffset-2+(i*24.8);
+    })
+    .attr('height', tableRowHeight+4)
+    .attr('width', 622)
+    .attr('fill', colors.white)
+
     // col 1 bg
-    d3.select('#vac-tab').append('rect')
+    row.append('rect')
     .attr('class','col1bg colbg')
     .attr('id','col1bg'+i)
     .attr('x', 120)
@@ -465,7 +486,7 @@ function Layout(svg, options, data, filter, updateTable, updateMap) {
     .attr('fill', colors.lightgrey)
 
     // col 1 bar
-    d3.select('#vac-tab').append('rect')
+    row.append('rect')
     .attr('class','col1bar')
     .attr('id','col1bar'+i)
     .attr('x', 120)
@@ -477,7 +498,7 @@ function Layout(svg, options, data, filter, updateTable, updateMap) {
     .attr('fill', colors.blue);
 
     // col 2 bg
-    d3.select('#vac-tab').append('rect')
+    row.append('rect')
     .attr('class','col2bg colbg')
     .attr('id','col2bg'+i)
     .attr('x', 230)
@@ -489,7 +510,7 @@ function Layout(svg, options, data, filter, updateTable, updateMap) {
     .attr('fill', colors.lightgrey)
 
     // col 2 bar
-    d3.select('#vac-tab').append('rect')
+    row.append('rect')
     .attr('class','col2bar')
     .attr('id','col2bar'+i)
     .attr('x', 230)
@@ -501,7 +522,7 @@ function Layout(svg, options, data, filter, updateTable, updateMap) {
     .attr('fill', colors.blue);
 
     // col 3 bg
-    d3.select('#vac-tab').append('rect')
+    row.append('rect')
     .attr('class','col3bg colbg')
     .attr('id','col3bg'+i)
     .attr('x', 340)
@@ -513,7 +534,7 @@ function Layout(svg, options, data, filter, updateTable, updateMap) {
     .attr('fill', colors.lightgrey)
 
     // col 3 bar
-    d3.select('#vac-tab').append('rect')
+    row.append('rect')
     .attr('class','col3bar')
     .attr('id','col3bar'+i)
     .attr('x', 340)
@@ -525,7 +546,7 @@ function Layout(svg, options, data, filter, updateTable, updateMap) {
     .attr('fill', colors.blue);
 
     // col 4 bg
-    d3.select('#vac-tab').append('rect')
+    row.append('rect')
     .attr('class','col4bg colbg')
     .attr('id','col4bg'+i)
     .attr('x', 454)
@@ -537,7 +558,7 @@ function Layout(svg, options, data, filter, updateTable, updateMap) {
     .attr('fill', colors.lightgrey)
 
     // col 3 bar
-    d3.select('#vac-tab').append('rect')
+    row.append('rect')
     .attr('class','col4bar')
     .attr('id','col4bar'+i)
     .attr('x', 454)
@@ -603,6 +624,15 @@ function printCopySave(){
 
   tippy('#button-print', {
     content: 'Print to PDF',
+    duration: 0,
+    placement: 'bottom',
+    theme: 'light',
+    arrow: true,
+    delay: [500, 200],
+  });
+
+  tippy('#button-expand', {
+    content: 'Open in new window',
     duration: 0,
     placement: 'bottom',
     theme: 'light',
@@ -685,7 +715,10 @@ function printCopySave(){
     });
   });
 
-  
+  d3.select('#button-expand').on('click', function(){
+    window.open(window.location.href, "_blank");
+  });
+
 //   d3.select('#button-copy').on('click',function(){
 
 //     if(printing) return false;

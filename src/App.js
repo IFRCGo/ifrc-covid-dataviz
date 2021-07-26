@@ -129,6 +129,7 @@ function App() {
     updateTotals(data, options);
     createMap(data, options, filter);
     drawBubblechart(data, options, filter);
+    d3.select('#bubblechart').attr('display', 'none');
   }
 
   function filter(id,e){
@@ -778,7 +779,9 @@ function App() {
         continue;
       }
 
-      d3.select('#vac-tab').append('text')
+      var row = d3.select('#row'+i);
+      
+      row.append('text')
       .attr('class','tablerow table_country_name')
       .text(function(){
         var name;
@@ -789,6 +792,7 @@ function App() {
         if(name.length==17)name=name+'.';
         return name;
       })
+      .attr('data-id', d.country_code)
       .attr('x', 0)
       .attr('y', function(){
         return 80+(i*24.8);
@@ -797,8 +801,8 @@ function App() {
       .style('font-size', '9px');
 
       // col 1 val
-      d3.select('#vac-tab').append('text')
-      .attr('class','tablerow table_country_name')
+      row.append('text')
+      .attr('class','tablerow')
       .text(function(){
         var val = parseFloat(d.total_vaccinations_per_hundred).toFixed(1);
         if((isNaN(val))||(val==0)){ return ''} else { return val }
@@ -828,7 +832,7 @@ function App() {
       .attr('opacity', 1);
 
       // col 2 val
-      d3.select('#vac-tab').append('text')
+      row.append('text')
       .attr('class','tablerow')
       .text(function(){
         var val = parseFloat(d.people_vaccinated_per_hundred).toFixed(1);
@@ -859,7 +863,7 @@ function App() {
       .attr('opacity', 1);
 
       // col 3 val
-      d3.select('#vac-tab').append('text')
+      row.append('text')
       .attr('class','tablerow')
       .text(function(){
         var val = parseFloat(d.people_fully_vaccinated_per_hundred).toFixed(1);
@@ -890,7 +894,7 @@ function App() {
       .attr('opacity', 1);
 
       // col 4 val
-      d3.select('#vac-tab').append('text')
+      row.append('text')
       .attr('class','tablerow')
       .text(function(){
         var val = parseFloat(d.vaccine_acceptance_percent).toFixed(1);
@@ -920,10 +924,9 @@ function App() {
       d3.select('#col4bg'+i)
       .attr('opacity', 1);
 
-
       var dayFormat = d3.timeFormat("%b %d");
       // col 5 val
-      d3.select('#vac-tab').append('text')
+      row.append('text')
       .attr('class','tablerow')
       .text(function(){
         var val = (d.total_vaccinations);
@@ -938,7 +941,7 @@ function App() {
       .style('font-size', '9px');
       
       // col 6 val
-      d3.select('#vac-tab').append('text')
+      row.append('text')
       .attr('class','tablerow')
       .text(function(){
         var val = (d.data_updated);
@@ -954,8 +957,20 @@ function App() {
       
       i++;
       
-      await timer(15);
+      await timer(5);
+
     }
+
+    d3.selectAll('.row').style('cursor', function(d,i){
+      var textNodes = d3.select(this).selectAll('text').nodes();
+      if(textNodes.length>0) { return 'pointer' } else { return 'default' }
+    }).on('click', function(d,i){
+      var country = d3.select(this).select('.table_country_name')
+      ;
+      if(!country.empty()){
+        filter(['Country-'+country.attr('data-id')]);
+      }
+    })
 
   }
 

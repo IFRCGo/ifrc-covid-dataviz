@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ifrc-covid-dataviz/build/static/css/main.363b6070.chunk.css",
-    "main.js": "/ifrc-covid-dataviz/build/static/js/main.ff765e22.chunk.js",
-    "main.js.map": "/ifrc-covid-dataviz/build/static/js/main.ff765e22.chunk.js.map",
+    "main.css": "/ifrc-covid-dataviz/build/static/css/main.916a176a.chunk.css",
+    "main.js": "/ifrc-covid-dataviz/build/static/js/main.44309173.chunk.js",
+    "main.js.map": "/ifrc-covid-dataviz/build/static/js/main.44309173.chunk.js.map",
     "runtime-main.js": "/ifrc-covid-dataviz/build/static/js/runtime-main.f55ed2b4.js",
     "runtime-main.js.map": "/ifrc-covid-dataviz/build/static/js/runtime-main.f55ed2b4.js.map",
     "static/js/2.020f8a59.chunk.js": "/ifrc-covid-dataviz/build/static/js/2.020f8a59.chunk.js",
@@ -16,7 +16,7 @@
     "static/js/5.792394f1.chunk.js.map": "/ifrc-covid-dataviz/build/static/js/5.792394f1.chunk.js.map",
     "index.html": "/ifrc-covid-dataviz/build/index.html",
     "static/css/3.a260c45f.chunk.css.map": "/ifrc-covid-dataviz/build/static/css/3.a260c45f.chunk.css.map",
-    "static/css/main.363b6070.chunk.css.map": "/ifrc-covid-dataviz/build/static/css/main.363b6070.chunk.css.map",
+    "static/css/main.916a176a.chunk.css.map": "/ifrc-covid-dataviz/build/static/css/main.916a176a.chunk.css.map",
     "static/js/2.020f8a59.chunk.js.LICENSE.txt": "/ifrc-covid-dataviz/build/static/js/2.020f8a59.chunk.js.LICENSE.txt",
     "static/js/3.85ff53c6.chunk.js.LICENSE.txt": "/ifrc-covid-dataviz/build/static/js/3.85ff53c6.chunk.js.LICENSE.txt",
     "static/js/4.e137cf20.chunk.js.LICENSE.txt": "/ifrc-covid-dataviz/build/static/js/4.e137cf20.chunk.js.LICENSE.txt"
@@ -25,7 +25,7 @@
     "static/js/runtime-main.f55ed2b4.js",
     "static/css/3.a260c45f.chunk.css",
     "static/js/3.85ff53c6.chunk.js",
-    "static/css/main.363b6070.chunk.css",
-    "static/js/main.ff765e22.chunk.js"
+    "static/css/main.916a176a.chunk.css",
+    "static/js/main.44309173.chunk.js"
   ]
 }
