@@ -40,7 +40,7 @@ Cameroon,CMR,AFRO,REPORTING,2022-01-14,1024333,837860,3.859,3.156,663317,2.499,"
 Canada,CAN,AMRO,REPORTING,2022-01-28,76764492,32114313,203.392,85.089,29822964,79.018,"AstraZeneca - Vaxzevria,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty,SII - Covishield",2020-12-14,5
 Cayman Islands,CYM,AMRO,REPORTING,2022-01-28,137430,59308,209.114,90.243,57473,87.451,Pfizer BioNTech - Comirnaty,2021-01-15,1
 Central African Republic,CAF,AFRO,REPORTING,2022-01-31,652134,572911,13.502,11.862,549473,11.377,"Bharat - Covaxin,SII - Covishield",2021-03-19,2
-Chad,TCD,AFRO,REPORTING,2022-01-16,374952,254847,2.283,1.551,120105,0.731,Beijing CNBG - BBIBP-CorV,2021-06-04,1
+Chad,TCD,AFRO,REPORTING,2022-01-30,392157,254847,2.387,1.551,136143,0.829,Beijing CNBG - BBIBP-CorV,2021-06-04,1
 Chile,CHL,AMRO,REPORTING,2022-01-28,46523238,17592125,243.371,92.027,16917836,88.5,"AstraZeneca - Vaxzevria,CanSino - Convidecia,Pfizer BioNTech - Comirnaty,Sinovac - CoronaVac",2020-12-21,4
 China,CHN,WPRO,REPORTING,2022-01-29,3009901519,1275813554,204.576,86.714,1235247554,83.957,"Anhui ZL - Recombinant,Beijing CNBG - BBIBP-CorV,CanSino - Convidecia,IMB - Covidful,Pfizer BioNTech - Comirnaty,Shenzhen - LV-SMENP-DC,Sinovac - CoronaVac,Wuhan CNBG - Inactivated",2020-07-22,8
 Colombia,COL,AMRO,REPORTING,2022-01-28,70827473,40025357,139.197,78.662,31174073,61.266,"AstraZeneca - Vaxzevria,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty,Sinovac - CoronaVac",2021-02-17,5
@@ -54,7 +54,7 @@ Cuba,CUB,AMRO,REPORTING,2022-01-28,33968008,10561720,299.895,93.247,9815389,86.6
 Curaçao,CUW,AMRO,REPORTING,2022-01-28,239451,105939,145.924,64.56,97519,59.429,"AstraZeneca - Vaxzevria,Moderna - Spikevax,Pfizer BioNTech - Comirnaty",2021-02-24,3
 Cyprus,CYP,EURO,REPORTING,2022-01-30,1670602,653327,188.1,73.572,621937,72.67,"AstraZeneca - Vaxzevria,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty",2020-12-23,4
 Czechia,CZE,EURO,REPORTING,2022-01-30,17002627,6920390,159,64.713,6368854,63.373,"AstraZeneca - Vaxzevria,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty",2020-12-23,4
-Democratic Republic of the Congo,COD,AFRO,REPORTING,2022-01-27,457160,371176,0.51,0.414,209949,0.234,SII - Covishield,2021-04-19,1
+Democratic Republic of the Congo,COD,AFRO,REPORTING,2022-01-29,468253,372564,0.523,0.416,211035,0.236,SII - Covishield,2021-04-19,1
 Denmark,DNK,EURO,REPORTING,2022-01-30,13082137,4842179,224.7,83.159,4681800,81.213,"AstraZeneca - Vaxzevria,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty",2020-12-16,4
 Djibouti,DJI,EMRO,REPORTING,2022-01-29,150755,130425,15.259,13.201,90458,9.156,"Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Janssen - Ad26.COV 2-S,Pfizer BioNTech - Comirnaty,SII - Covishield,Sinovac - CoronaVac",2021-03-15,6
 Dominica,DMA,AMRO,REPORTING,2022-01-28,60254,31272,83.697,43.439,28982,40.258,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV,Pfizer BioNTech - Comirnaty,SII - Covishield",2021-02-12,4
@@ -62,10 +62,10 @@ Dominican Republic,DOM,AMRO,REPORTING,2022-01-28,14592790,6991107,134.522,64.447
 Ecuador,ECU,AMRO,REPORTING,2022-01-28,29773279,14625618,168.754,82.897,13257403,75.142,"AstraZeneca - Vaxzevria,CanSino - Convidecia,Pfizer BioNTech - Comirnaty,Sinovac - CoronaVac",2021-01-20,4
 Egypt,EGY,EMRO,REPORTING,2022-01-30,65052928,38312663,63.569,37.439,27165187,26.546,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Janssen - Ad26.COV 2-S,Pfizer BioNTech - Comirnaty,Sinovac - CoronaVac",2021-01-24,6
 El Salvador,SLV,AMRO,REPORTING,2022-01-28,9910325,4512561,152.791,69.572,4190414,64.605,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV,Moderna - Spikevax,Pfizer BioNTech - Comirnaty,SII - Covishield,Sinovac - CoronaVac",2021-02-17,6
-Equatorial Guinea,GNQ,AFRO,REPORTING,2022-01-24,455655,251474,32.478,17.924,204181,14.553,"Beijing CNBG - BBIBP-CorV,Sinovac - CoronaVac",2021-02-12,2
+Equatorial Guinea,GNQ,AFRO,REPORTING,2022-02-02,455655,251474,32.478,17.924,204181,14.553,"Beijing CNBG - BBIBP-CorV,Sinovac - CoronaVac",2021-02-12,2
 Estonia,EST,EURO,REPORTING,2022-01-30,1952381,849583,146.9,63.928,732157,60.903,"AstraZeneca - Vaxzevria,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty",2020-12-23,4
-Eswatini,SWZ,AFRO,REPORTING,2022-01-25,462652,366076,39.878,31.554,330127,28.455,"Janssen - Ad26.COV 2-S,Pfizer BioNTech - Comirnaty,SII - Covishield",2021-03-19,3
-Ethiopia,ETH,AFRO,REPORTING,2022-01-31,10975026,6937777,9.547,6.035,4033094,3.508,"Beijing CNBG - BBIBP-CorV,Bharat - Covaxin,Janssen - Ad26.COV 2-S,SII - Covishield",2021-03-13,4
+Eswatini,SWZ,AFRO,REPORTING,2022-02-01,475718,374633,41.004,32.291,334851,28.862,"Janssen - Ad26.COV 2-S,Pfizer BioNTech - Comirnaty,SII - Covishield",2021-03-19,3
+Ethiopia,ETH,AFRO,REPORTING,2022-02-02,10975026,6937777,9.547,6.035,4033094,3.508,"Beijing CNBG - BBIBP-CorV,Bharat - Covaxin,Janssen - Ad26.COV 2-S,SII - Covishield",2021-03-13,4
 Falkland Islands (Malvinas),FLK,AMRO,OWID,2021-04-14,4407,2632,126.529,75.567,1775,50.962,AstraZeneca - AZD1222,,1
 Faroe Islands,FRO,EURO,OWID,2022-01-31,103223,41686,211.241,85.309,40848,83.594,"Moderna - mRNA-1273, Pfizer BioNTech - Comirnaty",,2
 Fiji,FJI,WPRO,REPORTING,2022-01-28,1279166,664978,142.693,74.179,614188,68.514,"AstraZeneca - Vaxzevria,Moderna - Spikevax,SII - Covishield",2021-03-07,3
@@ -87,7 +87,7 @@ Guam,GUM,WPRO,REPORTING,2022-01-28,306489,144853,181.596,85.826,130880,77.547,"J
 Guatemala,GTM,AMRO,REPORTING,2022-01-28,13179817,6874141,73.566,38.37,5214653,29.107,"AstraZeneca - Vaxzevria,Gamaleya - Gam-Covid-Vac,Moderna - Spikevax,Pfizer BioNTech - Comirnaty,SII - Covishield",2021-02-25,5
 Guernsey,GGY,EURO,OWID,2022-01-25,145743,,226.07,,,,"Moderna - mRNA-1273, AstraZeneca - AZD1222, Pfizer BioNTech - Comirnaty",,3
 Guinea,GIN,AFRO,REPORTING,2022-01-12,3421103,2128201,26.05,16.205,1292902,9.845,"Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Janssen - Ad26.COV 2-S,Pfizer BioNTech - Comirnaty,SII - Covishield,Sinovac - CoronaVac",2021-03-05,6
-Guinea-Bissau,GNB,AFRO,REPORTING,2022-01-31,423400,396327,21.514,20.139,263676,13.398,"Beijing CNBG - BBIBP-CorV,SII - Covishield",2021-04-02,2
+Guinea-Bissau,GNB,AFRO,REPORTING,2022-02-02,435952,406992,22.152,20.68,270983,13.769,"Beijing CNBG - BBIBP-CorV,SII - Covishield",2021-04-02,2
 Guyana,GUY,AMRO,REPORTING,2022-01-28,769972,422167,97.892,53.673,310939,39.532,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Moderna - Spikevax,Pfizer BioNTech - Comirnaty,SII - Covishield",2021-02-11,6
 Haiti,HTI,AMRO,REPORTING,2022-01-28,212379,137037,1.863,1.202,82916,0.727,"Janssen - Ad26.COV 2-S,Moderna - Spikevax",,2
 Honduras,HND,AMRO,REPORTING,2022-01-28,10272600,5035861,103.715,50.844,4381943,44.241,"AstraZeneca - Vaxzevria,Gamaleya - Gam-Covid-Vac,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty,SII - Covishield",2021-02-26,6
@@ -106,7 +106,7 @@ Japan,JPN,WPRO,REPORTING,2022-01-27,204528007,101396570,161.712,80.17,99708897,7
 Jersey,JEY,EURO,OWID,2022-01-26,219359,82183,203.495,76.239,78122,72.472,"Moderna - mRNA-1273, AstraZeneca - AZD1222, Pfizer BioNTech - Comirnaty",,3
 Jordan,JOR,EMRO,REPORTING,2022-02-02,9267426,4598992,90.829,45.074,4248768,41.642,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty",2021-01-13,6
 Kazakhstan,KAZ,EURO,REPORTING,2022-01-30,18835429,9776361,100.3,52.066,9059068,48.246,"Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Pfizer BioNTech - Comirnaty,RIBSP - QazVac,Sinovac - CoronaVac",2021-04-07,5
-Kenya,KEN,AFRO,REPORTING,2022-01-30,12107587,6475154,22.517,12.042,5437273,10.112,"Beijing CNBG - BBIBP-CorV,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty,SII - Covishield",2021-03-05,5
+Kenya,KEN,AFRO,REPORTING,2022-02-01,12652991,6636392,23.531,12.342,5753724,10.7,"Beijing CNBG - BBIBP-CorV,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty,SII - Covishield",2021-03-05,5
 Kiribati,KIR,WPRO,REPORTING,2022-01-30,120594,74579,100.959,62.436,46015,38.523,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV",2021-05-26,2
 Kosovo,XKX,EURO,REPORTING,2021-12-26,1668010,879797,92.9,48.996,780327,43.456,"AstraZeneca - AZD1222, Pfizer BioNTech - Comirnaty",,2
 Kuwait,KWT,EMRO,REPORTING,2022-02-02,7345882,3368291,172.012,78.872,3258446,76.3,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty",2020-12-28,5
@@ -114,7 +114,7 @@ Kyrgyzstan,KGZ,EURO,REPORTING,2022-01-30,2339980,1251752,35.9,19.186,1061496,16.
 Lao People's Democratic Republic,LAO,WPRO,REPORTING,2022-01-18,7808722,4653477,107.328,63.96,3835288,52.715,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Gamaleya - Sputnik-Light,Janssen - Ad26.COV 2-S,Pfizer BioNTech - Comirnaty,SII - Covishield,Sinovac - CoronaVac",2020-11-25,8
 Latvia,LVA,EURO,REPORTING,2022-01-23,2642143,1284629,138.5,67.34,975122,65.218,"AstraZeneca - Vaxzevria,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty",2020-12-30,4
 Lebanon,LBN,EMRO,REPORTING,2022-01-31,5159172,2582948,75.587,37.843,2138969,31.338,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Pfizer BioNTech - Comirnaty",2021-02-14,4
-Lesotho,LSO,AFRO,REPORTING,2021-12-31,698383,745528,32.6,34.801,735610,34.338,"Beijing CNBG - BBIBP-CorV,Janssen - Ad26.COV 2-S,SII - Covishield",2021-03-10,3
+Lesotho,LSO,AFRO,REPORTING,2021-12-31,830779,782175,38.781,36.512,727528,33.961,"Beijing CNBG - BBIBP-CorV,Janssen - Ad26.COV 2-S,SII - Covishield",2021-03-10,3
 Liberia,LBR,AFRO,REPORTING,2022-01-07,1146910,1018979,22.677,20.147,986975,19.514,SII - Covishield,2021-04-01,1
 Libya,LBY,EMRO,REPORTING,2022-02-01,3082052,2046913,44.854,29.789,1008409,14.676,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty,Sinovac - CoronaVac",2021-04-11,7
 Liechtenstein,LIE,OTHER,OWID,2022-01-30,68769,26623,177.482,68.71,26005,67.115,"Moderna - mRNA-1273, Pfizer BioNTech - Comirnaty",,2
@@ -137,7 +137,7 @@ Mongolia,MNG,WPRO,REPORTING,2022-01-28,5525054,2269658,168.535,69.233,2170460,66
 Montenegro,MNE,EURO,REPORTING,2022-01-30,525098,274687,83.6,44.171,250411,40.267,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Pfizer BioNTech - Comirnaty",2021-02-24,4
 Montserrat,MSR,AMRO,REPORTING,2022-01-28,3804,1826,76.095,36.527,1593,31.866,AstraZeneca - Vaxzevria,2021-02-08,1
 Morocco,MAR,EMRO,REPORTING,2022-02-01,52356034,24760419,141.846,67.082,23182509,62.807,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Janssen - Ad26.COV 2-S,Pfizer BioNTech - Comirnaty",2021-01-28,5
-Mozambique,MOZ,AFRO,REPORTING,2022-01-28,19788759,10759191,63.313,34.423,9022900,28.868,"Beijing CNBG - BBIBP-CorV,Janssen - Ad26.COV 2-S,SII - Covishield",2021-03-08,3
+Mozambique,MOZ,AFRO,REPORTING,2022-02-01,19788759,10759191,63.313,34.423,9022900,28.868,"Beijing CNBG - BBIBP-CorV,Janssen - Ad26.COV 2-S,SII - Covishield",2021-03-08,3
 Myanmar,MMR,SEARO,REPORTING,2022-01-29,40953452,22106391,75.269,40.629,18847061,34.639,"Beijing CNBG - BBIBP-CorV,SII - Covishield",2021-01-27,2
 Namibia,NAM,AFRO,REPORTING,2022-01-26,773702,418004,30.45,16.451,356763,14.041,"Beijing CNBG - BBIBP-CorV,Janssen - Ad26.COV 2-S,Pfizer BioNTech - Comirnaty,SII - Covishield",2021-03-19,4
 Nauru,NRU,WPRO,REPORTING,2021-12-31,15128,7764,139.634,71.663,7364,67.971,"AstraZeneca - Vaxzevria,SII - Covishield",2021-04-09,2
@@ -180,7 +180,7 @@ Samoa,WSM,WPRO,REPORTING,2022-01-21,267016,142433,134.575,71.786,124583,62.789,"
 San Marino,SMR,EURO,REPORTING,2022-01-30,63366,24570,186.7,71.315,21775,63.202,"Gamaleya - Gam-Covid-Vac,Pfizer BioNTech - Comirnaty",2021-02-24,2
 Sao Tome and Principe,STP,AFRO,REPORTING,2022-01-17,151040,88983,68.918,40.602,61405,28.018,"AstraZeneca - Vaxzevria,SII - Covishield",2021-03-15,2
 Saudi Arabia,SAU,EMRO,REPORTING,2022-02-02,57726738,25594465,165.815,73.518,23731959,68.168,"AstraZeneca - Vaxzevria,Janssen - Ad26.COV 2-S,Moderna - Spikevax,Pfizer BioNTech - Comirnaty",2021-01-06,4
-Senegal,SEN,AFRO,REPORTING,2022-01-27,1923773,1316775,11.489,7.864,963489,5.754,"Beijing CNBG - BBIBP-CorV,Janssen - Ad26.COV 2-S,SII - Covishield",2021-02-23,3
+Senegal,SEN,AFRO,REPORTING,2022-02-02,2044504,1415371,12.21,8.453,1003584,5.994,"Beijing CNBG - BBIBP-CorV,Janssen - Ad26.COV 2-S,SII - Covishield",2021-02-23,3
 Serbia,SRB,EURO,REPORTING,2021-12-26,6554593,3335278,94.6,48.151,3219315,46.477,"AstraZeneca - Vaxzevria,Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Moderna - Spikevax,Pfizer BioNTech - Comirnaty",2020-12-23,5
 Seychelles,SYC,AFRO,REPORTING,2022-01-18,190758,83419,193.964,84.821,78598,79.919,"Beijing CNBG - BBIBP-CorV,Gamaleya - Gam-Covid-Vac,Julphar - Hayat-Vax,SII - Covishield",2021-01-10,4
 Sierra Leone,SLE,AFRO,REPORTING,2022-01-26,1409313,1147770,17.667,14.389,692512,8.681,"Beijing CNBG - BBIBP-CorV,SII - Covishield",2021-03-15,2
