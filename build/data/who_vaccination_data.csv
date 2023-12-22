@@ -1,230 +1,582 @@
-COUNTRY,ISO3,WHO_REGION,DATA_SOURCE,DATE_UPDATED,TOTAL_VACCINATIONS,PERSONS_VACCINATED_1PLUS_DOSE,TOTAL_VACCINATIONS_PER100,PERSONS_VACCINATED_1PLUS_DOSE_PER100,PERSONS_LAST_DOSE,PERSONS_LAST_DOSE_PER100,VACCINES_USED,FIRST_VACCINE_DATE,NUMBER_VACCINES_TYPES_USED,PERSONS_BOOSTER_ADD_DOSE,PERSONS_BOOSTER_ADD_DOSE_PER100
-Albania,ALB,EURO,REPORTING,2023-09-10,3088966,1349255,107.3,47.264,1279333,44.815,,2021-01-13,6,402371,14.095
-Chile,CHL,AMRO,REPORTING,2023-11-17,66860038,17538744,349.756,91.748,17721847,92.706,,2020-12-21,5,15779147,82.543
-Congo,COG,AFRO,REPORTING,2022-07-31,833210,695760,15.1,12.609,654119,11.854,,2021-03-23,4,,
-Côte d’Ivoire,CIV,AFRO,REPORTING,2023-02-19,25263932,13568372,95.776,51.438,12164304,46.115,,2021-03-01,5,3138712,11.899
-Denmark,DNK,EURO,REPORTING,2023-10-01,14915662,4746509,256.2,80.813,4711993,80.226,,2020-12-16,5,3616993,61.582
-Greenland,GRL,EURO,OWID,2022-03-14,79738,41227,140.453,72.619,38511,67.834,,,1,,
-Guernsey,GGY,EURO,OWID,2022-12-19,178525,54223,276.92,84.108,52710,81.761,,,3,69339,107.556
-Guinea,GIN,AFRO,REPORTING,2023-09-24,12049511,8715641,91.751,66.365,5853990,44.575,,2021-03-05,6,425378,3.239
-Guinea-Bissau,GNB,AFRO,REPORTING,2023-10-15,920752,747057,46.786,37.96,547637,27.827,,2021-04-02,2,76359,3.88
-Guyana,GUY,AMRO,REPORTING,2023-09-08,967861,497550,123.051,63.257,384507,48.885,,2021-02-11,7,80224,10.199
-Hungary,HUN,EURO,REPORTING,2023-10-01,16570818,6358690,169.6,65.628,6152042,63.495,,2020-12-23,8,3868705,39.929
-Japan,JPN,WPRO,REPORTING,2023-12-05,431153059,104730469,340.896,82.806,103447695,81.792,,2021-02-17,4,86653408,68.513
-Kyrgyzstan,KGZ,EURO,REPORTING,2023-06-18,3167393,1528725,48.5,23.419,1337850,20.495,,2021-03-31,6,300818,4.608
-Mauritius,MUS,AFRO,REPORTING,2023-07-30,2616012,1123773,205.699,88.363,1088142,85.561,,2021-01-26,3,654507,51.464
-Mongolia,MNG,WPRO,REPORTING,2023-03-17,5668144,2284018,172.899,69.671,2185282,66.659,,2021-02-23,6,1058839,32.299
-North Macedonia,MKD,EURO,REPORTING,2023-05-07,1862987,854570,89.4,40.629,838181,39.85,,2021-02-17,7,161633,7.685
-Seychelles,SYC,AFRO,REPORTING,2023-04-09,224558,88520,228.332,90.008,83565,84.97,,2021-01-10,4,44936,45.691
-Trinidad and Tobago,TTO,AMRO,REPORTING,2023-06-02,1589640,754399,113.587,53.905,718969,51.374,,2021-02-17,5,174836,12.493
-Turkmenistan,TKM,EURO,REPORTING,2023-08-06,16775970,4614869,278.2,72.768,4568901,72.044,,2021-02-24,7,3816400,60.178
-Uganda,UGA,AFRO,REPORTING,2023-05-28,26406936,20033189,57.731,43.797,13061126,28.555,,2021-03-10,5,764664,1.672
-Ukraine,UKR,EURO,REPORTING,2022-02-27,31668577,15774300,72.4,36.237,15153577,34.811,,2021-02-24,6,741197,1.703
-Yemen,YEM,EMRO,REPORTING,2023-11-26,1298447,1050112,4.353,3.521,806967,2.706,,2021-04-20,11,68808,0.231
-Argentina,ARG,AMRO,REPORTING,2023-11-17,116571595,41188650,257.926,91.134,38087569,84.272,,2020-12-29,7,27608419,61.086
-Australia,AUS,WPRO,REPORTING,2023-12-07,69306345,22172031,271.791,86.95,21577910,84.62,,2021-02-21,5,14391682,56.438
-Bahrain,BHR,EMRO,REPORTING,2022-12-21,3476633,1241174,204.319,72.943,1226796,72.098,,2020-11-04,11,1008663,59.278
-British Virgin Islands,VGB,AMRO,REPORTING,2023-06-02,41453,19466,137.094,64.378,18261,60.393,,2021-02-11,3,3726,12.323
-Egypt,EGY,EMRO,REPORTING,2023-05-21,112673535,56907319,110.103,55.609,42337175,41.371,,2021-01-24,10,15217352,14.87
-El Salvador,SLV,AMRO,REPORTING,2023-08-25,11448379,4659970,176.504,71.844,4396448,67.782,,2021-02-17,6,1905226,29.374
-Eswatini,SWZ,AFRO,REPORTING,2023-06-04,870205,526050,75.007,45.343,427335,36.834,,2021-03-19,3,179450,15.468
-Greece,GRC,EURO,REPORTING,2023-10-01,21985885,7917288,205.1,75.693,7745574,74.051,,2020-12-23,7,5902357,56.429
-Guam,GUM,WPRO,REPORTING,2023-01-31,352698,135612,208.975,80.351,128788,76.308,,2021-01-04,3,83603,49.535
-India,IND,SEARO,REPORTING,2023-11-23,2208365081,1027419851,160.026,74.45,952128795,68.995,,2021-01-16,8,228816435,16.581
-Latvia,LVA,EURO,REPORTING,2023-08-13,2979624,1344386,156.2,71.672,1304787,69.561,,2020-12-30,9,550901,29.37
-Lesotho,LSO,AFRO,REPORTING,2023-03-19,1339097,1014073,62.509,47.337,938088,43.79,,2021-03-10,3,177816,8.3
-Luxembourg,LUX,EURO,REPORTING,2023-10-01,1337942,469286,213.7,72.713,462732,71.697,,2020-12-30,8,368526,57.101
-Montserrat,MSR,AMRO,REPORTING,2023-06-02,4619,2104,92.398,42.088,1952,39.048,,2021-02-08,2,563,11.262
-Namibia,NAM,AFRO,REPORTING,2023-11-12,1005937,629767,39.59,24.785,550978,21.684,,2021-03-19,4,298560,11.75
-Papua New Guinea,PNG,WPRO,REPORTING,2023-12-04,543670,399198,6.077,4.462,338004,3.778,,2021-03-30,4,37525,0.419
-Portugal,PRT,EURO,REPORTING,2023-10-01,27879893,9822021,270.8,95.277,8910340,86.073,,2020-12-23,12,7086988,68.46
-Qatar,QAT,EMRO,REPORTING,2023-05-07,7609178,2852178,264.111,98.998,2852178,98.998,,,10,1904822,66.115
-Saudi Arabia,SAU,EMRO,REPORTING,2023-04-25,68534631,27041364,196.86,77.674,25433941,73.057,,2021-01-06,10,16059326,46.129
-Senegal,SEN,AFRO,REPORTING,2023-11-12,3179647,2684696,18.99,16.034,1546628,9.237,,2021-02-23,3,724754,4.328
-Sint Maarten,SXM,AMRO,REPORTING,2023-06-02,66829,29788,155.844,69.465,26773,62.434,,2021-02-22,3,9146,21.328
-South Africa,ZAF,AFRO,REPORTING,2023-09-24,41798812,24210953,70.477,40.822,21038797,35.473,,2021-02-17,2,4410601,7.437
-Sri Lanka,LKA,SEARO,REPORTING,2022-10-30,40116590,17143761,187.345,80.061,14752827,68.896,,2021-01-29,6,8220002,38.387
-United Arab Emirates,ARE,EMRO,REPORTING,2022-07-06,24922054,9991089,251.982,101.018,9792266,99.008,,,11,5138699,51.956
-United States of America,USA,AMRO,REPORTING,2023-07-14,711813790,270227181,215.048,81.639,230637348,69.678,,2020-12-14,4,118438297,35.782
-Uzbekistan,UZB,EURO,REPORTING,2023-09-24,82204584,22087857,245.6,64.809,18445168,54.121,,2021-04-28,9,16251340,47.684
-Wallis and Futuna,WLF,WPRO,REPORTING,2023-01-23,17303,7150,153.859,63.578,6803,60.493,,2021-03-19,1,3350,29.788
-Algeria,DZA,AFRO,REPORTING,2022-09-04,15267442,7840131,34.817,17.879,6481186,14.78,,2021-01-30,4,575651,1.313
-Angola,AGO,AFRO,REPORTING,2023-11-19,27722924,16522932,84.351,50.273,9591203,29.183,,2021-03-10,1,3014421,9.172
-Armenia,ARM,EURO,REPORTING,2023-10-01,2256919,1150915,76.2,41.237,1030758,36.932,,2021-01-27,10,81354,2.915
-Aruba,ABW,AMRO,REPORTING,2023-11-17,217070,90493,203.314,84.758,84349,79.004,,2021-02-17,2,35659,33.399
-Brazil,BRA,AMRO,REPORTING,2023-11-17,515827664,184663245,242.675,86.876,172666955,81.232,,2021-01-17,5,110565285,52.016
-Burkina Faso,BFA,AFRO,REPORTING,2023-07-23,7893609,6089089,37.763,29.13,5232347,25.031,,2021-06-02,3,4056,0.019
-Costa Rica,CRI,AMRO,REPORTING,2023-10-06,13576935,4650636,266.522,91.294,4369784,85.781,,2020-12-24,3,2986527,58.627
-Dominica,DMA,AMRO,REPORTING,2023-06-02,67647,32995,93.966,45.832,30659,42.587,,2021-02-12,5,3993,5.547
-Finland,FIN,EURO,REPORTING,2023-10-01,13265058,4547671,240.1,81.966,4365148,78.676,,2020-12-23,5,3088731,55.67
-French Guiana,GUF,AMRO,REPORTING,2023-07-14,242386,100359,81.152,33.601,90493,30.297,,2021-01-13,3,46361,15.522
-Gabon,GAB,AFRO,REPORTING,2023-02-05,572672,311244,25.73,13.984,257471,11.568,,2021-03-23,3,2592,0.116
-Haiti,HTI,AMRO,REPORTING,2023-06-16,669130,313751,5.868,2.752,355379,3.117,,,2,,
-Iceland,ISL,EURO,REPORTING,2023-04-16,869976,307269,238.9,81.685,297921,79.182,,2020-12-30,5,254556,67.656
-Jersey,JEY,EURO,OWID,2023-01-29,266953,84365,247.646,78.264,81882,75.96,,,3,73662,68.335
-Lebanon,LBN,EMRO,REPORTING,2022-12-22,5814699,2740227,85.192,40.147,2414223,35.371,,2021-02-14,10,660249,9.673
-Malaysia,MYS,WPRO,REPORTING,2023-12-09,72644549,28137325,224.447,86.935,27550516,85.122,,2021-02-24,8,16346757,50.506
-Marshall Islands,MHL,WPRO,REPORTING,2023-03-24,110742,47077,187.083,79.53,40689,68.738,,2020-12-29,3,18559,31.353
-Myanmar,MMR,SEARO,REPORTING,2023-08-21,93477104,41551927,171.802,76.368,35937796,66.05,,2021-01-27,2,15987381,29.383
-Oman,OMN,EMRO,REPORTING,2022-10-25,7086050,3257365,138.762,63.787,3048826,59.703,,2020-12-29,11,779859,15.272
-Pakistan,PAK,EMRO,REPORTING,2023-11-14,340974144,165567890,154.362,74.954,140475871,63.595,,2021-02-03,11,53152375,24.063
-Republic of Moldova,MDA,EURO,REPORTING,2023-10-01,2291436,1109270,,36.233,1078813,35.238,,2021-03-03,7,404774,13.221
-Saint Kitts and Nevis,KNA,AMRO,REPORTING,2023-06-02,64297,33794,120.877,63.532,27000,50.76,,2021-02-22,3,3465,6.514
-Slovenia,SVN,EURO,REPORTING,2023-10-01,2993446,1217608,142.8,57.784,1187389,56.35,,2020-12-23,8,646504,30.681
-Somalia,SOM,EMRO,REPORTING,2023-07-25,10555834,8972167,66.417,56.453,7666835,48.24,,2021-03-16,11,28134,0.177
-Togo,TGO,AFRO,REPORTING,2023-11-19,3423181,2255579,41.349,27.245,1554066,18.772,,2021-03-10,1,427804,5.168
-Tokelau,TKL,WPRO,REPORTING,2022-12-05,6342,2203,469.778,163.185,2203,163.185,,2021-07-20,1,968,71.704
-Tunisia,TUN,EMRO,REPORTING,2023-06-20,13253317,7218871,112.139,61.08,6401841,54.167,,2021-03-13,10,1258577,10.649
-Andorra,AND,EURO,REPORTING,2023-09-24,157072,57913,203.3,73.276,53501,67.694,,2021-01-20,4,43071,54.497
-Anguilla,AIA,AMRO,REPORTING,2023-10-20,24864,10858,165.738,72.377,10382,69.204,,2021-02-05,2,3231,21.537
-Bahamas,BHS,AMRO,REPORTING,2023-06-02,366359,174810,93.163,44.453,166972,42.46,,2021-03-14,4,33717,8.574
-Barbados,BRB,AMRO,REPORTING,2023-09-22,381743,163853,132.838,57.017,155045,53.952,,2021-01-08,5,62845,21.869
-Belarus,BLR,EURO,REPORTING,2023-09-03,22511000,6440777,238.2,67.244,6356035,66.36,,2021-02-03,5,5720777,59.727
-Belize,BLZ,AMRO,REPORTING,2023-10-06,511002,236221,128.513,59.408,221454,55.694,,2021-03-01,5,50260,12.64
-Benin,BEN,AFRO,REPORTING,2022-12-18,4232541,3697190,34.913,30.497,2742837,22.625,,2021-03-29,5,,
-Bermuda,BMU,AMRO,REPORTING,2023-08-11,136759,48554,219.612,77.97,47657,76.529,,2021-01-11,3,32016,51.412
-Bolivia (Plurinational State of),BOL,AMRO,REPORTING,2023-08-25,16104540,6506721,137.964,55.742,6307628,54.036,,2021-01-30,7,2521192,21.598
-"Bonaire, Sint Eustatius and Saba",BES,AMRO,OWID,2021-09-01,35845,19109,137.934,73.533,16736,64.401,,,2,,
-Botswana,BWA,AFRO,REPORTING,2023-05-07,3171667,1951054,134.871,82.966,1663490,70.738,,2021-03-26,6,507654,21.587
-Cambodia,KHM,WPRO,REPORTING,2023-12-07,47795644,15315251,285.877,91.604,14691716,87.875,,2021-02-10,7,10776613,64.457
-Cameroon,CMR,AFRO,REPORTING,2023-10-15,4880572,3753733,18.385,14.141,3197286,12.044,,2021-04-12,4,803560,3.027
-Canada,CAN,AMRO,REPORTING,2023-09-22,99034734,32534849,262.398,86.203,31198590,82.662,,2020-12-14,6,19860368,52.621
-Chad,TCD,AFRO,REPORTING,2023-11-19,9148883,5146338,55.698,31.331,5019031,30.556,,2021-06-04,1,4042573,24.611
-Croatia,HRV,EURO,REPORTING,2023-10-01,5435966,2320278,134,60.111,2246622,58.168,,2020-12-23,6,996098,25.79
-French Polynesia,PYF,WPRO,REPORTING,2023-07-17,493692,195688,175.749,69.663,195688,69.663,,2021-01-18,2,102317,36.424
-Georgia,GEO,EURO,REPORTING,2023-05-28,2739270,1300867,68.7,34.616,1187212,31.592,,2021-03-17,4,251191,6.684
-Grenada,GRD,AMRO,REPORTING,2023-06-02,90686,44241,80.593,39.317,39034,34.69,,2021-02-15,5,7411,6.586
-Indonesia,IDN,SEARO,REPORTING,2023-11-23,448199860,203878473,163.861,74.538,174965137,63.967,,2021-01-13,7,69356250,25.357
-Iran (Islamic Republic of),IRN,EMRO,REPORTING,2023-11-26,155461757,65199831,185.089,77.625,58585264,69.75,,2021-02-09,12,28577301,34.023
-Kenya,KEN,AFRO,REPORTING,2023-04-02,23750431,14494372,44.169,26.956,11090440,20.625,,2021-03-05,5,2000636,3.721
-Kosovo,XKX,EURO,REPORTING,2023-01-15,1836901,904558,,50.758,824752,46.279,,2021-03-31,2,105624,5.927
-Liberia,LBR,AFRO,REPORTING,2022-12-11,4460668,3903802,88.196,77.186,3730967,73.768,,2021-04-01,1,1987,0.039
-Madagascar,MDG,AFRO,REPORTING,2023-07-30,3092063,2710365,11.166,9.788,2628849,9.494,,2021-05-10,3,169187,0.611
-Mauritania,MRT,AFRO,REPORTING,2023-11-19,4075874,2103754,87.66,45.245,1540597,33.134,,2021-03-26,2,383937,8.257
-Nepal,NPL,SEARO,REPORTING,2023-11-23,62627629,27883196,214.943,95.697,24471043,83.987,,2021-01-27,8,10273390,35.259
-Vanuatu,VUT,WPRO,REPORTING,2023-02-20,355430,176624,115.721,57.505,162250,52.825,,2021-06-02,3,16556,5.39
-Zambia,ZMB,AFRO,REPORTING,2023-06-25,13615707,11711565,74.063,63.705,9155551,49.802,,2021-04-14,3,1414619,7.695
-Zimbabwe,ZWE,AFRO,REPORTING,2023-11-19,13935112,7525247,93.758,50.631,5660934,38.088,,2021-02-18,4,2298971,15.468
-American Samoa,ASM,WPRO,REPORTING,2023-03-29,114706,46206,207.812,83.711,42479,76.959,,2020-12-21,3,24160,43.77
-Austria,AUT,EURO,REPORTING,2023-07-02,20403676,6899873,229.2,76.953,6682372,74.423,,2020-12-30,10,5405966,60.207
-Bangladesh,BGD,SEARO,REPORTING,2023-10-18,362229859,151504394,219.947,91.994,142193276,86.34,,2021-01-27,8,68532189,41.613
-Brunei Darussalam,BRN,WPRO,REPORTING,2023-06-30,1293100,451149,295.58,103.125,446714,102.111,,2021-04-03,5,340466,77.825
-Bulgaria,BGR,EURO,REPORTING,2023-09-24,4618931,2108544,66.4,30.831,2080324,30.419,,2020-12-30,4,833135,12.182
-Central African Republic,CAF,AFRO,REPORTING,2023-09-03,3342248,2600389,69.201,53.841,2484985,51.451,,2021-03-19,2,366221,7.583
-Cuba,CUB,AMRO,REPORTING,2023-11-17,38217146,9916126,337.41,87.547,10037942,88.623,,,3,8778841,77.506
-Curaçao,CUW,AMRO,REPORTING,2023-06-02,260324,108601,158.644,66.183,100885,61.48,,2021-02-24,3,43138,26.289
-Ecuador,ECU,AMRO,REPORTING,2023-03-24,39564195,14768682,224.248,83.708,14240587,80.715,,2021-01-20,4,7732930,43.83
-Estonia,EST,EURO,REPORTING,2023-10-01,2205229,845148,165.9,63.459,842177,63.236,,2020-12-23,9,487389,36.596
-Ethiopia,ETH,AFRO,REPORTING,2023-05-28,68856793,52489512,59.894,45.658,43653006,37.971,,2021-03-13,4,5978070,5.2
-Fiji,FJI,WPRO,REPORTING,2023-06-29,1547226,712025,172.596,79.428,641194,71.526,,2021-03-07,3,172078,19.196
-Gambia,GMB,AFRO,REPORTING,2023-03-19,1444492,674314,59.772,27.903,539186,22.311,,2021-03-10,2,53741,2.224
-Guadeloupe,GLP,AMRO,REPORTING,2023-07-14,400424,152189,100.075,38.035,146147,36.525,,2021-01-08,7,89052,22.256
-Honduras,HND,AMRO,REPORTING,2023-08-11,17074861,6505566,172.393,65.682,5765751,58.213,,2021-02-22,6,4803544,48.498
-Ireland,IRL,EURO,REPORTING,2023-09-17,12391251,4108813,249.6,83.9,4063151,80.299,,2020-12-30,5,3058389,60.442
-Jordan,JOR,EMRO,REPORTING,2022-08-21,10057975,4821579,98.577,47.256,4558313,44.676,,2021-01-13,10,682211,6.686
-Libya,LBY,EMRO,REPORTING,2023-01-16,3739158,2316327,54.417,33.71,1236102,17.989,,2021-04-11,10,186729,2.718
-Lithuania,LTU,EURO,REPORTING,2023-10-01,4532726,1956489,162.2,69.878,1907062,67.964,,2020-12-23,5,902114,32.149
-Malawi,MWI,AFRO,REPORTING,2023-09-24,8503954,5433538,44.454,28.403,4288014,22.415,,2021-03-11,2,1232829,6.444
-Maldives,MDV,SEARO,REPORTING,2023-05-25,951764,399308,176.075,73.872,385167,71.255,,2021-02-01,8,167289,30.948
-Malta,MLT,EURO,REPORTING,2023-09-03,1280176,450535,248.8,86.48,444904,85.399,,2020-12-23,4,352640,67.689
-Netherlands,NLD,EURO,REPORTING,2023-10-01,37561429,12582081,215.8,72.285,11767842,66.898,,2020-12-30,8,9416761,53.533
-Niger,NER,AFRO,REPORTING,2023-07-30,7372208,6248483,30.455,25.813,5483001,22.651,,2021-03-29,2,,
-Romania,ROU,EURO,REPORTING,2023-09-10,16111239,8188146,83.4,42.999,8142376,42.759,,2021-01-27,4,1768917,9.289
-Saint Vincent and the Grenadines,VCT,AMRO,REPORTING,2023-06-02,73443,37532,66.201,33.831,31632,28.513,,2021-02-01,5,4279,3.857
-Slovakia,SVK,EURO,REPORTING,2023-10-01,7222567,2840027,132.3,52.257,2791711,51.368,,2020-12-23,7,1686463,31.031
-Solomon Islands,SLB,WPRO,REPORTING,2023-07-04,612700,335796,89.2,48.887,254016,36.981,,2021-03-23,4,27896,4.061
-Sudan,SDN,EMRO,REPORTING,2023-04-02,22598737,15207452,51.537,34.681,13416394,30.597,,2021-03-09,11,3891363,8.874
-Tonga,TON,WPRO,REPORTING,2023-06-30,204737,87375,193.705,82.667,77390,73.22,,2021-04-14,2,38588,36.509
-United Republic of Tanzania,TZA,AFRO,REPORTING,2023-03-12,39392419,34434933,65.946,57.647,32165791,53.848,,2021-07-28,3,,
-Uruguay,URY,AMRO,REPORTING,2023-11-17,9036443,3010464,260.137,86.664,2903096,83.573,,2021-02-27,3,2080828,59.902
-Venezuela (Bolivarian Republic of),VEN,AMRO,REPORTING,2023-06-02,37860994,22157232,133.145,77.92,14287370,50.244,,2021-02-22,6,651502,2.291
-Antigua and Barbuda,ATG,AMRO,REPORTING,2023-06-02,136512,64290,139.399,65.65,62384,63.703,,2021-03-01,6,9838,10.046
-Bonaire,XAA,AMRO,REPORTING,2023-06-02,43070,17460,205.929,83.481,16189,77.404,,,,8125,38.848
-Colombia,COL,AMRO,REPORTING,2023-06-02,90506612,43012174,177.872,84.532,37019801,72.755,,2021-02-17,5,14792792,29.072
-Comoros,COM,AFRO,REPORTING,2022-10-02,835021,438825,96.023,50.463,397080,45.662,,2021-04-10,3,,
-Cyprus,CYP,EURO,REPORTING,2023-09-17,1858992,669230,209.3,73.979,656139,72.525,,2020-12-23,5,487409,53.875
-Democratic Republic of the Congo,COD,AFRO,REPORTING,2023-06-04,18808671,17045721,21.001,19.032,14399520,16.078,,2021-04-19,1,,
-Equatorial Guinea,GNQ,AFRO,REPORTING,2022-07-24,488738,270109,34.836,19.252,214032,15.255,,2021-02-12,2,4597,0.328
-Eritrea,ERI,AFRO,REPORTING,2022-07-03,,0,,0,0,0,,,,,
-Ghana,GHA,AFRO,REPORTING,2023-07-02,25624828,13864186,82.467,44.618,10780003,34.693,,2021-03-02,2,4806017,15.467
-Iraq,IRQ,EMRO,REPORTING,2023-01-02,19557364,11332925,48.623,28.176,7944775,19.752,,2021-03-02,10,275280,0.684
-Isle of Man,IMN,EURO,OWID,2022-06-23,189994,69560,223.438,81.804,67106,78.919,,,3,53328,62.715
-Jamaica,JAM,AMRO,REPORTING,2023-10-06,1528445,722248,51.616,24.391,760132,25.67,,2021-03-10,6,46065,1.556
-Liechtenstein,LIE,OTHER,REPORTING,2022-04-10,71104,26681,183.5,68.86,26346,67.995,,2021-01-06,3,18310,47.255
-Mali,MLI,AFRO,REPORTING,2023-05-14,5922585,4354292,29.246,21.502,3633589,17.943,,2021-03-31,1,,
-Martinique,MTQ,AMRO,REPORTING,2023-07-14,401947,150824,107.11,40.191,145560,38.789,,,2,92934,24.765
-Mexico,MEX,AMRO,REPORTING,2023-06-30,222921381,84500208,172.897,65.538,81407121,63.139,,2020-12-24,8,57014052,44.22
-Monaco,MCO,EURO,REPORTING,2022-12-04,71027,25319,181,69.015,24933,67.963,,2021-06-30,7,17806,48.536
-Montenegro,MNE,EURO,REPORTING,2022-12-04,523735,272152,83.4,43.346,251583,40.07,,2021-02-24,5,0,0
-Morocco,MAR,EMRO,REPORTING,2023-05-14,55389602,25020168,150.064,67.786,23521989,63.727,,2021-01-28,10,6884356,18.651
-Mozambique,MOZ,AFRO,REPORTING,2023-07-02,34950858,22869646,111.823,73.17,21329745,68.243,,2021-03-08,3,2323562,7.434
-Northern Mariana Islands (Commonwealth of the),MNP,WPRO,REPORTING,2023-05-30,123536,46824,214.632,81.352,45953,79.839,,2020-12-19,3,26121,45.383
-Norway,NOR,EURO,REPORTING,2023-09-03,12335349,4346149,229.8,80.109,4061312,74.859,,2020-12-23,4,3020434,55.673
-Panama,PAN,AMRO,REPORTING,2023-10-06,9169341,3746041,212.511,86.819,3175368,73.593,,2021-01-20,2,1770362,41.03
-Peru,PER,AMRO,REPORTING,2023-11-17,90951865,30542485,275.847,92.632,28700007,87.044,,2021-02-09,4,22241901,67.457
-Poland,POL,EURO,REPORTING,2023-10-01,58240570,22984543,153.4,61.041,22705868,60.301,,2020-12-23,5,12534539,33.289
-Puerto Rico,PRI,AMRO,REPORTING,2023-06-02,7846764,2905470,274.281,101.56,2688410,93.972,,,4,1808780,63.225
-Sao Tome and Principe,STP,AFRO,REPORTING,2023-07-30,263863,140256,120.398,63.997,111986,51.098,,2021-03-15,2,34624,15.799
-Suriname,SUR,AMRO,REPORTING,2023-06-02,554588,267820,94.538,45.654,237879,40.55,,2021-02-23,5,48889,8.334
-New Caledonia,NCL,WPRO,REPORTING,2023-04-03,480497,192371,168.301,67.381,184801,64.729,,2021-01-20,2,103325,36.191
-Nigeria,NGA,AFRO,REPORTING,2023-11-05,133048021,93829435,64.543,45.517,81297808,39.438,,2021-03-05,1,16826715,8.163
-Niue,NIU,WPRO,REPORTING,2023-03-04,4923,1638,304.265,101.236,1635,101.051,,2021-06-08,1,1225,75.711
-occupied Palestinian territory,PSE,EMRO,REPORTING,2022-10-18,3748571,2012767,73.481,39.455,1776973,34.833,,2021-02-02,10,336967,6.605
-Saba,XCA,AMRO,REPORTING,2023-06-02,4979,1687,257.579,87.274,1667,86.239,,,,1170,60.528
-San Marino,SMR,EURO,REPORTING,2022-05-22,69338,26357,204.3,78.105,23633,70.033,,2021-02-24,2,19348,57.335
-South Sudan,SSD,AFRO,REPORTING,2023-10-01,4365547,4315127,39,38.55,4273253,38.175,,2021-04-06,2,513122,4.584
-Tajikistan,TJK,EURO,REPORTING,2023-06-04,20525784,5328277,215.2,54.649,5191919,53.25,,2021-03-24,8,5280117,54.155
-Turks and Caicos Islands,TCA,AMRO,REPORTING,2023-06-02,73907,32815,190.885,84.754,30710,79.317,,2021-01-11,1,7443,19.224
-Thailand,THA,SEARO,REPORTING,2023-09-01,139343323,57666184,199.632,82.616,54196116,77.645,,2021-02-28,8,27481023,39.371
-The United Kingdom,GBR,EURO,REPORTING,2022-09-11,151248820,53813491,222.8,79.983,50762968,75.449,,2020-12-21,3,,
-Turkey,TUR,EURO,REPORTING,2023-01-29,139694693,50974980,,60.735,50670345,59.77,,,3,27896331,32.906
-Afghanistan,AFG,EMRO,REPORTING,2023-11-26,22606931,18896999,58.073,48.543,18115861,46.536,,2021-02-22,11,2626670,6.747
-Burundi,BDI,AFRO,REPORTING,2023-11-05,41538,36909,0.349,0.31,36321,0.305,,2021-10-18,1,314,0.003
-Cabo Verde,CPV,AFRO,REPORTING,2022-09-25,859940,356734,154.669,64.162,308720,55.526,,2021-03-18,4,749,0.135
-Cayman Islands,CYM,AMRO,REPORTING,2023-06-09,151970,62113,231.239,94.512,60688,92.343,,2021-01-15,1,24064,36.616
-Falkland Islands (Malvinas),FLK,AMRO,REPORTING,2022-06-21,9390,3220,269.595,92.449,2976,85.444,,,1,2543,73.012
-Faroe Islands,FRO,EURO,OWID,2022-02-18,103894,41715,212.614,85.368,40895,83.69,,,2,21284,43.557
-France,FRA,EURO,REPORTING,2023-07-09,158060078,54677676,234.8,80.56,53189148,78.367,,2020-12-23,9,41042160,60.47
-Italy,ITA,EURO,REPORTING,2023-10-01,150322633,50581361,252,85.692,49484658,83.829,,2020-12-23,9,44917500,76.092
-Kiribati,KIR,WPRO,REPORTING,2023-02-06,219980,100900,184.162,84.471,81474,68.208,,2021-05-26,2,37606,31.483
-Nauru,NRU,WPRO,REPORTING,2023-02-20,32157,13106,296.816,120.971,11346,104.726,,2021-04-09,2,7705,71.119
-New Zealand,NZL,WPRO,REPORTING,2023-04-21,12252378,4241210,254.081,87.951,4084115,84.693,,2021-02-19,4,2719283,56.391
-Nicaragua,NIC,AMRO,REPORTING,2023-08-11,15507763,6404524,234.095,96.679,6126708,92.485,,2021-03-03,11,2892531,43.664
-Palau,PLW,WPRO,REPORTING,2023-03-10,51032,18573,282.069,102.659,18278,101.028,,2021-01-03,3,12885,71.219
-Paraguay,PRY,AMRO,REPORTING,2023-09-22,9867488,3993125,138.345,55.985,3549775,49.769,,2021-02-22,8,1660766,23.284
-Philippines,PHL,WPRO,REPORTING,2023-03-19,189317158,82684774,172.764,75.455,78443972,71.585,,2021-03-01,11,23811248,21.729
-Pitcairn Islands,PCN,WPRO,REPORTING,2022-08-29,117,47,234,94,47,94,,2021-05-17,1,23,46
-Republic of Korea,KOR,WPRO,REPORTING,2023-09-04,135927574,44698288,265.125,87.184,44288342,86.384,,2021-02-26,5,33644119,65.622
-Russian Federation,RUS,EURO,OWID,2023-09-27,187374508,89081596,128.4,61.392,79702396,54.928,,,2,,
-Samoa,WSM,WPRO,REPORTING,2023-02-24,453130,191403,228.376,96.466,177954,89.688,,2021-04-18,2,82268,41.463
-Sierra Leone,SLE,AFRO,REPORTING,2023-07-30,9155936,5676123,114.779,71.156,4961886,62.203,,2021-03-15,2,1201709,15.065
-Singapore,SGP,WPRO,REPORTING,2023-08-29,15302530,5284679,261.566,90.331,5248693,89.716,,2020-12-30,4,4769158,81.519
-Sint Eustatius,XBA,AMRO,REPORTING,2023-06-02,4319,1791,137.592,57.056,1686,53.711,,,,767,24.435
-Spain,ESP,EURO,REPORTING,2023-09-03,112886307,41332084,238.5,87.138,37485721,79.029,,2020-12-30,4,26573833,56.024
-Switzerland,CHE,EURO,REPORTING,2023-07-02,16755985,6096600,193.6,70.145,5723066,65.847,,2020-12-23,6,4996650,57.49
-Syrian Arab Republic,SYR,EMRO,REPORTING,2023-04-18,5090630,3295630,29.088,18.831,2358365,13.476,,2021-04-01,11,75881,0.434
-Timor-Leste,TLS,SEARO,REPORTING,2023-11-22,2028798,886838,153.878,67.264,801759,60.811,,2021-04-07,4,340201,25.803
-Viet Nam,VNM,WPRO,REPORTING,2023-06-30,266492149,90272853,273.779,92.741,85961564,88.312,,2021-03-08,6,57975220,59.56
-Azerbaijan,AZE,EURO,REPORTING,2023-09-24,13829360,5436662,136.4,52.717,4888112,47.398,,2021-01-20,5,3504588,33.982
-Belgium,BEL,EURO,REPORTING,2023-09-03,29120974,9255132,252.7,79.665,9158814,78.836,,2020-12-30,5,7245372,62.365
-Bhutan,BTN,SEARO,REPORTING,2022-10-30,2011426,699116,260.68,90.605,677669,87.826,,2021-03-27,5,634641,82.249
-Bosnia and Herzegovina,BIH,EURO,REPORTING,2022-01-29,1924950,943394,,28.842,846080,25.867,,,4,,
-China,CHN,WPRO,REPORTING,2023-04-20,3516880717,1318026807,239.034,89.583,1284479582,87.303,,2020-07-22,8,834060133,56.689
-Cook Islands,COK,WPRO,REPORTING,2023-01-31,40080,15112,228.194,86.04,14728,83.853,,2021-05-17,1,10240,58.301
-Czechia,CZE,EURO,REPORTING,2023-10-01,18618084,6972320,174.1,66.298,6887986,65.496,,2020-12-23,9,4366166,41.516
-Djibouti,DJI,EMRO,REPORTING,2023-10-08,442199,421573,44.757,42.669,401208,40.608,,2021-03-15,11,,
-Dominican Republic,DOM,AMRO,REPORTING,2023-11-17,16413338,7360900,151.304,67.855,6126215,56.474,,2021-02-16,5,2571636,23.706
-Germany,DEU,EURO,REPORTING,2023-09-03,193241457,64868618,232.4,77.932,63566137,76.368,,2020-12-23,9,52143826,62.645
-Gibraltar,GIB,EURO,OWID,2022-12-16,132810,42175,394.2,125.182,41465,123.074,,,2,49170,145.944
-Guatemala,GTM,AMRO,REPORTING,2023-11-17,20383072,8937923,113.773,49.889,7130756,39.802,,2021-02-25,5,3723701,20.785
-Israel,ISR,EURO,REPORTING,2022-06-05,17915305,7055466,207,79.274,6385731,71.749,,2020-12-16,3,4474108,50.271
-Kazakhstan,KAZ,EURO,REPORTING,2023-04-30,38355605,12443364,204.3,64.821,13070774,68.089,,2021-04-07,5,6801526,35.431
-Kuwait,KWT,EMRO,REPORTING,2023-11-26,8261221,3457498,193.445,80.961,3346176,78.354,,2020-12-28,10,1457547,34.13
-Lao People's Democratic Republic,LAO,WPRO,REPORTING,2023-05-21,13879410,6324678,190.768,86.93,5691962,78.234,,2020-11-25,8,2451034,33.689
-Micronesia (Federated States of),FSM,WPRO,REPORTING,2023-03-28,198749,83871,172.791,72.917,80910,70.342,,2021-01-13,4,30537,26.549
-Rwanda,RWA,AFRO,REPORTING,2023-06-04,27322059,10884714,210.945,84.037,10399665,80.293,,2021-03-05,7,4225194,32.621
-"Saint Helena, Ascension and Tristan da Cunha",SHN,AFRO,OWID,2021-05-05,7892,4361,129.995,71.833,3531,58.162,,,1,,
-Saint Lucia,LCA,AMRO,REPORTING,2023-06-02,122977,60140,66.971,32.751,54971,29.936,,2021-02-17,5,7866,4.284
-Serbia,SRB,EURO,REPORTING,2023-03-05,6722671,3398116,97.1,46.57,3324555,45.562,,2020-12-23,5,0,0
-Sweden,SWE,EURO,REPORTING,2023-10-01,23237123,7473037,225,71.496,7334822,70.174,,2020-12-23,5,5542831,53.03
-Tuvalu,TUV,WPRO,REPORTING,2023-02-01,26783,9763,227.129,82.793,9505,80.605,,2021-04-13,1,5745,48.719
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>404</title>
+<link href="//use.fontawesome.com/releases/v5.0.10/css/all.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://www.who.int/ResourcePackages/WHO/assets/dist/styles/grid.min.css" />
+<link rel="stylesheet" href="https://www.who.int/ResourcePackages/WHO/assets/dist/styles/origin.min.css" />
+<style type="text/css" media="all">.fundwrapper-desktop,.fundwrapper-mobile{padding:1em}.fundwrapper-desktop .prefix,.fundwrapper-mobile .prefix{font-weight:700}.fundwrapper-desktop .button,.fundwrapper-mobile .button{margin-top:0}.fundwrapper-desktop{position:absolute;right:1em}.fundwrapper-desktop .button{width:100%}@media screen AND (max-width:1021px){.fundwrapper-desktop{position:relative;width:auto;padding-top:0}.fundwrapper-desktop .button{width:auto}.fundwrapper-desktop{display:none}.fundwrapper-mobile{display:block}}@media screen AND (min-width:1021px){.fundwrapper-desktop{display:block}.fundwrapper-mobile{display:none}}@media screen AND (max-width:320px){.fundwrapper-desktop{display:none}.fundwrapper-mobile{display:block}.fundwrapper-mobile{width:100%;padding-top:0;top:150px;clear:both;float:left}.fundwrapper-mobile .button{width:100%}}@media (max-width:1020px){#sf-main-header{margin-bottom:0;padding-bottom:0}}</style>
+<style type="text/css" media="all">@media (min-width:1020px){#sf-top-header{background-color:#000}.sfPageEditor #sf-top-header{background-color:inherit}#sf-top-header ul li a{color:#fff!important}#sf-top-header ul.rdCommands li a{color:#000!important}.sfPageEditor #sf-top-header ul li a{color:inherit}#sf-top-header div.navigation-search>span>i{color:#fff!important}#sf-top-header #sf-geo-navigation-container ul.sf-primary-geo-navigation .has-children>a:after{filter:brightness(0) invert(1)}#sf-top-header #search-form .search-button .fa{font-size:22px;color:#008dc9}#sf-top-header #search-form .search-button{min-height:48px;background-color:#efefef;color:#fff;text-align:center}#sf-top-header select{font:400 12px/1.3 sans-serif;-webkit-appearance:none;appearance:none;line-height:1;outline:0;background-repeat:no-repeat,no-repeat,no-repeat,no-repeat;background-size:1px 100%,20px 22px,20px 22px,20px 100%;background-position:right 20px center,right bottom,right bottom,right bottom;color:#fff!important;font-size:15px;font-weight:700;line-height:28px;min-width:110px;height:44px;padding:.65em 24px .55em 8px;cursor:pointer;background-color:#000;border:0 #000}#sf-top-header select:hover{background-image:linear-gradient(var(--accentFg),var(--accentFg)),linear-gradient(-135deg,transparent 50%,var(--accentFg) 50%),linear-gradient(-225deg,transparent 50%,var(--accentFg) 50%),linear-gradient(var(--accentFg) 42%,var(--accentBg) 42%)}#sf-top-header select:active{background-image:linear-gradient(var(--accentFg),var(--accentFg)),linear-gradient(-135deg,transparent 50%,var(--accentFg) 50%),linear-gradient(-225deg,transparent 50%,var(--accentFg) 50%),linear-gradient(var(--accentFg) 42%,var(--accentBg) 42%);color:var(--accentBg);border-color:var(--accentFg);background-color:var(--accentFg)}#sf-top-header .select-selected.select-arrow-active:after{border-color:transparent transparent #fff transparent;top:7px}#sf-top-header .select-items div,.select-selected{color:#fff;padding:8px 16px;border:1px solid transparent;border-color:transparent transparent rgba(0,0,0,.1) transparent;cursor:pointer}#sf-top-header .select-items{position:absolute;background-color:#1e90ff;top:100%;left:0;right:0;z-index:99}#sf-top-header .select-hide{display:none}#sf-top-header .select-items div:hover,.same-as-selected{background-color:rgba(0,0,0,.1)}#sf-top-header select option,#sf-top-header select option:active,#sf-top-header select option:focus{background:linear-gradient(#000,#000);background-color:#fff!important;color:#000!important}#sf-top-header select .selected{background:linear-gradient(#000,#000);background-color:#fff!important;color:#008dc9!important}#sf-top-header #search2 .closebtn{display:none}#sf-top-header div#search2{max-width:450px;max-height:48px}#sf-top-header .col-md-8{display:flex;flex-direction:row;max-height:48px;justify-content:flex-end}.sfPageEditor #sf-top-header .col-md-8{display:block;flex-direction:inherit;max-height:inherit;justify-content:inherit}#sf-top-header #sf-geo-navigation-container ul.sf-primary-geo-navigation>li>a{min-height:48px;max-height:48px}#sf-top-header #search-form input[type=text]{min-height:48px;padding:0 0;font-size:16px}#sf-top-header #search-form input[type=text]{border-radius:0!important;border:0!important;background-color:transparent;color:#000}#sf-top-header #search-form .search-button{border-radius:0!important;background-color:transparent}#sf-top-header #search-form .search-button:hover{background-color:inherit}#sf-top-header #search-form input[type=text]:focus{border-radius:0!important;border:0!important;outline:-webkit-focus-ring-color auto 0}#sf-top-header .language-selector>i.fa-language{color:#fff;margin-left:0!important;font-size:16px;padding-left:0}#sf-top-header .language-selector>i.fa-language{content:url(/ResourcePackages/WHO/assets/dist/images/Translation.svg);vertical-align:middle;filter:brightness(0) invert(1);height:24px;margin-top:-4px}#sf-top-header .navigation-search i.fa-search{vertical-align:middle;filter:brightness(0) invert(1);position:initial;top:auto;left:auto;transform:inherit;height:48px;width:24px;margin-right:8px;display:flex;justify-content:center;align-items:center;font-size:24px}#sf-top-header div.language-selector i.fa-angle-down{color:#fff;margin-left:-22px;content:url(/ResourcePackages/WHO/assets/dist/images/arrow-down-blue.svg);vertical-align:middle;height:22px;filter:brightness(0) invert(1);margin-top:-4px;pointer-events:none}.right-to-left #sf-top-header div.language-selector i.fa-angle-down{margin-left:22px;margin-top:4px}#sf-top-header #search-form .search-button:hover{background-color:transparent}#sf-top-header #search-form .search-button i:hover{color:#008dc9}#sf-top-header #search2 .wrapper{height:48px;background-color:#efefef}#sf-top-header #search2 .wrapper:hover{border-bottom:5px solid #008dc9}#sf-top-header #search2 .wrapper:focus-within{border-bottom:5px solid #008dc9}#sf-top-header{font-size:15px!important;line-height:18px}#sf-top-header div.language-selector i{color:#fff}#sf-top-header .language-selector{min-width:220px}.search-open{overflow:inherit!important}.search-open #sf-top-header{display:block}.search-open #sf-top-header .search-overlay{position:inherit;top:inherit;left:inherit;z-index:inherit;width:inherit;height:inherit;overflow-x:inherit;opacity:0;visibility:inherit;background-color:inherit;background-color:inherit}.search-open #sf-top-header{display:block}#sf-top-header .language-selector{padding-left:48px!important}#sf-top-header .sf-secondary-geo-navigation-container{top:48px}.search-open{overflow:hidden}.search-open #sf-top-header{display:block}.search-open #sf-top-header .search-overlay{position:fixed;top:0;left:0;z-index:2000;width:100%;height:100%;overflow-x:hidden;opacity:1;visibility:visible;background-color:#20313b;background-color:rgba(32,49,59,.9);transition:.5s}.search-open #sf-top-header #search-form{display:block}.search-open #sf-top-header .search-overlay{position:relative;top:inherit;left:inherit;z-index:inherit;width:inherit;height:inherit;overflow-x:inherit;opacity:inherit;visibility:inherit;background-color:inherit;background-color:inherit;transition:.5s}#sf-top-header .search-overlay .wrapper{position:relative;top:inherit;width:inherit;max-width:inherit;padding:inherit;margin:inherit;right:inherit;left:inherit;-ms-transform:inherit;transform:inherit}#sf-top-header .navigation-search span{height:48px;vertical-align:middle;align-items:center;justify-content:center}#sf-top-header .navigation-search{display:flex;height:48px;margin-left:4px}.search-open #sf-top-header .navigation-search{display:none}#search-form label{float:right}.right-to-left #sf-top-header div#search2{padding-left:48px}.right-to-left #search-form label{padding-right:24px!important}.k-ie .language-selector i{margin-top:6px!important}.k-ie #sf-top-header #sf-geo-navigation-container ul.sf-primary-geo-navigation .has-children>a::after{content:"\f107"!important;font-family:"Font Awesome 5 Free";margin-top:2px!important;padding-left:8px!important}.k-ie #sf-top-header #sf-geo-navigation-container ul.sf-primary-geo-navigation .has-children.open>a::after{margin-top:-1px!important}.language-selector.language-selector-header{display:none}}@media (max-width:1019.5px){.search-open #sf-top-header .language-selector{display:none!important}.search-open #sf-top-header #sf-geo-navigation-container{display:none!important}#sf-top-header .navigation-search span{display:none!important}.slicknav_addition select{font:400 12px/1.3 sans-serif;-webkit-appearance:none;appearance:none;color:var(--baseFg);border:1px solid var(--baseFg);line-height:1;outline:0;border-radius:var(--radius);background-color:var(--baseBg);background-repeat:no-repeat,no-repeat,no-repeat,no-repeat;background-size:1px 100%,20px 22px,20px 22px,20px 100%;background-position:right 20px center,right bottom,right bottom,right bottom;color:#fff!important;font-size:18px;font-weight:700;line-height:18px;min-width:110px;height:44px;padding:.65em 24px .55em 8px;cursor:pointer;padding-left:20px}.slicknav_addition .select-selected.select-arrow-active:after{border-color:transparent transparent #fff transparent;top:7px}.select-selected,.slicknav_addition .select-items div{color:#fff;padding:8px 16px;border:1px solid transparent;border-color:transparent transparent rgba(0,0,0,.1) transparent;cursor:pointer}.slicknav_addition .select-items{position:absolute;background-color:#1e90ff;top:100%;left:0;right:0;z-index:99}.slicknav_addition .select-hide{display:none}.same-as-selected,.slicknav_addition .select-items div:hover{background-color:rgba(0,0,0,.1)}.slicknav_addition select option,.slicknav_addition select option:active,.slicknav_addition select option:focus{background:linear-gradient(#000,#000);background-color:#fff!important;color:#000!important}.slicknav_addition select option .selected{background:linear-gradient(#000,#000);background-color:#fff!important;color:#008dc9!important}.slicknav_addition i.fas.fa-language{display:none}li.slicknav_addition.sf-lang-selector label{width:100%;position:relative}li.slicknav_addition.sf-lang-selector label select{min-width:100%}li.slicknav_addition .fa-angle-down{font-size:24px;position:absolute;top:10px;right:25px}.right-to-left .fa-angle-down{font-size:24px;position:absolute;top:10px!important;left:24px!important;right:inherit!important}}.right-to-left .fa-angle-down{font-size:24px;position:absolute;top:10px!important;left:24px!important;right:inherit!important}.sf-lang-selector.list-inline select{font-size:16px;font-weight:700;line-height:18px;min-width:110px;height:35px;padding:0 24px 0 8px;cursor:pointer;padding-left:20px}.sf-lang-selector.list-inline select:hover{background-image:linear-gradient(var(--accentFg),var(--accentFg)),}.sf-lang-selector.list-inline select:active{background-image:linear-gradient(var(--accentFg),var(--accentFg)),color: var(--accentBg);border-color:var(--accentFg);background-color:var(--accentFg)}.sf-lang-selector.list-inline select option,.sf-lang-selector.list-inline select option:active,.sf-lang-selector.list-inline select option:focus{background:linear-gradient(#000,#000);background-color:#fff!important;color:#000!important}.sf-lang-selector.list-inline select option .selected{background:linear-gradient(#000,#000);background-color:#fff!important;color:#008dc9!important}.sf-lang-selector.list-inline select option .selected{background:linear-gradient(#000,#000);background-color:#fff!important;color:#008dc9!important}#sf-top-header #search-form .search-button:focus{outline:0;box-shadow:none}@media (min-width:1020px){#sf-top-header span.srchaction i,#sf-top-header span.srchtoggle i{width:24px;font-size:24px;color:#fff!important;cursor:pointer}#sf-top-header .sf-search-input-wrapper input{height:48px;border:0;border-radius:0;padding:0 24px 0 24px;color:#000;font-size:15px;line-height:normal;letter-spacing:normal;font-weight:400;font-style:normal;font-stretch:normal;background-color:transparent}#sf-top-header .sf-search-input-wrapper input:focus{border-radius:0!important;border:0!important;outline:-webkit-focus-ring-color auto 0}#sf-top-header span.srchaction:focus{border-radius:0!important;border:0!important;outline:-webkit-focus-ring-color auto 0}#sf-top-header .srchaction-wrapper:focus{border-radius:0!important;border:0!important;outline:-webkit-focus-ring-color auto 0}#sf-top-header .form-group.sf-search-input-wrapper{display:flex;flex-direction:row;align-items:center;height:48px}#sf-top-header span.srchaction{padding-left:24px;padding-right:0;border:none;float:left;transition:all .3s ease;box-shadow:none;min-height:48px;text-align:center;display:flex;flex-direction:row;align-items:center}#sf-top-header span.srchaction i{color:#008dc9!important}#sf-top-header .srchaction-wrapper{display:none}.search-open #sf-top-header .srchaction-wrapper{display:flex;height:48px;padding-bottom:5px;background-color:#efefef}.search-open #sf-top-header span.srchtoggle{display:none}#sf-top-header .navigation-search{display:none!important}.search-open #sf-top-header .srchaction-wrapper:focus{border-bottom:solid 5px #008dc9!important}.search-open #sf-top-header .srchaction-wrapper:focus-within{border-bottom:solid 5px #008dc9!important}.search-open #sf-top-header .srchaction-wrapper:hover{border-bottom:solid 5px #008dc9!important}}@media (max-width:1019.5px){#sf-top-header .sf-search-input-wrapper{display:none!important}.search-open{overflow:inherit!important}}.right-to-left .sf-search-input-wrapper{padding-left:24px}.right-to-left .srchaction{padding-right:24px;padding-left:0}.ui-autocomplete.ui-front.sf-autocomplete{z-index:999}.right-to-left #sf-top-header span.srchaction{padding-left:0;padding-right:24px}span.srchtoggle{z-index:3}#sf-top-header .srchaction-wrapper{display:flex;opacity:0;transition:.3s all ease;width:0;height:48px}.search-open #sf-top-header .srchaction-wrapper{width:280px;opacity:1}#sf-top-header span.srchtoggle{display:block!important;opacity:1;transition:1s opacity ease}.search-open #sf-top-header span.srchtoggle{transition:.3s opacity ease;opacity:0}.language-selector{z-index:4} #navigationToScrape *,.top-header *{box-sizing:border-box}.language-selector-header .sf-lang-selector li a[data-available-culture=pt]{display:none!important}.slicknav_addition.sf-lang-selector.slicknav_parent li a[data-available-culture=pt]{display:none!important}@media screen AND (max-width:1019px){.bottom-footer .col-md-4{max-width:50%;width:50%}.bottom-footer .col-md-4:nth-of-type(2){display:none}}@media screen AND (max-width:480px){.bottom-footer .col-md-4{max-width:100%;width:100%}}#ctl00_MainHeader_RadDockZoneMainHeader,.sfPageEditor #sf-top-header{display:none}div#ctl00_Navigation_ctl00_C_TD9F2A204024_Col00{height:8px;overflow:hidden}body.sf-body.sfPageEditor.sfTemplateEditor #ctl00_MainHeader_RadDockZoneMainHeader,body.sf-body.sfPageEditor.sfTemplateEditor #sf-top-header{display:block}body.sf-body.sfPageEditor.sfTemplateEditor div#ctl00_Navigation_ctl00_C_TD9F2A204024_Col00{height:auto}</style>
+</head>
+<body class="sf-body not-found-page">
+<div class="sf-main-site main-site main">
+<header>
+<div id="sf-top-header" class="sf-top-header top-header">
+<div class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
+<div id="TopHeader_TD9F2A204012_Col00" class="sf_colsIn container empty" data-sf-element="Container" data-placeholder-label="Container"></div>
+<div class="row" data-sf-element="Row">
+<div class="sf_colsIn col-md-4" data-sf-element="Geo Navigation" data-placeholder-label="Geo Navigation">
+<div id="sf-geo-navigation-container">
+<nav class="sf-geo-navigation">
+<ul id="sf-primary-geo-navigation" class="sf-primary-geo-navigation">
+<li class="active sf-no-logo">
+<a href="https://www.who.int/" class="mobile nav-logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580.82 177.96" class="svg replaced-svg">
+<defs>
+<style>.cls-1{fill:#0093d5;}</style>
+</defs>
+<title>World Health Organization</title>
+<g id="Layer_2">
+<g id="ENGLISH">
+<path class="cls-1" d="M164,32.58c3.86,4.6,10.61,7.31,14.56,11.92-2.83-13.63-13.35-24.76-25.79-27.42C158.84,21.65,160.15,28,164,32.58ZM14.48,67.13c8.57-18.65,21.36-14.7,26.77-32.47-3,5.45-17,7.75-23.51,21.72,3.31-8.3,1.65-21,7.25-27.85C8.25,40.88,15.38,60.86,14.48,67.13ZM30,111.86c1.54,7.26-3,17.74,4.2,27.76C26.76,131.28,11,129.16,4.58,116.48c8,31,29,24.6,38.39,31.33C35.21,136.66,41.56,129.25,30,111.86Zm-2.41,19.45C23,114,31.18,108,24.93,91.4c-.65,9.36-6.89,13.92-2.68,31C14.82,107.94,3.33,102.54,0,92.6.23,119.78,22.07,123.81,27.59,131.31Zm33.54,29c-6.43-8.9-2-13.93-20.1-30.09,3.82,5.9-.12,13.32,12.06,24.86-11.92-7-28.36-4-36.29-13.41C30.42,167.74,54.35,157.1,61.13,160.34Zm87.42-5.23c12.18-11.54,8.24-19,12.06-24.86-18.06,16.16-13.67,21.19-20.1,30.09,6.78-3.24,30.71,7.4,44.32-18.64C176.91,151.09,160.47,148.08,148.55,155.11Zm18.89-15.49c7.17-10,2.66-20.5,4.2-27.76-11.56,17.39-5.21,24.8-13,36,9.44-6.73,30.36-.35,38.39-31.33C190.62,129.16,174.88,131.28,167.44,139.62Zm-28.86,21.95a89.2,89.2,0,0,0-19.75-3,47.75,47.75,0,0,0-18,3.06,47.78,47.78,0,0,0-18-3.06,89.2,89.2,0,0,0-19.75,3c-10.87,2.89-20.26,5.13-28.45,1,7.85,7,17,9.45,30.23,8,11-1.18,19.91-6.69,30.29-6.61h.41a55.47,55.47,0,0,0-17.12,13.31l5,.67s5.27-10.59,17.39-13.35c12.12,2.76,17.39,13.35,17.39,13.35l5-.67A55.63,55.63,0,0,0,106.1,164h.41c10.38-.08,19.27,5.43,30.28,6.61,13.23,1.43,22.39-1.06,30.24-8C158.84,166.7,149.45,164.46,138.58,161.57ZM25.67,72.63C21.19,81.23,14.23,83.2,15,101,11.22,85.18,2.24,79.32,2.35,69.23c-6.24,26.3,10.44,29.42,14.72,40.44C16.44,93.88,26.52,90.69,25.67,72.63Zm6.26-20.3c-1.56,2.18-2.65,3.11-6.81,6.54A33.77,33.77,0,0,0,13,78.64c.43-9.64-5.53-23.49-1.57-33.59-15.33,21.65.88,34.62,1.45,42.46C16.86,72.42,26,72.3,31.93,52.33Zm156.7,26.31a33.82,33.82,0,0,0-12.11-19.77c-4.16-3.43-5.25-4.36-6.81-6.54,5.93,20,15.07,20.09,19,35.18.57-7.84,16.78-20.81,1.44-42.46C194.15,55.15,188.2,69,188.63,78.64Zm13,14c-3.33,9.94-14.82,15.34-22.25,29.84,4.21-17.12-2-21.68-2.68-31-6.25,16.62,2,22.59-2.66,39.91C179.57,123.81,201.41,119.78,201.64,92.6ZM176,72.63c-.85,18.06,9.24,21.25,8.6,37,4.29-11,21-14.14,14.72-40.44.12,10.09-8.86,16-12.61,31.72C187.41,83.2,180.45,81.23,176,72.63Zm-138.34-40c3.87-4.6,5.18-10.93,11.24-15.5-12.44,2.66-23,13.79-25.79,27.42C27,39.89,33.76,37.18,37.62,32.58Zm122.77,2.08c5.41,17.77,18.2,13.82,26.76,32.47-.89-6.27,6.24-26.25-10.5-38.6,5.6,6.86,3.94,19.55,7.25,27.85C177.41,42.41,163.44,40.11,160.39,34.66ZM117,44.75A41.92,41.92,0,0,0,106.77,42c0,.75,0,1.52,0,2.28a40,40,0,0,1,9.4,2.58A6,6,0,0,0,117,44.75Zm-2.59-22,.68-.61-1.3-.55-3.42-.07-.89.62-2-.17,0,.49a34.75,34.75,0,0,1,3.52.37l1.67-.15ZM107.78,96.5c0-.58-.77-1.15-1.91-1.69h-.21c0,.47,0,2.79-.07,3.92C107,98.1,107.78,97.42,107.78,96.5ZM68.16,53a10.92,10.92,0,0,1,.29-1.25,5.79,5.79,0,0,1-1.4.14Zm32.73,100.6A69.76,69.76,0,0,0,108,14.47c0,.13,0,.27-.08.4-.14.68-.27,1.29-.37,1.83a67.35,67.35,0,0,1,40.63,19l-7.7,7.7.29-1.36-1-.44-1.38-.08.29-.89-.93-3.15-1.92-2.11-6-3.17-.52.55-1.09.32a18,18,0,0,1,3.18,10.11c0,.47,0,.92,0,1.37l3,3.75-1.4.32.93,1.4-2.63,2.62-1.06-2a17.92,17.92,0,0,1-2,3.93l.59.54-8.11,8.11c-.49-.47-1-.92-1.52-1.35-.78.36-1.57.69-2.38,1l.69.54-.41.41-1,.53-.35,1-.59-.59-1.71.57.47.75,1.18-.31.77.06.06-.42.59-.3.18-.35,1.06-.3.83,0c.16.14.33.29.48.44L115.81,68l-.24-.34-3.36.55-.75.75-.73.09,2.08-2-.74-.37-1.95,2.6.57-.06,0,1,.71.28.14,1-1.17-.23-1.22.22-3-1.51s-.16,7.92-.24,11.9c7,2.34,14.35,5.72,14.35,14.6a11,11,0,0,1-5,9.38h0l-.15.1h0l-.22.15c-2.82,1.86-6.44,2.86-9.58,3.84,0,0-.09,6.22-.09,6.22,5,2.48,11.05,6.09,10.49,16.42-.07,2.54-1.06,3.24-1.91,3.47h0a52.52,52.52,0,0,1-9,1.43c0,.8,0,1.56,0,2.27a55.87,55.87,0,0,0,34.78-15.36l8.1,8.1a67.37,67.37,0,0,1-93.3.19l8.1-8.1a55.83,55.83,0,0,0,34.29,15.15c0-.7,0-1.46,0-2.27A53.59,53.59,0,0,1,64.05,123l2.16-2.17,3,.34,1.58-1.7,4.14.14.61-1.43-.15-.61A42,42,0,0,0,96.48,126c0-.88,0-1.65,0-2.28A39.93,39.93,0,0,1,73.76,113.3l8.11-8.11a28.85,28.85,0,0,0,6.57,4.41,7.67,7.67,0,0,1,.82-2.13,26.22,26.22,0,0,1-5.79-3.89l8.13-8.12a14.86,14.86,0,0,0,4.34,2.41c0-.8,0-1.65,0-2.44a12.47,12.47,0,0,1-2.68-1.59l2.29-2.29c-.8-.24-1.62-.5-2.42-.78l-1.54,1.54a12.4,12.4,0,0,1-1.94-2.89,27.57,27.57,0,0,1-4-2.14A15.69,15.69,0,0,1,78.06,73.5,16.54,16.54,0,0,1,81.34,63l-8.08-8.08A39.91,39.91,0,0,1,94.9,44.28c0-.78,0-1.55-.05-2.28A42.18,42.18,0,0,0,71.66,53.34L70.29,52c-.31.55-.67,1.24-1.09,2.11l.86.87A42.13,42.13,0,0,0,58.6,83.17H47.13A53.62,53.62,0,0,1,62,46.83l3.64,3.65a4.61,4.61,0,0,0,.52,0,5.5,5.5,0,0,0,2.07-.6l-4.63-4.63a54.51,54.51,0,0,1,8-6.38,15.06,15.06,0,0,1,.57-1.68,26.93,26.93,0,0,1,1.75-2.35A56,56,0,0,0,62,43.63l-8.1-8.1A67.2,67.2,0,0,1,94,16.73c-.06-.28-.1-.5-.1-.5-.1-.53-.22-1.12-.33-1.74a69.77,69.77,0,0,0,7.28,139.15ZM116,105.45v-.06l0,0Zm33.78-68.12a67.26,67.26,0,0,1,18.65,45.84H156.92a55.67,55.67,0,0,0-6-24.48l.1-.2.79.42.19-.61L150,54.71l-2.43-3.36L144.69,49c-1-1.22-2-2.4-3.07-3.54ZM135.13,52l2.75.12.66.79-.33,1.17L142,56.48l.75-.09,4.9,5.6,2-.7a53.4,53.4,0,0,1,5,21.88H143.19a41.78,41.78,0,0,0-1.07-8.72l.53-.71.71-3.59-.54-3.86-1.38-4.44-3.2-4.68.78.41.39-.39-2.57-1.74-.17.57,2.57,3.67,1.45,3,1,3,.33,2,.53,3.38-1,.07s-1.11-2.07-1.45-2.92l.51-.77-1-1.4v-1.4l-.7-.88-.87.11c-.31-.58-.64-1.15-1-1.71l.62.31.16-.16-.33-.72.75-.42-.34-.42-1.11.42.41-1.74-.66-.38-.59,1.39a42.64,42.64,0,0,0-4.17-5.3Zm-2.3,26.87,2.06-1.12,2.1-.32.46-1,1.17-.7.45-1,.36-1.69c.17.59.32,1.2.46,1.81l-1.11,3.31,0,1.12,1.61-2.15a38.74,38.74,0,0,1,.57,6h-10l-.23-.87,1.17-.93.23-.56.51-.38,1.36-.14.14-.6ZM119.07,71l1-.24,0-.24-1-.69.35-2.16,1.23-1.23a27.16,27.16,0,0,1,2.13,2.77l-.43,1.33-1.12-.8-.85.23.42.79h.42l-.47,1.17-.32-.47Zm4.39,38.07-2.48-.7-.74.27-1.4-1.07-1.32-.47c.65-.47,1.28-1,1.89-1.48l2,1.44,1.56.82.77.77ZM122.2,64.85l8.11-8.11a40.43,40.43,0,0,1,5,6.74l-1,.28.05,1.81,3,1.92a39.2,39.2,0,0,1,1.9,5.12l-.53.78-1.1.7-.27,1.68-.75.42-.63.74-.63-.23-1.12,0,.65-.88.47-2.29.74-.46L134,70.92l-1.63.55L132,73l-1,1.11-1.07-.88-.38-.94.61-.38.34.62.5-.19-.22-1-.71,0-.05.42-.47.09L127,68.86l-.86-.65.33-.36.76-.26-.7-.28s-.89.2-1,.2l.51.64-1.28,0A27.71,27.71,0,0,0,122.2,64.85ZM126.33,108l-1.1-1.1.84-1.09,1.06-2.16-.41-.6.7-1.6-.08-1.44-.42-1.49-1-.35-.37.84-.6-.16a27.18,27.18,0,0,0,2.4-4.19l1-.44.58-.78.28.32.7-.84-.56-.7.51-.14.94.38,1.77,0,1.07-.56,2.8-.74-.53-.93-.18-1.13,1.5.66.56-.33-.28-1.16L135.7,89l-2-.42-1.54-3.15h8.77a39.92,39.92,0,0,1-11.07,26.08l-1.2-1.21.52-1.61-.94-3.55Zm1.55,22.37,1.08-2.32-.42-1,1.59-1.4v-.84l-1.36-.85,1.12-2.23,1.68-2.2-1.68-1.81h-1.26l-.78-1.27c.67-.56,1.34-1.13,2-1.73l8.11,8.11A54.38,54.38,0,0,1,127.88,130.38ZM138,119.67l.9-1-.85-4.44-.58-.23.36-.75-1.92-.6-.37,1.58-.19,2-.4.37-3.5-3.5a42.17,42.17,0,0,0,11.74-27.67h11.47a53.55,53.55,0,0,1-15.1,35.78Zm3.16,3.15a55.84,55.84,0,0,0,15.77-37.38h11.46a67.28,67.28,0,0,1-19.12,45.49Zm-69-11.11c-.83-.86-1.62-1.75-2.38-2.68l.35-2.9-1.21-2.78L68.62,99l-1.36-2.64.28-1.64L65.9,91.57l-1.43-.72.58-1.67-.59-1.32.59-1.51h1.57l.55-.91h2.68l.41.79L69.76,89l-.32.47,1,2.19-.66.36-.46-.58-.2.22.46,1.3.79,1.52.37,0L71,93l-.38-.5,0-.92-.12-1.9L71,86.34l-.54-.9h1.92a28.48,28.48,0,0,0,7.89,18.17ZM64.56,89.3,63.48,91H61.62l-.15-.11a40.74,40.74,0,0,1-.58-5.45h3.45l-.83,2.76Zm3.77-7.87.21-2.28,1.36-.79,2.43.43.37.44a27,27,0,0,0-.37,3.94H69.58ZM80,90l.57-.29L82,90.84l-.65.53,1.69,1.12L83,91.29l.9-1.49.94,1,1,1.38L84,92.56l.79,1.58L86,93.5,85.88,93l.9-.61.53-2.5a14.91,14.91,0,0,0,2.63,4l-8.1,8.1a26.21,26.21,0,0,1-7.1-15.22l1.66,1.77,1.56,0ZM71.66,56.54l8.1,8.11a28.91,28.91,0,0,0-4.3,6.19l-.56,0-1.14.35-.4,0-1.21,1.13L73.68,72l1.38-.35-.24.53-1.21.74H73l-1.78,1.36-1.72-.14-2.49,4.64.49.93-1.35,1.5-.21,2H60.86A39.92,39.92,0,0,1,71.66,56.54ZM61.19,117.69l2.57,1.51.53.36-1.86,1.86q-1.3-1.35-2.52-2.79ZM58.62,85.44c0,1.11.14,2.22.26,3.31l-1.4.32-.29,1.42-2.92,3.72.07,5.11-3,1H49.7a53.48,53.48,0,0,1-2.56-14.89ZM47.3,100.26l-.67-.13L46,99.42l-3.22-.28,1,1.35-3-.56.78-.72-.73-.72-2.15.94-.77,1.42.3,3.27L40.69,110l1.19,1.86.68.25-1.87-3.55-.41-1.81.42-.44-.26-1,1.13.15,1.73,2.62.43.17,0-1.91.7.41.15,1,1.82.48.76-.54.26.18,0,1.39.8,1,1,.22,2.12,3.59,1.29.36.4-1.68a56.32,56.32,0,0,0,7.9,10.2l-8.1,8.1A67.32,67.32,0,0,1,33.41,85.44H44.88A55.83,55.83,0,0,0,47.3,100.26Zm5-63.13,8.1,8.1A55.91,55.91,0,0,0,44.86,83.17H33.4A67.28,67.28,0,0,1,52.25,37.13Zm83-4.18-.69-1.12-1.5-.75-1.17.89,1.5.8L135.05,34ZM128.29,65.3l0,.88,2-.59.61-1.21-1.37-1.8.73-1.1,1.85,1.32.34-.27-.37-.26-.42-.8.76-.44-.74-1-1.74.88L129.36,62l-.35.95.77,1.29-.28.6Zm-82.9,51.42.15-.52-1-2.24-1.22-.45ZM92.27,73.64c0,1.92,1.17,3.28,3.3,4.45,0,0,0-.33,0-.86l-1.34-1.34.71-1.29.58-.16c0-2.24-.09-4.75-.1-5.11l-.1,0C93.34,70.43,92.27,71.75,92.27,73.64Z"></path>
+<path class="cls-1" d="M105.07,123.32c3.6,1.82,6.92,4.34,8.31,9.11.61-7.9-3.82-11.32-8.21-13.63C105.17,118.81,105.07,123.33,105.07,123.32Z"></path>
+<path class="cls-1" d="M129,43.2c0-7.17-5.2-15.13-17.95-17.94a30.69,30.69,0,0,0-3.89-.45c0,1.08-.08,3.56-.08,3.56,0,.78-.08,3.65-.1,4.27a18,18,0,0,1,2.45.34c7.41,1.77,10.06,6,10.06,10.22,0,6.81-5.82,9.38-13,11.32l-2.37.62c-2.17.54-4.4,1.06-6.61,1.65-.79.21-1.57.44-2.35.67h0c-7.93,2.42-14.75,6.24-14.75,16s7.78,13.34,15.37,15.68q-.07-4.19-.16-8.42c-3.35-1.57-5.71-3.64-5.71-7.12s2.15-5.46,5.44-7c.73-.33,1.51-.63,2.34-.91,1.89-.64,4-1.19,6.25-1.73l2.37-.57h0C117,60.89,129,57.54,129,43.2Z"></path>
+<path class="cls-1" d="M90.56,111.67c0,3.92,2.9,6,5.79,7.67,0-.66-.12-6.73-.12-6.83.06-1.21,1.23-1.94,2.18-2.39a47.05,47.05,0,0,1,4.59-1.75c.86-.3,1.59-.59,2.41-.83h0c5.8-1.75,12.51-4,12.51-11s-5.75-10-12-12.13c0,2.25-.11,5.54-.16,7.81,2.66,1,4.42,2.31,4.42,4.32,0,2.53-2.7,4-4.61,4.72-.8.31-2,.71-2.35.82-1.54.48-3.2,1-4.75,1.6a22.79,22.79,0,0,0-2.35,1C93.36,106.06,90.55,108.09,90.56,111.67Z"></path>
+<path class="cls-1" d="M94.49,25.93a46.17,46.17,0,0,0-7,2.85c-2.5.83-6,1-9.67,4.94A49.49,49.49,0,0,0,74.49,38c-1.1,1.58-1.15,4.12-2,5.49-1.16,2-.88,3.11-.88,3.11l0,.06a5.31,5.31,0,0,1-1.34,2.48A5.08,5.08,0,0,1,65.61,51c1.66.83,4-.33,4-.33a30.61,30.61,0,0,0-.88,3.3c1.86-4.21,3.57-5.75,4.1-6.18.8.18,2.46.11,5.54-1.66,3.48-2,8.71-5.25,10.19-7.31a13.59,13.59,0,0,1,6.16-4.65C94.61,31,94.55,28.26,94.49,25.93ZM79.81,39.08,78,39.47,80.16,36l2.52.08Z"></path>
+<path class="cls-1" d="M101.68,111.18c-.34.12-1.21.49-1.76.68s-1.32.51-1.32.71.56,30.41.56,31.08c0,6.25,3.18,6.29,3.18,0,0-.45.64-32.9.64-32.9S102.22,111,101.68,111.18Z"></path>
+<path class="cls-1" d="M98.38,101.16c1-.34,2-.64,2.9-.93l1.93-.6c0-1.91.58-28.33.68-33.13a60.72,60.72,0,0,0-6.15,1.77C97.81,71.87,98.33,98.28,98.38,101.16Z"></path>
+<path class="cls-1" d="M101,0c-8.94,0-5.14,13.26-4.43,17.58,0,.21.72,30,.86,36.79,1.36-.36,2.71-.69,4-1l2.7-.68c.13-6.57.79-35,.81-35.15C105.53,12.91,110.21,0,101,0Z"></path>
+<path class="cls-1" d="M247.15,42.27H247l-7.57,41.34H229.05l-9.71-50.45h8.26l6.75,38.89h.13l7.23-38.89h10.74l7.16,38.89h.14l7-38.89h8l-9.92,50.45H254.31Z"></path>
+<path class="cls-1" d="M289.43,45.81c7.22,0,15.56,4,15.56,19.15,0,15.62-8.34,19.23-15.56,19.23S273.8,80.58,273.8,65C273.8,49.79,282.2,45.81,289.43,45.81Zm0,32c5.5,0,6.74-6.65,6.74-12.87s-1.24-12.79-6.74-12.79-6.82,6.58-6.82,12.79S283.92,77.83,289.43,77.83Z"></path>
+<path class="cls-1" d="M310.28,52.53a52.55,52.55,0,0,0-.27-6.14h7.71c.07,2.24.28,4.55.28,6.79h.13c1-2.89,3.72-7.37,9-7.37a8.15,8.15,0,0,1,1.45.22v8.38a8.4,8.4,0,0,0-2.41-.36c-3.51,0-7.37,2.24-7.37,9.18V83.61h-8.54Z"></path>
+<path class="cls-1" d="M334,29.4h8.54V83.61H334Z"></path>
+<path class="cls-1" d="M378.14,29.4V77.25a51.7,51.7,0,0,0,.27,6.36h-8a51.34,51.34,0,0,1-.28-5.78h-.21c-1.37,3.18-3.92,6.36-9.43,6.36-8.81,0-12.46-8.82-12.46-19.15,0-12.15,4.61-19.23,12.26-19.23a9.51,9.51,0,0,1,9.15,5.93h.14V29.4ZM362.85,77.62c5,0,6.75-5.72,6.75-12.73,0-7.23-1.93-12.5-6.61-12.5s-6.4,4.84-6.4,12.29C356.59,73.28,357.9,77.62,362.85,77.62Z"></path>
+<path class="cls-1" d="M406.26,33.16h8.82V53.69h14.24V33.16h8.82V83.61h-8.82V61.35H415.08V83.61h-8.82Z"></path>
+<path class="cls-1" d="M470.84,81.81a25.48,25.48,0,0,1-10.6,2.38c-11.43,0-16.39-8.6-16.39-18.65,0-11.13,5.58-19.73,14.6-19.73,7.64,0,14.18,4.7,14.18,19.88v1.73H452.11c0,6.36,2.41,10.2,9,10.2,5.23,0,7.71-1.67,9.3-2.9Zm-6.47-20c0-6.58-2.07-9.91-5.92-9.91-4.48,0-6.34,5-6.34,9.91Z"></path>
+<path class="cls-1" d="M480.27,48.56a23.72,23.72,0,0,1,11.22-2.75c11,0,13.56,5.64,13.56,15V77a47.23,47.23,0,0,0,.49,6.57h-7.72a19.44,19.44,0,0,1-.48-5h-.13c-2.14,3-4.83,5.63-9.92,5.63-5.51,0-10.6-4-10.6-10.91,0-10.12,7.85-12.65,18.66-12.65h1.72V59.26c0-3.69-1.72-7.09-6.61-7.09a15.87,15.87,0,0,0-9.71,3.62Zm16.8,16.84h-.76c-7.3,0-11.63,1.59-11.63,7,0,3.4,2.13,5.71,5.43,5.71,5.1,0,7-4,7-10.63Z"></path>
+<path class="cls-1" d="M513.45,29.4H522V83.61h-8.54Z"></path>
+<path class="cls-1" d="M532.66,38.73,541.2,36V46.39h7.09V53H541.2v19.3c0,4,1.37,5.13,3.85,5.13a6.51,6.51,0,0,0,3.24-.8V83a12.66,12.66,0,0,1-5.72,1.23c-6.33,0-9.91-3-9.91-10.84V53H527V46.39h5.64Z"></path>
+<path class="cls-1" d="M552.69,29.4h8.54V51.16h.21c1.51-2.32,3.51-5.35,8.81-5.35,8,0,10.46,6.29,10.46,13.81v24h-8.54V61.28c0-5.71-1.37-8.1-4.88-8.1-4.48,0-6.06,4-6.06,8.75V83.61h-8.54Z"></path>
+<path class="cls-1" d="M238.13,97c10,0,19.14,7.81,19.14,26s-9.15,25.94-19.14,25.94S219,141.14,219,123,228.15,97,238.13,97Zm0,44.82c5.58,0,10.05-5,10.05-18.86s-4.47-18.87-10.05-18.87-10,5-10,18.87S232.56,141.86,238.13,141.86Z"></path>
+<path class="cls-1" d="M263,117.14a55,55,0,0,0-.27-6.15h7.71c.07,2.25.27,4.56.27,6.8h.14c1-2.89,3.72-7.37,9-7.37a8.9,8.9,0,0,1,1.44.21V119a8.27,8.27,0,0,0-2.4-.36c-3.52,0-7.37,2.24-7.37,9.18v20.38H263Z"></path>
+<path class="cls-1" d="M286.63,154a21.73,21.73,0,0,0,10.47,3.19c8,0,9.36-5.86,9.36-11.72v-3.54h-.14c-1.37,2.89-3.78,6.29-9.36,6.29-5,0-12.39-3.47-12.39-18.5,0-10.27,3.51-19.3,12.8-19.3,5.17,0,7.58,3.11,9.37,6.36H307c0-2,.21-3.83.28-5.79H315c-.14,2-.28,3.91-.28,5.86v27.47c0,11.64-3.37,20-16.38,20A34.38,34.38,0,0,1,286.15,162Zm13.28-12.36c5.37,0,7.5-4,7.5-12.5,0-7.81-2.82-12-6.88-11.93-4.48.08-6.2,4.41-6.2,12C294.33,138,297,141.64,299.91,141.64Z"></path>
+<path class="cls-1" d="M324,113.16a23.9,23.9,0,0,1,11.23-2.74c11,0,13.56,5.64,13.56,15v16.26a47.54,47.54,0,0,0,.48,6.58h-7.71a19.47,19.47,0,0,1-.48-5.06h-.14c-2.13,3-4.82,5.64-9.91,5.64-5.51,0-10.6-4-10.6-10.91,0-10.12,7.84-12.65,18.65-12.65h1.72v-1.38c0-3.68-1.72-7.08-6.61-7.08a15.9,15.9,0,0,0-9.7,3.61ZM340.75,130H340c-7.3,0-11.64,1.59-11.64,7,0,3.39,2.14,5.71,5.44,5.71,5.09,0,6.95-4,6.95-10.63Z"></path>
+<path class="cls-1" d="M357.34,117.14a55,55,0,0,0-.27-6.15h8c.06,1.88.27,3.83.27,5.72h.14c1.24-2.25,3.65-6.29,9.43-6.29,8.05,0,10.46,6.29,10.46,13.8v24h-8.53V125.89c0-5.71-1.38-8.1-4.89-8.1-4.48,0-6.06,4-6.06,8.75v21.68h-8.54Z"></path>
+<path class="cls-1" d="M393.06,95.16h8.81V104h-8.81Zm.13,15.83h8.54v37.23h-8.54Z"></path>
+<path class="cls-1" d="M409.68,140.49l15.14-22.7H410.16V111h23.2v7.67l-14.87,22.77h15.35v6.79H409.68Z"></path>
+<path class="cls-1" d="M441.92,113.16a23.87,23.87,0,0,1,11.23-2.74c11,0,13.56,5.64,13.56,15v16.26a47.54,47.54,0,0,0,.48,6.58h-7.71a19,19,0,0,1-.48-5.06h-.14c-2.14,3-4.82,5.64-9.91,5.64-5.51,0-10.61-4-10.61-10.91,0-10.12,7.85-12.65,18.66-12.65h1.72v-1.38c0-3.68-1.72-7.08-6.61-7.08a15.9,15.9,0,0,0-9.7,3.61ZM458.72,130H458c-7.3,0-11.63,1.59-11.63,7,0,3.39,2.13,5.71,5.44,5.71,5.09,0,7-4,7-10.63Z"></path>
+<path class="cls-1" d="M476.52,103.33l8.54-2.74V111h7.09v6.58h-7.09v19.3c0,4,1.38,5.13,3.86,5.13a6.48,6.48,0,0,0,3.23-.79v6.36a12.62,12.62,0,0,1-5.71,1.23c-6.34,0-9.92-3-9.92-10.84V117.57h-5.64V111h5.64Z"></path>
+<path class="cls-1" d="M498,95.16h8.81V104H498ZM499.1,111h8.54v37.23H499.1Z"></path>
+<path class="cls-1" d="M529.81,110.42c7.23,0,15.55,4,15.55,19.15,0,15.62-8.32,19.23-15.55,19.23s-15.63-3.61-15.63-19.23C514.18,114.39,522.58,110.42,529.81,110.42Zm0,32c5.5,0,6.74-6.65,6.74-12.87s-1.24-12.79-6.74-12.79S523,123.35,523,129.57,524.3,142.44,529.81,142.44Z"></path>
+<path class="cls-1" d="M552.8,117.14a52.51,52.51,0,0,0-.28-6.15h8c.07,1.88.28,3.83.28,5.72h.14c1.23-2.25,3.64-6.29,9.42-6.29,8.06,0,10.47,6.29,10.47,13.8v24h-8.53V125.89c0-5.71-1.38-8.1-4.9-8.1-4.47,0-6,4-6,8.75v21.68H552.8Z"></path>
+</g>
+</g>
+</svg>
+</a>
+<a href="https://www.who.int/" class="desktop">Global</a>
+</li>
+<li class=" has-children">
+<a href="#">Regions</a>
+<div class="sf-secondary-geo-navigation-container">
+<div class="sf-secondary-geo-navigation-wrapper">
+<div class="sf-geo-navigation-title">
+<div class="nav-header">
+<span class="nav-logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580.82 177.96" class="svg replaced-svg">
+<defs>
+<style>.cls-1{fill:#0093d5;}</style>
+</defs>
+<title>World Health Organization</title>
+<g id="Layer_2">
+<g id="ENGLISH">
+<path class="cls-1" d="M164,32.58c3.86,4.6,10.61,7.31,14.56,11.92-2.83-13.63-13.35-24.76-25.79-27.42C158.84,21.65,160.15,28,164,32.58ZM14.48,67.13c8.57-18.65,21.36-14.7,26.77-32.47-3,5.45-17,7.75-23.51,21.72,3.31-8.3,1.65-21,7.25-27.85C8.25,40.88,15.38,60.86,14.48,67.13ZM30,111.86c1.54,7.26-3,17.74,4.2,27.76C26.76,131.28,11,129.16,4.58,116.48c8,31,29,24.6,38.39,31.33C35.21,136.66,41.56,129.25,30,111.86Zm-2.41,19.45C23,114,31.18,108,24.93,91.4c-.65,9.36-6.89,13.92-2.68,31C14.82,107.94,3.33,102.54,0,92.6.23,119.78,22.07,123.81,27.59,131.31Zm33.54,29c-6.43-8.9-2-13.93-20.1-30.09,3.82,5.9-.12,13.32,12.06,24.86-11.92-7-28.36-4-36.29-13.41C30.42,167.74,54.35,157.1,61.13,160.34Zm87.42-5.23c12.18-11.54,8.24-19,12.06-24.86-18.06,16.16-13.67,21.19-20.1,30.09,6.78-3.24,30.71,7.4,44.32-18.64C176.91,151.09,160.47,148.08,148.55,155.11Zm18.89-15.49c7.17-10,2.66-20.5,4.2-27.76-11.56,17.39-5.21,24.8-13,36,9.44-6.73,30.36-.35,38.39-31.33C190.62,129.16,174.88,131.28,167.44,139.62Zm-28.86,21.95a89.2,89.2,0,0,0-19.75-3,47.75,47.75,0,0,0-18,3.06,47.78,47.78,0,0,0-18-3.06,89.2,89.2,0,0,0-19.75,3c-10.87,2.89-20.26,5.13-28.45,1,7.85,7,17,9.45,30.23,8,11-1.18,19.91-6.69,30.29-6.61h.41a55.47,55.47,0,0,0-17.12,13.31l5,.67s5.27-10.59,17.39-13.35c12.12,2.76,17.39,13.35,17.39,13.35l5-.67A55.63,55.63,0,0,0,106.1,164h.41c10.38-.08,19.27,5.43,30.28,6.61,13.23,1.43,22.39-1.06,30.24-8C158.84,166.7,149.45,164.46,138.58,161.57ZM25.67,72.63C21.19,81.23,14.23,83.2,15,101,11.22,85.18,2.24,79.32,2.35,69.23c-6.24,26.3,10.44,29.42,14.72,40.44C16.44,93.88,26.52,90.69,25.67,72.63Zm6.26-20.3c-1.56,2.18-2.65,3.11-6.81,6.54A33.77,33.77,0,0,0,13,78.64c.43-9.64-5.53-23.49-1.57-33.59-15.33,21.65.88,34.62,1.45,42.46C16.86,72.42,26,72.3,31.93,52.33Zm156.7,26.31a33.82,33.82,0,0,0-12.11-19.77c-4.16-3.43-5.25-4.36-6.81-6.54,5.93,20,15.07,20.09,19,35.18.57-7.84,16.78-20.81,1.44-42.46C194.15,55.15,188.2,69,188.63,78.64Zm13,14c-3.33,9.94-14.82,15.34-22.25,29.84,4.21-17.12-2-21.68-2.68-31-6.25,16.62,2,22.59-2.66,39.91C179.57,123.81,201.41,119.78,201.64,92.6ZM176,72.63c-.85,18.06,9.24,21.25,8.6,37,4.29-11,21-14.14,14.72-40.44.12,10.09-8.86,16-12.61,31.72C187.41,83.2,180.45,81.23,176,72.63Zm-138.34-40c3.87-4.6,5.18-10.93,11.24-15.5-12.44,2.66-23,13.79-25.79,27.42C27,39.89,33.76,37.18,37.62,32.58Zm122.77,2.08c5.41,17.77,18.2,13.82,26.76,32.47-.89-6.27,6.24-26.25-10.5-38.6,5.6,6.86,3.94,19.55,7.25,27.85C177.41,42.41,163.44,40.11,160.39,34.66ZM117,44.75A41.92,41.92,0,0,0,106.77,42c0,.75,0,1.52,0,2.28a40,40,0,0,1,9.4,2.58A6,6,0,0,0,117,44.75Zm-2.59-22,.68-.61-1.3-.55-3.42-.07-.89.62-2-.17,0,.49a34.75,34.75,0,0,1,3.52.37l1.67-.15ZM107.78,96.5c0-.58-.77-1.15-1.91-1.69h-.21c0,.47,0,2.79-.07,3.92C107,98.1,107.78,97.42,107.78,96.5ZM68.16,53a10.92,10.92,0,0,1,.29-1.25,5.79,5.79,0,0,1-1.4.14Zm32.73,100.6A69.76,69.76,0,0,0,108,14.47c0,.13,0,.27-.08.4-.14.68-.27,1.29-.37,1.83a67.35,67.35,0,0,1,40.63,19l-7.7,7.7.29-1.36-1-.44-1.38-.08.29-.89-.93-3.15-1.92-2.11-6-3.17-.52.55-1.09.32a18,18,0,0,1,3.18,10.11c0,.47,0,.92,0,1.37l3,3.75-1.4.32.93,1.4-2.63,2.62-1.06-2a17.92,17.92,0,0,1-2,3.93l.59.54-8.11,8.11c-.49-.47-1-.92-1.52-1.35-.78.36-1.57.69-2.38,1l.69.54-.41.41-1,.53-.35,1-.59-.59-1.71.57.47.75,1.18-.31.77.06.06-.42.59-.3.18-.35,1.06-.3.83,0c.16.14.33.29.48.44L115.81,68l-.24-.34-3.36.55-.75.75-.73.09,2.08-2-.74-.37-1.95,2.6.57-.06,0,1,.71.28.14,1-1.17-.23-1.22.22-3-1.51s-.16,7.92-.24,11.9c7,2.34,14.35,5.72,14.35,14.6a11,11,0,0,1-5,9.38h0l-.15.1h0l-.22.15c-2.82,1.86-6.44,2.86-9.58,3.84,0,0-.09,6.22-.09,6.22,5,2.48,11.05,6.09,10.49,16.42-.07,2.54-1.06,3.24-1.91,3.47h0a52.52,52.52,0,0,1-9,1.43c0,.8,0,1.56,0,2.27a55.87,55.87,0,0,0,34.78-15.36l8.1,8.1a67.37,67.37,0,0,1-93.3.19l8.1-8.1a55.83,55.83,0,0,0,34.29,15.15c0-.7,0-1.46,0-2.27A53.59,53.59,0,0,1,64.05,123l2.16-2.17,3,.34,1.58-1.7,4.14.14.61-1.43-.15-.61A42,42,0,0,0,96.48,126c0-.88,0-1.65,0-2.28A39.93,39.93,0,0,1,73.76,113.3l8.11-8.11a28.85,28.85,0,0,0,6.57,4.41,7.67,7.67,0,0,1,.82-2.13,26.22,26.22,0,0,1-5.79-3.89l8.13-8.12a14.86,14.86,0,0,0,4.34,2.41c0-.8,0-1.65,0-2.44a12.47,12.47,0,0,1-2.68-1.59l2.29-2.29c-.8-.24-1.62-.5-2.42-.78l-1.54,1.54a12.4,12.4,0,0,1-1.94-2.89,27.57,27.57,0,0,1-4-2.14A15.69,15.69,0,0,1,78.06,73.5,16.54,16.54,0,0,1,81.34,63l-8.08-8.08A39.91,39.91,0,0,1,94.9,44.28c0-.78,0-1.55-.05-2.28A42.18,42.18,0,0,0,71.66,53.34L70.29,52c-.31.55-.67,1.24-1.09,2.11l.86.87A42.13,42.13,0,0,0,58.6,83.17H47.13A53.62,53.62,0,0,1,62,46.83l3.64,3.65a4.61,4.61,0,0,0,.52,0,5.5,5.5,0,0,0,2.07-.6l-4.63-4.63a54.51,54.51,0,0,1,8-6.38,15.06,15.06,0,0,1,.57-1.68,26.93,26.93,0,0,1,1.75-2.35A56,56,0,0,0,62,43.63l-8.1-8.1A67.2,67.2,0,0,1,94,16.73c-.06-.28-.1-.5-.1-.5-.1-.53-.22-1.12-.33-1.74a69.77,69.77,0,0,0,7.28,139.15ZM116,105.45v-.06l0,0Zm33.78-68.12a67.26,67.26,0,0,1,18.65,45.84H156.92a55.67,55.67,0,0,0-6-24.48l.1-.2.79.42.19-.61L150,54.71l-2.43-3.36L144.69,49c-1-1.22-2-2.4-3.07-3.54ZM135.13,52l2.75.12.66.79-.33,1.17L142,56.48l.75-.09,4.9,5.6,2-.7a53.4,53.4,0,0,1,5,21.88H143.19a41.78,41.78,0,0,0-1.07-8.72l.53-.71.71-3.59-.54-3.86-1.38-4.44-3.2-4.68.78.41.39-.39-2.57-1.74-.17.57,2.57,3.67,1.45,3,1,3,.33,2,.53,3.38-1,.07s-1.11-2.07-1.45-2.92l.51-.77-1-1.4v-1.4l-.7-.88-.87.11c-.31-.58-.64-1.15-1-1.71l.62.31.16-.16-.33-.72.75-.42-.34-.42-1.11.42.41-1.74-.66-.38-.59,1.39a42.64,42.64,0,0,0-4.17-5.3Zm-2.3,26.87,2.06-1.12,2.1-.32.46-1,1.17-.7.45-1,.36-1.69c.17.59.32,1.2.46,1.81l-1.11,3.31,0,1.12,1.61-2.15a38.74,38.74,0,0,1,.57,6h-10l-.23-.87,1.17-.93.23-.56.51-.38,1.36-.14.14-.6ZM119.07,71l1-.24,0-.24-1-.69.35-2.16,1.23-1.23a27.16,27.16,0,0,1,2.13,2.77l-.43,1.33-1.12-.8-.85.23.42.79h.42l-.47,1.17-.32-.47Zm4.39,38.07-2.48-.7-.74.27-1.4-1.07-1.32-.47c.65-.47,1.28-1,1.89-1.48l2,1.44,1.56.82.77.77ZM122.2,64.85l8.11-8.11a40.43,40.43,0,0,1,5,6.74l-1,.28.05,1.81,3,1.92a39.2,39.2,0,0,1,1.9,5.12l-.53.78-1.1.7-.27,1.68-.75.42-.63.74-.63-.23-1.12,0,.65-.88.47-2.29.74-.46L134,70.92l-1.63.55L132,73l-1,1.11-1.07-.88-.38-.94.61-.38.34.62.5-.19-.22-1-.71,0-.05.42-.47.09L127,68.86l-.86-.65.33-.36.76-.26-.7-.28s-.89.2-1,.2l.51.64-1.28,0A27.71,27.71,0,0,0,122.2,64.85ZM126.33,108l-1.1-1.1.84-1.09,1.06-2.16-.41-.6.7-1.6-.08-1.44-.42-1.49-1-.35-.37.84-.6-.16a27.18,27.18,0,0,0,2.4-4.19l1-.44.58-.78.28.32.7-.84-.56-.7.51-.14.94.38,1.77,0,1.07-.56,2.8-.74-.53-.93-.18-1.13,1.5.66.56-.33-.28-1.16L135.7,89l-2-.42-1.54-3.15h8.77a39.92,39.92,0,0,1-11.07,26.08l-1.2-1.21.52-1.61-.94-3.55Zm1.55,22.37,1.08-2.32-.42-1,1.59-1.4v-.84l-1.36-.85,1.12-2.23,1.68-2.2-1.68-1.81h-1.26l-.78-1.27c.67-.56,1.34-1.13,2-1.73l8.11,8.11A54.38,54.38,0,0,1,127.88,130.38ZM138,119.67l.9-1-.85-4.44-.58-.23.36-.75-1.92-.6-.37,1.58-.19,2-.4.37-3.5-3.5a42.17,42.17,0,0,0,11.74-27.67h11.47a53.55,53.55,0,0,1-15.1,35.78Zm3.16,3.15a55.84,55.84,0,0,0,15.77-37.38h11.46a67.28,67.28,0,0,1-19.12,45.49Zm-69-11.11c-.83-.86-1.62-1.75-2.38-2.68l.35-2.9-1.21-2.78L68.62,99l-1.36-2.64.28-1.64L65.9,91.57l-1.43-.72.58-1.67-.59-1.32.59-1.51h1.57l.55-.91h2.68l.41.79L69.76,89l-.32.47,1,2.19-.66.36-.46-.58-.2.22.46,1.3.79,1.52.37,0L71,93l-.38-.5,0-.92-.12-1.9L71,86.34l-.54-.9h1.92a28.48,28.48,0,0,0,7.89,18.17ZM64.56,89.3,63.48,91H61.62l-.15-.11a40.74,40.74,0,0,1-.58-5.45h3.45l-.83,2.76Zm3.77-7.87.21-2.28,1.36-.79,2.43.43.37.44a27,27,0,0,0-.37,3.94H69.58ZM80,90l.57-.29L82,90.84l-.65.53,1.69,1.12L83,91.29l.9-1.49.94,1,1,1.38L84,92.56l.79,1.58L86,93.5,85.88,93l.9-.61.53-2.5a14.91,14.91,0,0,0,2.63,4l-8.1,8.1a26.21,26.21,0,0,1-7.1-15.22l1.66,1.77,1.56,0ZM71.66,56.54l8.1,8.11a28.91,28.91,0,0,0-4.3,6.19l-.56,0-1.14.35-.4,0-1.21,1.13L73.68,72l1.38-.35-.24.53-1.21.74H73l-1.78,1.36-1.72-.14-2.49,4.64.49.93-1.35,1.5-.21,2H60.86A39.92,39.92,0,0,1,71.66,56.54ZM61.19,117.69l2.57,1.51.53.36-1.86,1.86q-1.3-1.35-2.52-2.79ZM58.62,85.44c0,1.11.14,2.22.26,3.31l-1.4.32-.29,1.42-2.92,3.72.07,5.11-3,1H49.7a53.48,53.48,0,0,1-2.56-14.89ZM47.3,100.26l-.67-.13L46,99.42l-3.22-.28,1,1.35-3-.56.78-.72-.73-.72-2.15.94-.77,1.42.3,3.27L40.69,110l1.19,1.86.68.25-1.87-3.55-.41-1.81.42-.44-.26-1,1.13.15,1.73,2.62.43.17,0-1.91.7.41.15,1,1.82.48.76-.54.26.18,0,1.39.8,1,1,.22,2.12,3.59,1.29.36.4-1.68a56.32,56.32,0,0,0,7.9,10.2l-8.1,8.1A67.32,67.32,0,0,1,33.41,85.44H44.88A55.83,55.83,0,0,0,47.3,100.26Zm5-63.13,8.1,8.1A55.91,55.91,0,0,0,44.86,83.17H33.4A67.28,67.28,0,0,1,52.25,37.13Zm83-4.18-.69-1.12-1.5-.75-1.17.89,1.5.8L135.05,34ZM128.29,65.3l0,.88,2-.59.61-1.21-1.37-1.8.73-1.1,1.85,1.32.34-.27-.37-.26-.42-.8.76-.44-.74-1-1.74.88L129.36,62l-.35.95.77,1.29-.28.6Zm-82.9,51.42.15-.52-1-2.24-1.22-.45ZM92.27,73.64c0,1.92,1.17,3.28,3.3,4.45,0,0,0-.33,0-.86l-1.34-1.34.71-1.29.58-.16c0-2.24-.09-4.75-.1-5.11l-.1,0C93.34,70.43,92.27,71.75,92.27,73.64Z"></path>
+<path class="cls-1" d="M105.07,123.32c3.6,1.82,6.92,4.34,8.31,9.11.61-7.9-3.82-11.32-8.21-13.63C105.17,118.81,105.07,123.33,105.07,123.32Z"></path>
+<path class="cls-1" d="M129,43.2c0-7.17-5.2-15.13-17.95-17.94a30.69,30.69,0,0,0-3.89-.45c0,1.08-.08,3.56-.08,3.56,0,.78-.08,3.65-.1,4.27a18,18,0,0,1,2.45.34c7.41,1.77,10.06,6,10.06,10.22,0,6.81-5.82,9.38-13,11.32l-2.37.62c-2.17.54-4.4,1.06-6.61,1.65-.79.21-1.57.44-2.35.67h0c-7.93,2.42-14.75,6.24-14.75,16s7.78,13.34,15.37,15.68q-.07-4.19-.16-8.42c-3.35-1.57-5.71-3.64-5.71-7.12s2.15-5.46,5.44-7c.73-.33,1.51-.63,2.34-.91,1.89-.64,4-1.19,6.25-1.73l2.37-.57h0C117,60.89,129,57.54,129,43.2Z"></path>
+<path class="cls-1" d="M90.56,111.67c0,3.92,2.9,6,5.79,7.67,0-.66-.12-6.73-.12-6.83.06-1.21,1.23-1.94,2.18-2.39a47.05,47.05,0,0,1,4.59-1.75c.86-.3,1.59-.59,2.41-.83h0c5.8-1.75,12.51-4,12.51-11s-5.75-10-12-12.13c0,2.25-.11,5.54-.16,7.81,2.66,1,4.42,2.31,4.42,4.32,0,2.53-2.7,4-4.61,4.72-.8.31-2,.71-2.35.82-1.54.48-3.2,1-4.75,1.6a22.79,22.79,0,0,0-2.35,1C93.36,106.06,90.55,108.09,90.56,111.67Z"></path>
+<path class="cls-1" d="M94.49,25.93a46.17,46.17,0,0,0-7,2.85c-2.5.83-6,1-9.67,4.94A49.49,49.49,0,0,0,74.49,38c-1.1,1.58-1.15,4.12-2,5.49-1.16,2-.88,3.11-.88,3.11l0,.06a5.31,5.31,0,0,1-1.34,2.48A5.08,5.08,0,0,1,65.61,51c1.66.83,4-.33,4-.33a30.61,30.61,0,0,0-.88,3.3c1.86-4.21,3.57-5.75,4.1-6.18.8.18,2.46.11,5.54-1.66,3.48-2,8.71-5.25,10.19-7.31a13.59,13.59,0,0,1,6.16-4.65C94.61,31,94.55,28.26,94.49,25.93ZM79.81,39.08,78,39.47,80.16,36l2.52.08Z"></path>
+<path class="cls-1" d="M101.68,111.18c-.34.12-1.21.49-1.76.68s-1.32.51-1.32.71.56,30.41.56,31.08c0,6.25,3.18,6.29,3.18,0,0-.45.64-32.9.64-32.9S102.22,111,101.68,111.18Z"></path>
+<path class="cls-1" d="M98.38,101.16c1-.34,2-.64,2.9-.93l1.93-.6c0-1.91.58-28.33.68-33.13a60.72,60.72,0,0,0-6.15,1.77C97.81,71.87,98.33,98.28,98.38,101.16Z"></path>
+<path class="cls-1" d="M101,0c-8.94,0-5.14,13.26-4.43,17.58,0,.21.72,30,.86,36.79,1.36-.36,2.71-.69,4-1l2.7-.68c.13-6.57.79-35,.81-35.15C105.53,12.91,110.21,0,101,0Z"></path>
+<path class="cls-1" d="M247.15,42.27H247l-7.57,41.34H229.05l-9.71-50.45h8.26l6.75,38.89h.13l7.23-38.89h10.74l7.16,38.89h.14l7-38.89h8l-9.92,50.45H254.31Z"></path>
+<path class="cls-1" d="M289.43,45.81c7.22,0,15.56,4,15.56,19.15,0,15.62-8.34,19.23-15.56,19.23S273.8,80.58,273.8,65C273.8,49.79,282.2,45.81,289.43,45.81Zm0,32c5.5,0,6.74-6.65,6.74-12.87s-1.24-12.79-6.74-12.79-6.82,6.58-6.82,12.79S283.92,77.83,289.43,77.83Z"></path>
+<path class="cls-1" d="M310.28,52.53a52.55,52.55,0,0,0-.27-6.14h7.71c.07,2.24.28,4.55.28,6.79h.13c1-2.89,3.72-7.37,9-7.37a8.15,8.15,0,0,1,1.45.22v8.38a8.4,8.4,0,0,0-2.41-.36c-3.51,0-7.37,2.24-7.37,9.18V83.61h-8.54Z"></path>
+<path class="cls-1" d="M334,29.4h8.54V83.61H334Z"></path>
+<path class="cls-1" d="M378.14,29.4V77.25a51.7,51.7,0,0,0,.27,6.36h-8a51.34,51.34,0,0,1-.28-5.78h-.21c-1.37,3.18-3.92,6.36-9.43,6.36-8.81,0-12.46-8.82-12.46-19.15,0-12.15,4.61-19.23,12.26-19.23a9.51,9.51,0,0,1,9.15,5.93h.14V29.4ZM362.85,77.62c5,0,6.75-5.72,6.75-12.73,0-7.23-1.93-12.5-6.61-12.5s-6.4,4.84-6.4,12.29C356.59,73.28,357.9,77.62,362.85,77.62Z"></path>
+<path class="cls-1" d="M406.26,33.16h8.82V53.69h14.24V33.16h8.82V83.61h-8.82V61.35H415.08V83.61h-8.82Z"></path>
+<path class="cls-1" d="M470.84,81.81a25.48,25.48,0,0,1-10.6,2.38c-11.43,0-16.39-8.6-16.39-18.65,0-11.13,5.58-19.73,14.6-19.73,7.64,0,14.18,4.7,14.18,19.88v1.73H452.11c0,6.36,2.41,10.2,9,10.2,5.23,0,7.71-1.67,9.3-2.9Zm-6.47-20c0-6.58-2.07-9.91-5.92-9.91-4.48,0-6.34,5-6.34,9.91Z"></path>
+<path class="cls-1" d="M480.27,48.56a23.72,23.72,0,0,1,11.22-2.75c11,0,13.56,5.64,13.56,15V77a47.23,47.23,0,0,0,.49,6.57h-7.72a19.44,19.44,0,0,1-.48-5h-.13c-2.14,3-4.83,5.63-9.92,5.63-5.51,0-10.6-4-10.6-10.91,0-10.12,7.85-12.65,18.66-12.65h1.72V59.26c0-3.69-1.72-7.09-6.61-7.09a15.87,15.87,0,0,0-9.71,3.62Zm16.8,16.84h-.76c-7.3,0-11.63,1.59-11.63,7,0,3.4,2.13,5.71,5.43,5.71,5.1,0,7-4,7-10.63Z"></path>
+<path class="cls-1" d="M513.45,29.4H522V83.61h-8.54Z"></path>
+<path class="cls-1" d="M532.66,38.73,541.2,36V46.39h7.09V53H541.2v19.3c0,4,1.37,5.13,3.85,5.13a6.51,6.51,0,0,0,3.24-.8V83a12.66,12.66,0,0,1-5.72,1.23c-6.33,0-9.91-3-9.91-10.84V53H527V46.39h5.64Z"></path>
+<path class="cls-1" d="M552.69,29.4h8.54V51.16h.21c1.51-2.32,3.51-5.35,8.81-5.35,8,0,10.46,6.29,10.46,13.81v24h-8.54V61.28c0-5.71-1.37-8.1-4.88-8.1-4.48,0-6.06,4-6.06,8.75V83.61h-8.54Z"></path>
+<path class="cls-1" d="M238.13,97c10,0,19.14,7.81,19.14,26s-9.15,25.94-19.14,25.94S219,141.14,219,123,228.15,97,238.13,97Zm0,44.82c5.58,0,10.05-5,10.05-18.86s-4.47-18.87-10.05-18.87-10,5-10,18.87S232.56,141.86,238.13,141.86Z"></path>
+<path class="cls-1" d="M263,117.14a55,55,0,0,0-.27-6.15h7.71c.07,2.25.27,4.56.27,6.8h.14c1-2.89,3.72-7.37,9-7.37a8.9,8.9,0,0,1,1.44.21V119a8.27,8.27,0,0,0-2.4-.36c-3.52,0-7.37,2.24-7.37,9.18v20.38H263Z"></path>
+<path class="cls-1" d="M286.63,154a21.73,21.73,0,0,0,10.47,3.19c8,0,9.36-5.86,9.36-11.72v-3.54h-.14c-1.37,2.89-3.78,6.29-9.36,6.29-5,0-12.39-3.47-12.39-18.5,0-10.27,3.51-19.3,12.8-19.3,5.17,0,7.58,3.11,9.37,6.36H307c0-2,.21-3.83.28-5.79H315c-.14,2-.28,3.91-.28,5.86v27.47c0,11.64-3.37,20-16.38,20A34.38,34.38,0,0,1,286.15,162Zm13.28-12.36c5.37,0,7.5-4,7.5-12.5,0-7.81-2.82-12-6.88-11.93-4.48.08-6.2,4.41-6.2,12C294.33,138,297,141.64,299.91,141.64Z"></path>
+<path class="cls-1" d="M324,113.16a23.9,23.9,0,0,1,11.23-2.74c11,0,13.56,5.64,13.56,15v16.26a47.54,47.54,0,0,0,.48,6.58h-7.71a19.47,19.47,0,0,1-.48-5.06h-.14c-2.13,3-4.82,5.64-9.91,5.64-5.51,0-10.6-4-10.6-10.91,0-10.12,7.84-12.65,18.65-12.65h1.72v-1.38c0-3.68-1.72-7.08-6.61-7.08a15.9,15.9,0,0,0-9.7,3.61ZM340.75,130H340c-7.3,0-11.64,1.59-11.64,7,0,3.39,2.14,5.71,5.44,5.71,5.09,0,6.95-4,6.95-10.63Z"></path>
+<path class="cls-1" d="M357.34,117.14a55,55,0,0,0-.27-6.15h8c.06,1.88.27,3.83.27,5.72h.14c1.24-2.25,3.65-6.29,9.43-6.29,8.05,0,10.46,6.29,10.46,13.8v24h-8.53V125.89c0-5.71-1.38-8.1-4.89-8.1-4.48,0-6.06,4-6.06,8.75v21.68h-8.54Z"></path>
+<path class="cls-1" d="M393.06,95.16h8.81V104h-8.81Zm.13,15.83h8.54v37.23h-8.54Z"></path>
+<path class="cls-1" d="M409.68,140.49l15.14-22.7H410.16V111h23.2v7.67l-14.87,22.77h15.35v6.79H409.68Z"></path>
+<path class="cls-1" d="M441.92,113.16a23.87,23.87,0,0,1,11.23-2.74c11,0,13.56,5.64,13.56,15v16.26a47.54,47.54,0,0,0,.48,6.58h-7.71a19,19,0,0,1-.48-5.06h-.14c-2.14,3-4.82,5.64-9.91,5.64-5.51,0-10.61-4-10.61-10.91,0-10.12,7.85-12.65,18.66-12.65h1.72v-1.38c0-3.68-1.72-7.08-6.61-7.08a15.9,15.9,0,0,0-9.7,3.61ZM458.72,130H458c-7.3,0-11.63,1.59-11.63,7,0,3.39,2.13,5.71,5.44,5.71,5.09,0,7-4,7-10.63Z"></path>
+<path class="cls-1" d="M476.52,103.33l8.54-2.74V111h7.09v6.58h-7.09v19.3c0,4,1.38,5.13,3.86,5.13a6.48,6.48,0,0,0,3.23-.79v6.36a12.62,12.62,0,0,1-5.71,1.23c-6.34,0-9.92-3-9.92-10.84V117.57h-5.64V111h5.64Z"></path>
+<path class="cls-1" d="M498,95.16h8.81V104H498ZM499.1,111h8.54v37.23H499.1Z"></path>
+<path class="cls-1" d="M529.81,110.42c7.23,0,15.55,4,15.55,19.15,0,15.62-8.32,19.23-15.55,19.23s-15.63-3.61-15.63-19.23C514.18,114.39,522.58,110.42,529.81,110.42Zm0,32c5.5,0,6.74-6.65,6.74-12.87s-1.24-12.79-6.74-12.79S523,123.35,523,129.57,524.3,142.44,529.81,142.44Z"></path>
+<path class="cls-1" d="M552.8,117.14a52.51,52.51,0,0,0-.28-6.15h8c.07,1.88.28,3.83.28,5.72h.14c1.23-2.25,3.64-6.29,9.42-6.29,8.06,0,10.47,6.29,10.47,13.8v24h-8.53V125.89c0-5.71-1.38-8.1-4.9-8.1-4.47,0-6,4-6,8.75v21.68H552.8Z"></path>
+</g>
+</g>
+</svg>
+</span>
+<span class="nav-title">WHO Regional websites</span>
+<div class="nav-back-btn"><i class="fas fa-angle-left"></i></div>
+</div>
+</div>
+<ul class="sf-secondary-geo-navigation sf-secondary-geo-navigation-region row">
+<li class=" col-md-4">
+<a href="https://www.afro.who.int/">
+<img class="lazy-navigation-icons" data-src="/images/default-source/fallback/maps/africa.png?sfvrsn=3204f957_18" alt="Africa">
+<span>Africa</span>
+</a>
+</li>
+<li class=" col-md-4">
+<a href="https://www.paho.org/hq/index.php?lang=en">
+<img class="lazy-navigation-icons" data-src="/images/default-source/fallback/maps/americas.png?sfvrsn=9efd6df3_18" alt="Americas">
+<span>Americas</span>
+</a>
+</li>
+<li class=" col-md-4">
+<a href="https://www.who.int/southeastasia">
+<img class="lazy-navigation-icons" data-src="/images/default-source/fallback/maps/south-east-asia.png?sfvrsn=68e76dc2_16" alt="South-East Asia">
+<span>South-East Asia</span>
+</a>
+</li>
+<li class=" col-md-4">
+<a href="http://www.euro.who.int/en/home">
+<img class="lazy-navigation-icons" data-src="/images/default-source/fallback/maps/europe.png?sfvrsn=c7d5c5a5_18" alt="Europe">
+<span>Europe</span>
+</a>
+</li>
+<li class=" col-md-4">
+<a href="http://www.emro.who.int/index.html">
+<img class="lazy-navigation-icons" data-src="/images/default-source/fallback/maps/eastern-mediterranean.png?sfvrsn=71211e18_16" alt="Eastern Mediterranean">
+<span>Eastern Mediterranean</span>
+</a>
+</li>
+<li class=" col-md-4">
+<a href="https://www.who.int/westernpacific/">
+<img class="lazy-navigation-icons" data-src="/images/default-source/fallback/maps/western-pacific.png?sfvrsn=88cbdcd5_16" alt="Western Pacific">
+<span>Western Pacific</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="sf_colsIn col-md-8" data-sf-element="Language Selector &amp; Search" data-placeholder-label="Language Selector &amp; Search">
+ 
+<div class="form-inline">
+<div class="form-group sf-search-input-wrapper" role="search">
+<div class="srchaction-wrapper">
+<span class="srchaction">
+<i id="a6ea3fc4-21ef-4749-ad67-596d5aff4085" class="fa fa-search fa-2x fa-loaded" aria-hidden="true"></i>
+</span>
+<input type="search" title="Search input" placeholder="Search" id="bcabae26-2574-477a-9696-fe895574f2d1" class="form-control" value aria-autocomplete="both" aria-describedby="SearchInfo-1">
+</div>
+
+<span class="srchtoggle">
+<i class="fa fa-search fa-2x fa-loaded" aria-hidden="true"></i>
+</span>
+
+<span id="SearchInfo-1" aria-hidden="true" hidden>When autocomplete results are available use up and down arrows to review and enter to select.</span>
+</div>
+<input type="hidden" data-sf-role="resultsUrl" value="/home/search">
+<input type="hidden" data-sf-role="indexCatalogue" value="genericsearchindex1">
+<input type="hidden" data-sf-role="wordsMode" value="AnyWord">
+<input type="hidden" data-sf-role="disableSuggestions" value="true">
+<input type="hidden" data-sf-role="minSuggestionLength" value="3">
+<input type="hidden" data-sf-role="suggestionFields" value="Title,Content">
+<input type="hidden" data-sf-role="language" value="en">
+<input type="hidden" data-sf-role="siteId" value="15210d59-ad60-47ff-a542-7ed76645f0c7">
+<input type="hidden" data-sf-role="suggestionsRoute" value="/restapi/search/suggestions">
+<input type="hidden" data-sf-role="searchTextBoxId" value="#bcabae26-2574-477a-9696-fe895574f2d1">
+<input type="hidden" data-sf-role="searchButtonId" value="#a6ea3fc4-21ef-4749-ad67-596d5aff4085">
+<input data-sf-role="en" type="hidden" value="https://www.who.int/home?id=w2ubme118cjg76mv">
+<input data-sf-role="ar" type="hidden" value="https://www.who.int/ar/home?id=w2ubme118cjg76mv">
+<input data-sf-role="zh" type="hidden" value="https://www.who.int/zh/home?id=w2ubme118cjg76mv">
+<input data-sf-role="fr" type="hidden" value="https://www.who.int/fr/home?id=w2ubme118cjg76mv">
+<input data-sf-role="ru" type="hidden" value="https://www.who.int/ru/home?id=w2ubme118cjg76mv">
+<input data-sf-role="es" type="hidden" value="https://www.who.int/es/home?id=w2ubme118cjg76mv">
+<input data-sf-role="pt" type="hidden" value="https://www.who.int/pt/home?id=w2ubme118cjg76mv">
+</div>
+<div class="dd sf-lang-selector language-selector">
+<i class="fas fa-language"></i>
+<label for="language-selector">
+Select language
+</label>
+<select onchange="openLink(value)" id="language-selector" name="language-selector">
+<option disabled selected>Select language</option>
+<option value="en" class="selected">English</option>
+<option value="ar">العربية</option>
+<option value="zh">中文</option>
+<option value="fr">Français</option>
+<option value="ru">Русский</option>
+<option value="es">Español</option>
+<option value="pt">Português</option>
+</select>
+<i class="fas fa-angle-down"></i>
+</div>
+<style>
+                           li.slicknav_addition.sf-lang-selector{width:100%;position:relative}li.slicknav_addition.sf-lang-selector select{min-width:100%}#search-form label{visibility:hidden}.language-selector label{width:0!important;height:0;display:inline-block;overflow:hidden}
+                        </style>
+</div>
+</div>
+</div>
+</div>
+<div id="sf-main-header" class="main-header">
+<div class="container">
+<div class="row" data-sf-element="Row">
+<div class="sf_colsIn col-md-12" data-sf-element="Logos" data-placeholder-label="Logos Geo Navigation">
+<div class="header-logo logos-container">
+<a href="https://www.who.int/" title="Home" class="primary-logo">
+<img src="/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg" alt="Home" class="logo svg">
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="navigationToScrape" class="navigation">
+<div class="row navWrapper" data-sf-element="Row">
+<div class="sf-simple-nav-container nav-container">
+<ul class="sf-simple-nav nav"></ul>
+</div>
+<ul class="nav-mobile"></ul>
+<div class="sf_colsIn col-md-12" data-sf-element="Menu Wrapper" data-placeholder-label="Menu Wrapper">
+<div class="navItemLayout navHomeItemLayout">
+<div class="sf_colsIn col-md-12 navParent" data-sf-element="Menu Parent Link">
+<nav role="navigation">
+<ul class="main-navigation">
+<li><a href="https://www.who.int/" target="_self">Home</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="navItemLayout">
+<div id="Navigation_TD9F2A204029_Col00" class="sf_colsIn navParent" data-sf-element="Menu Parent Link">
+<nav role="navigation">
+<ul class="main-navigation">
+<li><a href="https://www.who.int/health-topics/" target="_self">Health Topics</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="navItemLayout">
+<div id="Navigation_TD9F2A204027_Col00" class="sf_colsIn navParent" data-sf-element="Menu Parent Link">
+<nav role="navigation">
+<ul class="main-navigation">
+<li><a href="https://www.who.int/countries/" target="_self">Countries</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="navItemLayout">
+<div id="Navigation_TD9F2A204028_Col00" class="sf_colsIn navParent" data-sf-element="Menu Parent Link">
+<nav role="navigation">
+<ul class="main-navigation">
+<li><a href="https://www.who.int/news-room" target="_self">Newsroom</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="navItemLayout">
+<div id="Navigation_TD9F2A204040_Col00" class="sf_colsIn navParent" data-sf-element="Menu Parent Link">
+<nav role="navigation">
+<ul class="main-navigation">
+<li><a href="https://www.who.int/emergencies/en/" target="_self">Emergencies</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="navItemLayout">
+<div id="Navigation_TD9F2A204040_Col00" class="sf_colsIn navParent" data-sf-element="Menu Parent Link">
+<nav role="navigation">
+<ul class="main-navigation">
+<li><a href="https://www.who.int/data/" target="_self">Data</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="navItemLayout">
+<div id="Navigation_TD9F2A204026_Col00" class="sf_colsIn navParent" data-sf-element="Menu Parent Link">
+<nav role="navigation">
+<ul class="main-navigation">
+<li><a href="https://www.who.int/about/" target="_self">About Us</a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section class="sf-content content">
+<div id="PageContent_C003_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
+<div class="sf-content-block content-block">
+<div>
+<h1>This page cannot be found</h1>
+<p>The page or file you are trying to access cannot be found. This is because the web address is incorrect or the file has been moved or deleted.<br>
+In 2020, we migrated our web content to a new system so some older content may no longer be available online or at the same place.
+</p>
+<br/>
+<p>Please try the following:</p>
+<ul>
+<li>Return to the&nbsp;<a href="http://www.who.int/">WHO home page</a>.</li>
+<li>Check that the web address is correct.</li>
+<li>If you still encounter problems, please report these using the&nbsp;<a href="https://www.who.int/about/who-we-are/contact-us/feedback">feedback page</a>.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<footer id="sf-footer">
+<div class="main-footer">
+<div id="Footer_TD9F2A204001_Col00" class="sf_colsIn container" data-sf-element="Container" data-placeholder-label="Container">
+<div class="row" data-sf-element="Row">
+<div id="Footer_T75121FDA153_Col00" class="sf_colsIn col-md-9" data-sf-element="Column 1" data-placeholder-label="Column 1">
+<div class="main-navigation--wrapper">
+<ul class="main-navigation navVertical">
+<li class="sf-accordion-footer__panel">
+<div class="sf-accordion-footer__header-panel"><a href="https://www.who.int/redirect-pages/footer/regions" target="_self">Regions</a><span class="sf-accordion-footer__trigger-panel"></span></div>
+<ul class="sub-level">
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/regions/africa" target="_blank">Africa</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/regions/americas" target="_blank">Americas</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/regions/eastern-mediterranen" target="_self">Eastern Mediterranean</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/regions/europe" target="_self">Europe</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/regions/south-east-asia" target="_self">South-East Asia</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/regions/western-pacific" target="_self">Western Pacific</a>
+</li>
+</ul>
+</li>
+<li class="sf-accordion-footer__panel">
+<div class="sf-accordion-footer__header-panel"><a href="https://www.who.int/redirect-pages/footer/who-policies" target="_self">Policies</a><span class="sf-accordion-footer__trigger-panel"></span></div>
+<ul class="sub-level">
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/who-policies/cyber-security" target="_self">Cyber security</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/who-policies/ethics" target="_self">Ethics</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/who-policies/permissions-and-licensing" target="_self">Permissions and licensing</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/who-policies/terms-of-use" target="_self">Terms of use</a>
+</li>
+</ul>
+</li>
+<li class="sf-accordion-footer__panel">
+<div class="sf-accordion-footer__header-panel"><a href="https://www.who.int/redirect-pages/footer/about-us" target="_self">About us</a><span class="sf-accordion-footer__trigger-panel"></span></div>
+<ul class="sub-level">
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/about-us/careers" target="_self">Careers</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/about-us/library" target="_self">Library</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/about-us/procurement" target="_self">Procurement</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/about-us/publications" target="_self">Publications</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/about-us/frequently-asked-questions" target="_self">Frequently asked questions</a>
+</li>
+<li class>
+<a href="https://www.who.int/redirect-pages/footer/about-us/contact-us" target="_self">Contact us</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="Footer_T75121FDA153_Col01" class="sf_colsIn col-sm-3 col-md-3 centered-on-mobile" data-sf-element="Column 2" data-placeholder-label="Column 2">
+<div class="sf-content-block content-block">
+<div>
+<div class="button button-dark-background" style="text-align:center;"><a href="https://www.who.int/news-room/newsletters">Subscribe to our newsletters</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="row" data-sf-element="Row">
+<div id="Footer_T75121FDA199_Col00" class="sf_colsIn col-md-12 empty" data-sf-element="Column 1" data-placeholder-label="Column 1"></div>
+</div>
+</div>
+<script type="application/ld+json">
+                  {
+                    "@context": "https://schema.org",
+                    "@type": "WebSite",
+                    "url": "https://www.who.int/",
+                    "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://www.who.int/home/search?indexCatalogue=genericsearchindex1&wordsMode=AnyWord&searchQuery={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                    }
+                  }
+               </script>
+<script type="application/ld+json">
+                  {
+                    "@context": "https://schema.org",
+                    "@type": "Organization",
+                    "url": "https://www.who.int/",
+                    "logo": "https://www.who.int/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-blue.svg"
+                  }
+               </script>
+<div class="footer-logo"> <a href="https://www.who.int/" title="Home"> <img src="/ResourcePackages/WHO/assets/dist/images/logos/en/h-logo-white.svg" alt="Home" class="logo"> </a> </div>
+</div>
+<div class="bottom-footer">
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+<div class="sf-content-block content-block">
+<div><a href="https://www.who.int/about/policies/privacy">Privacy Legal Notice</a></div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="social-share--add-this follow-us--footer">
+<div class="addthis_inline_follow_toolbox">
+<div id="atftbx21" class="at-follow-tbx-element addthis-smartlayers addthis-animated at4-show">
+<p><span></span></p>
+<div class="addthis_toolbox addthis_default_style">
+<a class="at300b at-follow-btn" data-svc="youtube" data-svc-id="who" title="Follow on YouTube" href="https://www.youtube.com/user/who?sub_confirmation=1" target="_blank">
+<span class="at-icon-wrapper" style="background-color: rgb(205, 32, 31); line-height: 32px; height: 32px; width: 32px; border-radius: 46%;">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-youtube-1" class="at-icon at-icon-youtube" style="fill: rgb(255, 255, 255); width: 32px; height: 32px;">
+<title id="at-svg-youtube-1">YouTube</title>
+<g>
+<path d="M13.73 18.974V12.57l5.945 3.212-5.944 3.192zm12.18-9.778c-.837-.908-1.775-.912-2.205-.965C20.625 8 16.007 8 16.007 8c-.01 0-4.628 0-7.708.23-.43.054-1.368.058-2.205.966-.66.692-.875 2.263-.875 2.263S5 13.303 5 15.15v1.728c0 1.845.22 3.69.22 3.69s.215 1.57.875 2.262c.837.908 1.936.88 2.426.975 1.76.175 7.482.23 7.482.15 0 .08 4.624.072 7.703-.16.43-.052 1.368-.057 2.205-.965.66-.69.875-2.262.875-2.262s.22-1.845.22-3.69v-1.73c0-1.844-.22-3.69-.22-3.69s-.215-1.57-.875-2.262z" fill-rule="evenodd"></path>
+</g>
+</svg>
+</span>
+<span class="addthis_follow_label"><span class="at4-visually-hidden">Follow on </span>YouTube</span>
+</a>
+<a class="at300b at-follow-btn" data-svc="twitter" data-svc-id="who" title="Follow on Twitter" href="https://twitter.com/intent/follow?source=followbutton&amp;variant=1.0&amp;screen_name=who" target="_blank">
+<span class="at-icon-wrapper" style="background-color: rgb(29, 161, 242); line-height: 32px; height: 32px; width: 32px; border-radius: 46%;">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-twitter-2" class="at-icon at-icon-twitter" style="fill: rgb(255, 255, 255); width: 32px; height: 32px;">
+<title id="at-svg-twitter-2">Twitter</title>
+<g>
+<path d="M27.996 10.116c-.81.36-1.68.602-2.592.71a4.526 4.526 0 0 0 1.984-2.496 9.037 9.037 0 0 1-2.866 1.095 4.513 4.513 0 0 0-7.69 4.116 12.81 12.81 0 0 1-9.3-4.715 4.49 4.49 0 0 0-.612 2.27 4.51 4.51 0 0 0 2.008 3.755 4.495 4.495 0 0 1-2.044-.564v.057a4.515 4.515 0 0 0 3.62 4.425 4.52 4.52 0 0 1-2.04.077 4.517 4.517 0 0 0 4.217 3.134 9.055 9.055 0 0 1-5.604 1.93A9.18 9.18 0 0 1 6 23.85a12.773 12.773 0 0 0 6.918 2.027c8.3 0 12.84-6.876 12.84-12.84 0-.195-.005-.39-.014-.583a9.172 9.172 0 0 0 2.252-2.336" fill-rule="evenodd"></path>
+</g>
+</svg>
+</span>
+<span class="addthis_follow_label"><span class="at4-visually-hidden">Follow on </span>Twitter</span>
+</a>
+<a class="at300b at-follow-btn" data-svc="facebook" data-svc-id="WHO" title="Follow on Facebook" href="https://www.facebook.com/WHO" target="_blank">
+<span class="at-icon-wrapper" style="background-color: rgb(59, 89, 152); line-height: 32px; height: 32px; width: 32px; border-radius: 46%;">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-facebook-3" class="at-icon at-icon-facebook" style="fill: rgb(255, 255, 255); width: 32px; height: 32px;">
+<title id="at-svg-facebook-3">Facebook</title>
+<g>
+<path d="M22 5.16c-.406-.054-1.806-.16-3.43-.16-3.4 0-5.733 1.825-5.733 5.17v2.882H9v3.913h3.837V27h4.604V16.965h3.823l.587-3.913h-4.41v-2.5c0-1.123.347-1.903 2.198-1.903H22V5.16z" fill-rule="evenodd"></path>
+</g>
+</svg>
+</span>
+<span class="addthis_follow_label"><span class="at4-visually-hidden">Follow on </span>Facebook</span>
+</a>
+<a class="at300b at-follow-btn" data-svc="instagram" data-svc-id="who" title="Follow on Instagram" href="https://instagram.com/who" target="_blank">
+<span class="at-icon-wrapper" style="background-color: rgb(224, 53, 102); line-height: 32px; height: 32px; width: 32px; border-radius: 46%;">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-instagram-4" class="at-icon at-icon-instagram" style="fill: rgb(255, 255, 255); width: 32px; height: 32px;">
+<title id="at-svg-instagram-4">Instagram</title>
+<g>
+<path d="M16 5c-2.987 0-3.362.013-4.535.066-1.17.054-1.97.24-2.67.512a5.392 5.392 0 0 0-1.95 1.268 5.392 5.392 0 0 0-1.267 1.95c-.272.698-.458 1.498-.512 2.67C5.013 12.637 5 13.012 5 16s.013 3.362.066 4.535c.054 1.17.24 1.97.512 2.67.28.724.657 1.337 1.268 1.95a5.392 5.392 0 0 0 1.95 1.268c.698.27 1.498.457 2.67.51 1.172.054 1.547.067 4.534.067s3.362-.013 4.535-.066c1.17-.054 1.97-.24 2.67-.51a5.392 5.392 0 0 0 1.95-1.27 5.392 5.392 0 0 0 1.268-1.95c.27-.698.457-1.498.51-2.67.054-1.172.067-1.547.067-4.534s-.013-3.362-.066-4.535c-.054-1.17-.24-1.97-.51-2.67a5.392 5.392 0 0 0-1.27-1.95 5.392 5.392 0 0 0-1.95-1.267c-.698-.272-1.498-.458-2.67-.512C19.363 5.013 18.988 5 16 5zm0 1.982c2.937 0 3.285.01 4.445.064 1.072.05 1.655.228 2.042.38.514.198.88.437 1.265.822.385.385.624.75.823 1.265.15.387.33.97.38 2.042.052 1.16.063 1.508.063 4.445 0 2.937-.01 3.285-.064 4.445-.05 1.072-.228 1.655-.38 2.042-.198.514-.437.88-.822 1.265-.385.385-.75.624-1.265.823-.387.15-.97.33-2.042.38-1.16.052-1.508.063-4.445.063-2.937 0-3.285-.01-4.445-.064-1.072-.05-1.655-.228-2.042-.38-.514-.198-.88-.437-1.265-.822a3.408 3.408 0 0 1-.823-1.265c-.15-.387-.33-.97-.38-2.042-.052-1.16-.063-1.508-.063-4.445 0-2.937.01-3.285.064-4.445.05-1.072.228-1.655.38-2.042.198-.514.437-.88.822-1.265.385-.385.75-.624 1.265-.823.387-.15.97-.33 2.042-.38 1.16-.052 1.508-.063 4.445-.063zm0 12.685a3.667 3.667 0 1 1 0-7.334 3.667 3.667 0 0 1 0 7.334zm0-9.316a5.65 5.65 0 1 0 0 11.3 5.65 5.65 0 0 0 0-11.3zm7.192-.222a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64 0" fill-rule="evenodd"></path>
+</g>
+</svg>
+</span>
+<span class="addthis_follow_label"><span class="at4-visually-hidden">Follow on </span>Instagram</span>
+</a>
+<a class="at300b at-follow-btn" data-svc="linkedin" data-svc-id="world-health-organization" title="Follow on LinkedIn" href="http://www.linkedin.com/company/world-health-organization" target="_blank">
+<span class="at-icon-wrapper" style="background-color: rgb(0, 119, 181); line-height: 32px; height: 32px; width: 32px; border-radius: 46%;">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-linkedin-5" class="at-icon at-icon-linkedin" style="fill: rgb(255, 255, 255); width: 32px; height: 32px;">
+<title id="at-svg-linkedin-5">LinkedIn</title>
+<g>
+<path d="M26 25.963h-4.185v-6.55c0-1.56-.027-3.57-2.175-3.57-2.18 0-2.51 1.7-2.51 3.46v6.66h-4.182V12.495h4.012v1.84h.058c.558-1.058 1.924-2.174 3.96-2.174 4.24 0 5.022 2.79 5.022 6.417v7.386zM8.23 10.655a2.426 2.426 0 0 1 0-4.855 2.427 2.427 0 0 1 0 4.855zm-2.098 1.84h4.19v13.468h-4.19V12.495z" fill-rule="evenodd"></path>
+</g>
+</svg>
+</span>
+<span class="addthis_follow_label"><span class="at4-visually-hidden">Follow on </span>LinkedIn</span>
+</a>
+<a class="at300b at-follow-btn" data-svc="snapchat" data-svc-id="who" title="Follow on Snapchat" href="https://www.snapchat.com/add/who" target="_blank">
+<span class="at-icon-wrapper" style="background-color: rgb(255, 221, 0); line-height: 32px; height: 32px; width: 32px; border-radius: 46%;">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-snapchat-6" class="at-icon at-icon-snapchat" style="fill: rgb(255, 255, 255); width: 32px; height: 32px;">
+<title id="at-svg-snapchat-6">Snapchat</title>
+<g>
+<path d="M16.14 27a3.32 3.32 0 0 1-.17-.005 1.362 1.362 0 0 1-.11.005c-1.302 0-2.14-.63-2.948-1.24-.56-.42-1.086-.817-1.707-.927a5.176 5.176 0 0 0-.896-.08c-.526 0-.94.086-1.243.15-.183.037-.342.07-.463.07-.125 0-.262-.03-.32-.245a8.133 8.133 0 0 1-.126-.543c-.092-.45-.158-.728-.335-.757-2.067-.34-2.66-.804-2.79-1.133a.445.445 0 0 1-.033-.14.245.245 0 0 1 .195-.26c3.178-.557 4.603-4.017 4.662-4.164 0-.003.003-.007.005-.01.194-.42.232-.786.113-1.084-.218-.548-.93-.79-1.4-.948-.115-.038-.224-.075-.31-.11-.94-.397-1.018-.803-.98-1.01.062-.353.505-.6.862-.6.098 0 .185.02.258.056.422.21.803.318 1.132.318.454 0 .652-.204.676-.23-.01-.23-.026-.47-.04-.716-.095-1.6-.212-3.59.263-4.724 1.425-3.403 4.445-3.668 5.337-3.668l.39-.004h.054c.894 0 3.922.265 5.347 3.67.475 1.135.358 3.126.263 4.725l-.004.07c-.013.223-.026.44-.036.646.022.026.205.213.616.23.314-.013.673-.12 1.068-.316a.76.76 0 0 1 .332-.07c.134 0 .27.028.38.078l.008.003c.32.12.53.36.533.608.004.234-.164.587-.988.934a5.088 5.088 0 0 1-.31.11c-.472.16-1.183.4-1.4.95-.12.297-.082.66.113 1.082l.005.01c.06.148 1.483 3.607 4.662 4.165.117.02.2.132.195.26a.44.44 0 0 1-.033.14c-.13.327-.722.79-2.79 1.13-.17.028-.234.263-.335.755-.037.18-.074.354-.125.54-.044.16-.138.235-.296.235h-.025c-.11 0-.265-.02-.462-.062a5.81 5.81 0 0 0-1.242-.14c-.29 0-.593.027-.896.08-.62.11-1.147.506-1.704.926-.81.61-1.647 1.24-2.95 1.24" fill-rule="evenodd"></path>
+</g>
+</svg>
+</span>
+<span class="addthis_follow_label"><span class="at4-visually-hidden">Follow on </span>Snapchat</span>
+</a>
+<a class="at300b at-follow-btn" data-svc="pinterest" data-svc-id="worldhealthorganization" title="Follow on Pinterest" href="https://www.pinterest.com/worldhealthorganization" target="_blank">
+<span class="at-icon-wrapper" style="background-color: rgb(203, 32, 39); line-height: 32px; height: 32px; width: 32px; border-radius: 46%;">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" version="1.1" role="img" aria-labelledby="at-svg-pinterest_share-7" class="at-icon at-icon-pinterest_share" style="fill: rgb(255, 255, 255); width: 32px; height: 32px;">
+<title id="at-svg-pinterest_share-7">Pinterest</title>
+<g>
+<path d="M7 13.252c0 1.81.772 4.45 2.895 5.045.074.014.178.04.252.04.49 0 .772-1.27.772-1.63 0-.428-1.174-1.34-1.174-3.123 0-3.705 3.028-6.33 6.947-6.33 3.37 0 5.863 1.782 5.863 5.058 0 2.446-1.054 7.035-4.468 7.035-1.232 0-2.286-.83-2.286-2.018 0-1.742 1.307-3.43 1.307-5.225 0-1.092-.67-1.977-1.916-1.977-1.692 0-2.732 1.77-2.732 3.165 0 .774.104 1.63.476 2.336-.683 2.736-2.08 6.814-2.08 9.633 0 .87.135 1.728.224 2.6l.134.137.207-.07c2.494-3.178 2.405-3.8 3.533-7.96.61 1.077 2.182 1.658 3.43 1.658 5.254 0 7.614-4.77 7.614-9.067C26 7.987 21.755 5 17.094 5 12.017 5 7 8.15 7 13.252z" fill-rule="evenodd"></path>
+</g>
+</svg>
+</span>
+<span class="addthis_follow_label"><span class="at4-visually-hidden">Follow on </span>Pinterest</span>
+</a>
+<div class="atclear"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 copyright">
+<span>
+©
+</span>
+2021
+<div class="sf-content-block content-block">
+<div><a href="https://www.who.int/about/policies/terms-of-use">WHO</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="https://www.who.int/ScriptResource.axd?d=wIuRaUoAZ6lXIF1Yn5fO2EpVfHcRi4irbKbgceV3EeMTgdEj-Ek9QoQbG7mp45iS4XdHurGk8hBAXXDnoR0RqHzZa24YVwVTlIu5rG60plrL-8Eufi9i0CFBYdqNSSyQsLamqkpHqRo9WOM3m8LuU9HR5Kkk3eZlZFrAS4vVgmRuq0330&amp;t=ffffffffea808a58" type="text/javascript"></script>
+<script src="https://www.who.int/ScriptResource.axd?d=VKaJmfFWDpQxp1_HxsR1qHE1D0LSpd2pufRu26_SWXJKx_WpH0HNrJsUk7mfatpo7E2ZG3zAPSalK7AO6i8q6frr9qeTupRsYs3Dn67sjSLmCFESPd3iJ_vINUWGfdbYkrtzOmP0KIfi4N8gdSZOX9KZWpxIlEcYI4xzS0Y-bAu18kf2x98txvCw052kniXxWNIL9Q2&amp;t=ffffffffea808a58" type="text/javascript"></script>
+<script src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5803f964fe6c9599" type="text/javascript"></script>
+<script type="text/javascript" src="https://www.who.int/ResourcePackages/WHO/assets/dist/scripts/lib/slicknav.min.js?v=0202090422"></script>
+<script type="text/javascript" src="https://www.who.int/ResourcePackages/WHO/assets/dist/scripts/lib/lazy.min.js?v=0503083924"></script>
+<script type="text/javascript" src="https://www.who.int/ResourcePackages/WHO/assets/dist/scripts/lib/modernizr-custom.js?v=0816085418"></script>
+<script type="text/javascript" src="https://www.who.int/ResourcePackages/WHO/assets/dist/scripts/lib/select2.full.min.js?v=0919072724"></script>
+<script type="text/javascript" src="https://www.who.int/ResourcePackages/WHO/assets/dist/scripts/accordion-footer-list.min.js?v=1213150014"></script>
+<script type="text/javascript" src="https://www.who.int/ResourcePackages/WHO/assets/dist/scripts/main-navigation.min.js?v=1213150016"></script>
+<script type="text/javascript" src="https://www.who.int/ResourcePackages/WHO/assets/dist/scripts/geo-navigation.min.js?v=1213150014"></script>
+<script src="https://www.who.int/Frontend-Assembly/Telerik.Sitefinity.Frontend.Search/Mvc/Scripts/SearchBox/Search-box.min.js?package=WHO&amp;v=MTQyMTUzMDQ4NA%3d%3d" type="text/javascript"></script>
+<script src="https://www.who.int/Frontend-Assembly/Telerik.Sitefinity.Frontend.Navigation/Mvc/Scripts/LanguageSelector/language-selector.min.js?package=WHO&amp;v=MTMuMS43NDMxLjA%3d" type="text/javascript"></script>
+<script type="text/javascript">
+        $( document ).ready(function() {
+          var searchInput = $("#sf-top-header .sf-search-input-wrapper input");
+          $(document).on("click", ".srchtoggle", function() {
+              $("body").toggleClass("search-open");
+              searchInput.focus();
+          });
+        });
+        $(document).click(function(event) { 
+          var $target = $(event.target);
+          if((!$target.closest('#sf-top-header').length && $('#sf-top-header').is(":visible"))&&(!$target.closest('.navigation-search').length)) {
+            $(".search-open").removeClass("search-open")
+          }        
+        });
+      </script>
+</body>
+</html>
