@@ -2,6 +2,11 @@ html, body {
   font-family: 'Poppins', sans-serif !important;
 }
 
+body { 
+  margin: 0px;
+  padding: 8px;
+}
+
 #loaderDiv {
   position: fixed;
   background-color: #FFF;

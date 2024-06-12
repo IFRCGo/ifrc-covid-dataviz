@@ -351,7 +351,6 @@ export function drawTimechart(data, options) {
     .append('g')
     .attr('class', 'bar_group')
     .attr('transform', function(d,i){ 
-        if (i < 10) console.log(d);
         return 'translate('+xScale(d.date)+')'
     })
 
