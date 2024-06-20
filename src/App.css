@@ -323,6 +323,11 @@ svg, tspan, text, div {
   cursor: pointer;
   text-decoration: underline;
 }
+
+#timeline_tooltip {
+  pointer-events: none;
+}
+
 @media screen and (max-width: 1200px) {
   /* #regionSelectContainer {
     position: absolute;
